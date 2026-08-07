@@ -1,0 +1,1 @@
+Cliente VPN seguro, open-source e auto-hospedado. Requer chave de servidor. Movido pelo engine open-source VpnHood!

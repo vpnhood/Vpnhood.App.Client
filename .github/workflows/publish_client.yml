@@ -1,0 +1,104 @@
+name: Publish Client (All Platforms)
+
+# Thin entry point: publishes VpnHood! CLIENT via the shared reusable workflow in the monorepo
+# (vpnhood/VpnHood/.github/workflows/publish_app.yml). A reusable workflow runs in the CALLER's
+# context, so this runs with THIS repo's fastlane + secrets/vars — the same shape as the Connect
+# repo's connect_publish.yml. The monorepo holds the code + version and the single build/store/release
+# definition; it is checked out at build time into code/ (this repo has no source of its own).
+#
+# ONE deliberate difference from Connect: Connect releases to its own repo, the CLIENT does not.
+# Client downloads must stay on the monorepo's Releases page — every existing link, README badge and
+# in-app update URL points there — so this repo sets the VH_PUBLISH_REPO variable to vpnhood/VpnHood.
+# publish_app.yml honours it in the release job AND in all four build modules (the generated *.json
+# update URLs are written during the builds, so reading it only at release time would silently ship
+# URLs pointing at THIS repo, which has no releases).
+#
+# Releasing into another repo cannot use github.token — it is scoped to this repo. A GitHub App
+# installed on vpnhood/VpnHood with `Contents: Read and write` supplies a short-lived installation
+# token instead:
+#   vars.PUBLISHER_APP_ID + secrets.PUBLISHER_APP_PRIVATE_KEY
+# Absent while VH_PUBLISH_REPO points elsewhere -> the run fails loudly rather than 404-ing in gh.
+#
+# Secrets/vars live in THIS repo (standardized names, shared with Connect):
+#   vars.APPSETTINGS, vars.PUBLISH, vars.VH_PUBLISH_REPO, vars.PUBLISHER_APP_ID
+#   secrets.ANDROID_KEYSTORE_GOOGLE_* / _WEB_*      (Play + web signing; publish_app maps these onto
+#                                                    the CLIENT_* names its signing map expects)
+#   secrets.IOS_PROVISION_APP_BASE64 / _EXT_BASE64  (iOS App Store profiles)
+#   secrets.PUBLISHER_APP_PRIVATE_KEY               (cross-repo release)
+# Org secrets inherited: ADVANCED_INSTALLER_LICENSE, AZURE_SIGNING_*, APPLE_DISTRIBUTION_CERT_*,
+#   APPSTORE_CONNECT_*, GOOGLE_PLAY_API_KEY.
+#
+# The VERSION still lives in the monorepo and is still bumped there (Bump Version workflow). Bump
+# first, then dispatch this — the same two-step Connect already uses.
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Monorepo (vpnhood/VpnHood) branch or commit to build (blank = its default branch)"
+        required: false
+        default: ""
+      # States the channel out loud. It does NOT choose the channel — pub/PubVersion.json does — it is
+      # asserted against that file and the run dies before any build if the two disagree. Default is
+      # 'prerelease' because that is the harmless direction to get wrong: a mistaken prerelease reaches
+      # testers, a mistaken release reaches production.
+      release_type:
+        description: "Channel this build must ship on — must match pub/PubVersion.json or the run fails"
+        type: choice
+        required: true
+        options:
+          - prerelease
+          - release
+        default: prerelease
+      publish_release:
+        description: "Create the GitHub release (on vpnhood/VpnHood, per VH_PUBLISH_REPO)"
+        type: boolean
+        required: false
+        default: false
+      build_android:
+        description: "Build the Android apps (Google AAB + Web APKs)."
+        type: boolean
+        required: false
+        default: true
+      publish_play:
+        description: "Publish the built AAB to Google Play (only applies when build_android is on)"
+        type: boolean
+        required: false
+        default: true
+      only_aab:
+        description: "Only build the Android AAB (+ Play publish); skip Linux/Windows/iOS. Fast Play iteration."
+        type: boolean
+        required: false
+        default: false
+      build_ios:
+        description: "Build the iOS app (.ipa)."
+        type: boolean
+        required: false
+        default: true
+      publish_appstore:
+        description: "Upload the built .ipa to TestFlight/App Store (only applies when build_ios is on)"
+        type: boolean
+        required: false
+        default: true
+      rollout:
+        description: "Google Play audience ratio (%) for a PRODUCTION release (1-100; 100 = full). Ignored on prerelease/alpha."
+        required: false
+        default: "100"
+
+jobs:
+  publish:
+    uses: vpnhood/VpnHood/.github/workflows/publish_app.yml@develop
+    with:
+      app: client
+      code_ref: ${{ inputs.ref }}
+      release_type: ${{ inputs.release_type }}
+      publish_release: ${{ inputs.publish_release }}
+      build_android: ${{ inputs.build_android }}
+      publish_play: ${{ inputs.publish_play }}
+      only_aab: ${{ inputs.only_aab }}
+      build_ios: ${{ inputs.build_ios }}
+      publish_appstore: ${{ inputs.publish_appstore }}
+      rollout: ${{ inputs.rollout }}
+    secrets: inherit
+
+# Workflow not appearing after a fresh fork/import? See the monorepo's .github/DEPLOYMENT.md.

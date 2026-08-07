@@ -1,0 +1,65 @@
+NOTA: Questa app RICHIEDE UNA CHIAVE SERVER.
+
+VpnHood! CLIENT è una VPN veloce e sicura basata su VpnHood! ENGINE, open source e sviluppata in .NET.
+
+Crea tunnel crittografati sicuri verso server VpnHood senza impronte digitali, risultando invisibile alla censura.
+
+È necessaria una chiave server, ottenibile così:
+
+▶ Da amici o community.
+
+▶ Acquistandola da rivenditori.
+
+▶ Creando un tuo server VpnHood.
+
+
+Caratteristiche principali:
+
+• Gratis e senza pubblicità: Open source e senza ad.
+
+• Facile da usare: Connessione con un solo tocco.
+
+• Veloce e sicura.
+
+• Open Source: Trasparente e affidabile.
+
+• Prima VPN in .NET.
+
+• Supporto IPv4 e IPv6.
+
+
+Opzioni personalizzabili:
+
+• Cloak Mode: Maschera il traffico VPN.
+
+• Split Tunneling per paese.
+
+• Split Tunneling per domini.
+
+• Split Tunneling per indirizzi IP.
+
+• Split Tunneling per rete locale.
+
+• Custom DNS.
+
+• TCP, UDP e QUIC.
+
+• Supporto Proxy.
+
+
+Perché scegliere VpnHood!?
+
+▶ Indetectable: Bypassa i filtri di censura imitando il traffico HTTPS.
+
+▶ In costante evoluzione per garantirti piena libertà online.
+
+
+Privacy:
+
+VpnHood! CLIENT non richiede account né dati personali. Non registriamo la tua attività di navigazione.
+
+Informativa sulla privacy: https://www.vpnhood.com/privacy-policy
+
+Supporto 24/7: [support@vpnhood.com](mailto:support@vpnhood.com).
+
+Contribuisci: [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)

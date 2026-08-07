@@ -1,0 +1,1 @@
+Açık kaynaklı, güvenli VPN istemcisi (sunucu anahtarı gerektirir)

@@ -1,0 +1,1 @@
+Cliente VPN seguro, autoalojado y de código abierto. Requiere clave de servidor. Impulsado por el motor de código abierto VpnHood!.

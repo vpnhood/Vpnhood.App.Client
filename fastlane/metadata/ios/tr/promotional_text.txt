@@ -1,0 +1,1 @@
+Açık kaynaklı ve güvenli kişisel VPN istemcisi. Sunucu anahtarı gerektirir. Açık kaynaklı VpnHood! ENGINE altyapısıyla çalışır.

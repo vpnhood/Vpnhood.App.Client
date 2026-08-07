@@ -1,0 +1,64 @@
+NOTA: Esta aplicación REQUIERE UNA CLAVE DE SERVIDOR.
+
+VpnHood! CLIENT es una VPN rápida y segura con VpnHood! ENGINE, de código abierto y primera VPN en .NET.
+
+Establece túneles cifrados con el protocolo VpnHood, que es indetectable por la censura.
+
+Se requiere una ServerKey. Consíguela así:
+
+▶ Pídesela a amigos o comunidades.
+
+▶ Cómprala a terceros.
+
+▶ Crea tu propio servidor VpnHood.
+
+
+Características:
+
+• Gratis y sin anuncios: VpnHood! es totalmente libre y sin anuncios.
+
+• Fácil de usar: Conéctate con un toque.
+
+• Rápida y segura.
+
+• Código abierto: Transparente y en GitHub.
+
+• Primera VPN en .NET.
+
+• Soporte IPv4 e IPv6.
+
+
+Opciones:
+
+• Cloak Mode: Oculta tu tráfico como web normal.
+
+• Split Tunneling por país.
+
+• Split Tunneling por dominios.
+
+• Split Tunneling por IP.
+
+• Split Tunneling de red local.
+
+• Custom DNS.
+
+• TCP, UDP y QUIC.
+
+• Proxy Support.
+
+
+¿Por qué VpnHood!?
+
+▶ Indetectable: Diseñado para saltarse la censura sin dejar huella.
+
+▶ En constante evolución.
+
+Privacidad:
+
+VpnHood! CLIENT no requiere cuenta ni datos personales.
+
+Política de privacidad: https://www.vpnhood.com/privacy-policy
+
+Soporte: [support@vpnhood.com](mailto:support@vpnhood.com).
+
+GitHub: [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)

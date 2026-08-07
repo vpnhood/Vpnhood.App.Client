@@ -1,0 +1,66 @@
+NOT: Bu uygulama bir SUNUCU ANAHTARI GEREKTİRİR.
+
+VpnHood! CLIENT, açık kaynaklı ve .NET ile geliştirilen ilk VPN olan VpnHood! ENGINE gücüyle çalışan hızlı ve güvenli bir VPN'dir.
+
+VpnHood protokolünü kullanarak güvenli tüneller kuran bir istemci uygulamasıdır. Protokolün parmak izi yoktur ve sansürler tarafından tespit edilemez.
+
+Kullanmak için bir ServerKey gereklidir. Şu yöntemlerle edinebilirsiniz:
+
+▶ Arkadaşlarınızdan veya topluluklardan sunucu anahtarları alın.
+
+▶ Üçüncü taraf satıcılardan sunucu anahtarları satın alın.
+
+▶ Kendi VpnHood sunucunuzu kurun ve anahtarları kendiniz oluşturun.
+
+
+Başlıca Özellikler:
+
+• Reklamsız ve Ücretsiz: VpnHood! açık kaynaklıdır ve reklam içermez.
+
+• Kolay Kullanım: Tek dokunuşla bağlanın.
+
+• Hızlı ve Güvenli (Hız, sağlayıcınıza ve bağlantınıza göre değişebilir.)
+
+• Açık Kaynak: GitHub üzerindeki VpnHood altyapısıyla şeffaf ve güvenilirdir.
+
+• .NET'teki İlk VPN: .NET platformuyla geliştirilen ilk VPN uygulamasıdır.
+
+• IPv4 ve IPv6 Desteği: Maksimum uyumluluk sağlar.
+
+
+Özelleştirilebilir Seçenekler:
+
+• Cloak Mode: VPN trafiğinizi normal web trafiği gibi gizler.
+
+• Split Tunneling for Country: Ülke trafiğinizi tünel dışında tutun.
+
+• Split Tunneling for Domains: Hangi web sitelerinin tünelden geçeceğini seçin.
+
+• Split Tunneling for IP Addresses: IP adreslerini VPN trafiğine dahil edin veya hariç tutun.
+
+• Split Tunneling for Local Network: Yerel ağınızı hariç tutun.
+
+• Custom DNS: Kendi DNS sunucunuzu belirtin.
+
+• TCP, UDP & QUIC: En iyi performansı veren protokolü seçin.
+
+• Proxy Desteği: SOCKS veya HTTP proxy kullanın.
+
+
+Neden VpnHood!?
+
+▶ Tespit Edilemez: Sansür filtrelerini aşmak için tasarlanmıştır.
+
+▶ Sürekli Gelişiyor: Kesintisiz internet erişimi sunar.
+
+Gizliliğiniz:
+
+VpnHood! CLIENT hesap gerektirmez. Aktivitenizi kaydetmeyiz.
+
+Gizlilik Politikası: https://www.vpnhood.com/privacy-policy
+
+7/24 Yanınızdayız!
+
+[support@vpnhood.com](mailto:support@vpnhood.com) adresinden bize ulaşın.
+
+Katkıda Bulun: [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)

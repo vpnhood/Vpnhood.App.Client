@@ -1,0 +1,60 @@
+NOTA: Esta aplicación REQUIERE UNA CLAVE DE SERVIDOR.
+
+VpnHood! CLIENT es una solución VPN rápida, segura y fiable con la potencia de ★★VpnHood! ENGINE★★, de código abierto y primera VPN desarrollada en la plataforma .NET.
+
+Establece túneles cifrados y seguros hacia un servidor VPN mediante el protocolo VpnHood. No deja huella y es indetectable por la censura.
+
+Se requiere una ServerKey para usar la app. Puedes conseguirla así:
+
+▶ Consigue claves de amigos o comunidades.
+
+▶ Cómpralas a terceros para ti o tus amigos.
+
+▶ Crea tu propio servidor VpnHood en un hosting.
+
+
+Características principales:
+
+★ Gratis y sin anuncios: VpnHood! es de código abierto, totalmente gratis y sin anuncios.
+
+★ Fácil de usar: Conéctate con un solo toque.
+
+★ Rápida y segura.
+
+★ Código abierto: Transparente y confiable en GitHub.
+
+★ Primera VPN en .NET.
+
+★ Gran compatibilidad: Android 6+, Android TV y Windows.
+
+★ Soporte IPv4 e IPv6.
+
+
+Opciones personalizables:
+
+✔ Split Tunneling para apps.
+
+✔ Split Tunneling por país.
+
+✔ Split Tunneling de red local.
+
+✔ TCP, UDP y QUIC.
+
+✔ Soporte Proxy.
+
+
+¿Por qué elegir VpnHood!?
+
+▶ Indetectable: Diseñado para saltarse la censura sin dejar huella.
+
+▶ En constante evolución.
+
+Tu privacidad:
+
+VpnHood! CLIENT no requiere cuenta ni datos personales. No registramos tu actividad.
+
+Política de privacidad: https://www.vpnhood.com/privacy-policy
+
+Soporte 24/7: [support@vpnhood.com](mailto:support@vpnhood.com).
+
+Contribuir: [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)

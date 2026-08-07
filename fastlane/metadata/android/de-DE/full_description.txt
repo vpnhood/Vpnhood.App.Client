@@ -1,0 +1,63 @@
+HINWEIS: Diese App ERFORDERT EINEN SERVER-SCHLÜSSEL.
+
+VpnHood! CLIENT ist eine schnelle und sichere VPN-Lösung, basierend auf der ★★VpnHood! ENGINE★★ (.NET-basiertes Open-Source-VPN).
+
+Erstellt verschlüsselte Tunnel zu VpnHood-Servern über das VpnHood-Protokoll, das keinerlei Fingerabdrücke hinterlässt und Zensurfilter umgeht.
+
+Ein ServerKey ist erforderlich. Erwerbsmöglichkeiten:
+
+▶ Von Freunden oder Communitys erhalten.
+
+▶ Von Drittanbietern kaufen.
+
+▶ Eigenen VpnHood-Server aufsetzen.
+
+
+Hauptfunktionen:
+
+★ Kostenlos & werbefrei: Open-Source und ohne Werbung.
+
+★ Einfache Bedienung: Verbindung per einem Klick.
+
+★ Schnell & sicher.
+
+★ Open Source: Transparent auf GitHub.
+
+★ Erstes .NET-VPN: Höchste technische Innovation.
+
+★ Kompatibilität: Android 6+, Android TV und Windows.
+
+★ IPv4 & IPv6 Support.
+
+
+Anpassbare Optionen:
+
+✔ Split Tunneling für Apps: Apps individuell ein- oder ausschließen.
+
+✔ Split Tunneling für Länder: Lokaler Datenverkehr bleibt außerhalb.
+
+✔ Split Tunneling für Heimnetzwerke: Zugriff auf lokale Ressourcen behalten.
+
+✔ TCP, UDP & QUIC: Bestes Protokoll wählen.
+
+✔ Proxy-Unterstützung: SOCKS oder HTTP.
+
+
+Warum VpnHood!?
+
+▶ Unauffällig: Umgeht Zensur und gleicht normalem HTTPS-Traffic.
+
+▶ Ständige Weiterentwicklung für freies Internet.
+
+
+Ihre Privatsphäre:
+
+VpnHood! CLIENT erfordert kein Konto und keine persönlichen Daten. Wir protokollieren keine Webaktivitäten.
+
+Anonyme Diagnosedaten helfen bei der Fehlerbehebung und sind in den Einstellungen deaktivierbar.
+
+Datenschutzrichtlinie: https://www.vpnhood.com/privacy-policy
+
+Support rund um die Uhr: [support@vpnhood.com](mailto:support@vpnhood.com).
+
+Mitwirken: [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)

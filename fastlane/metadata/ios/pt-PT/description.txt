@@ -1,0 +1,68 @@
+NOTA: Esta aplicação EXIGE UMA CHAVE DE SERVIDOR.
+
+VpnHood! CLIENT é uma solução VPN rápida, segura e fiável com o motor VpnHood! ENGINE, open-source e a primeira VPN desenvolvida em .NET.
+
+Estabelece túneis encriptados para um servidor VPN através do protocolo VpnHood. O protocolo VpnHood não tem pegada digital e é indetetável por filtros de censura.
+
+É necessária uma ServerKey para usar a aplicação. Pode obtê-la de várias formas:
+
+▶ Obter chaves de amigos ou comunidades.
+
+▶ Comprar chaves a fornecedores externos.
+
+▶ Criar o seu próprio servidor VpnHood num serviço de alojamento.
+
+
+Principais Características:
+
+• Gratuita e Sem Anúncios: VpnHood! é open-source, totalmente grátis e sem anúncios.
+
+• Fácil de Usar: Conecte-se ao VpnHood! com um simples toque.
+
+• Rápida e Segura (A velocidade depende do fornecedor e da sua ligação.)
+
+• Open Source: Construída sobre o motor VpnHood (no GitHub), é transparente e de confiança.
+
+• Primeira VPN em .NET: A primeira app VPN no mundo desenvolvida em .NET, demonstrando excelência técnica.
+
+• Suporte IPv4 e IPv6: Máxima compatibilidade e desempenho.
+
+
+Opções Personalizáveis:
+
+• Cloak Mode: Disfarça o tráfego VPN como tráfego web normal, resistindo a inspeção profunda.
+
+• Split Tunneling por País: Mantenha o tráfego do seu país fora do túnel para manter serviços locais rápidos.
+
+• Split Tunneling por Domínios: Escolha que endereços passam pelo túnel VPN e quais ficam de fora.
+
+• Split Tunneling por Endereços IP: Inclua ou exclua IPs específicos do tráfego VPN.
+
+• Split Tunneling para Rede Local: Exclua a rede local para manter o acesso a recursos locais.
+
+• Custom DNS: Altere o DNS predefinido especificando o seu próprio.
+
+• TCP, UDP e QUIC: Escolha o protocolo ideal para a sua rede.
+
+• Suporte de Proxy: Envie a ligação através de proxies SOCKS ou HTTP.
+
+
+Porquê Escolher o VpnHood!?
+
+▶ Indetetável: O protocolo VpnHood! ignora filtros de censura sem deixar pegada digital, assemelhando-se a sites HTTPS.
+
+▶ Em Constante Evolução: O VpnHood! melhora continuamente para garantir acesso livre à internet. Experimente já!
+
+A sua Privacidade:
+
+O VpnHood! CLIENT não exige conta nem dados pessoais. Não registamos a sua atividade de navegação.
+
+A app pode enviar dados anónimos de diagnóstico para melhorarmos o serviço. Pode desativar isto em Definições > Privacidade. Nunca vendemos os seus dados.
+
+Política de Privacidade: https://www.vpnhood.com/privacy-policy
+
+Estamos Sempre Cá para Si!
+
+A equipa de apoio do VpnHood está disponível 24/7. Contacte-nos em [support@vpnhood.com](mailto:support@vpnhood.com).
+
+Contribuir: [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)

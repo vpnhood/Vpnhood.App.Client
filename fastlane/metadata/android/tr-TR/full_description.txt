@@ -1,0 +1,62 @@
+NOT: Bu uygulama bir SUNUCU ANAHTARI GEREKTİRİR.
+
+VpnHood! CLIENT, açık kaynaklı ve .NET platformuyla geliştirilen ilk VPN olan ★★VpnHood! ENGINE★★ gücüyle çalışan hızlı, güvenli ve güvenilir bir VPN çözümüdür.
+
+VpnHood sunucularına VpnHood protokolünü kullanarak şifreli ve güvenli tüneller kuran bir istemci uygulamasıdır. VpnHood protokolünün parmak izi yoktur ve sansür filtreleri tarafından tespit edilemez.
+
+Bu uygulamayı kullanmak için bir ServerKey gereklidir. Şu yöntemlerle edinebilirsiniz:
+
+▶ Dağıtan arkadaşlarınızdan veya topluluklardan sunucu anahtarları alın.
+
+▶ Üçüncü taraf satıcılardan kendiniz veya arkadaşlarınız için sunucu anahtarları satın alın.
+
+▶ Bir hosting hizmetinde kendi VpnHood sunucunuzu kurun ve anahtarları kendiniz oluşturun.
+
+
+Başlıca Özellikler:
+
+★ Reklamsız ve Ücretsiz: VpnHood! açık kaynaklıdır, tamamen ücretsizdir ve reklam içermez.
+
+★ Kolay Kullanım: Bağlan düğmesine tek tıkla VpnHood! ağına bağlanabilirsiniz.
+
+★ Hızlı ve Güvenli (Hız, sunucu sağlayıcınıza ve internet bağlantınıza göre değişebilir.)
+
+★ Açık Kaynak: Açık kaynaklı VpnHood altyapısı (GitHub üzerinde) üzerine kuruludur, şeffaf ve güvenilirdir.
+
+★ .NET'teki İlk VPN: VpnHood!, .NET platformuyla geliştirilen dünyadaki ilk VPN uygulamasıdır.
+
+★ Geniş Uyumluluk: Android TV ve Windows dahil Android 6 ve üzerini destekler.
+
+★ IPv4 ve IPv6 Desteği: Maksimum uyumluluk ve performans sağlar.
+
+
+Özelleştirilebilir Seçenekler:
+
+✔ Split Tunneling for App: Esnek filtre seçenekleriyle hangi uygulamaların VpnHood! kullanacağını seçin.
+
+✔ Split Tunneling for Country: Yerel trafiğinizi tünel dışında tutarak yerel hizmetlerin sorunsuz çalışmasını sağlayın.
+
+✔ Split Tunneling for Local Network: Yerel ağınızı hariç tutarak yerel kaynaklara erişimi koruyun.
+
+✔ TCP, UDP ve QUIC: Ağınızda en iyi performansı veren taşıma protokolünü seçin.
+
+✔ Proxy Desteği: Bağlantınızı SOCKS veya HTTP proxy'leri üzerinden yönlendirin.
+
+
+Neden VpnHood! Seçmelisiniz?
+
+▶ Tespit Edilemez: VpnHood! protokolü sansür filtrelerini aşmak için tasarlanmıştır. Parmak izi olmayan güvenli bir protokoldür.
+
+▶ Sürekli Gelişiyor: VpnHood! kesintisiz ve sansürsüz internet erişimi sunmak için sürekli gelişmektedir.
+
+Gizliliğiniz:
+
+VpnHood! CLIENT hesap gerektirmez ve asla kişisel bilgi istemez. Gezinme etkinliğinizi kaydetmeyiz.
+
+Gizlilik Politikası: https://www.vpnhood.com/privacy-policy
+
+7/24 Yanınızdayız!
+
+Sorularınız için [support@vpnhood.com](mailto:support@vpnhood.com) adresinden bize ulaşın.
+
+Katkıda Bulunmak İçin: [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)

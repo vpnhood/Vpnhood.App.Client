@@ -1,0 +1,1 @@
+Cliente VPN seguro e open-source (requer chave de servidor)

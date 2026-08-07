@@ -1,0 +1,64 @@
+REMARQUE : Cette application NÉCESSITE UNE CLÉ DE SERVEUR.
+
+VpnHood! CLIENT est une solution VPN rapide, sûre et fiable propulsée par le ★★VpnHood! ENGINE★★, open-source et premier VPN développé entièrement avec la plateforme .NET.
+
+Il établit des tunnels chiffrés et sécurisés vers un serveur VpnHood via le protocole VpnHood, sans empreinte et indétectable par la censure.
+
+Une Clé de serveur est requise :
+
+▶ Obtenez des clés auprès de proches ou de communautés.
+
+▶ Achetez des clés auprès de revendeurs tiers.
+
+▶ Hébergez votre propre serveur VpnHood et créez vos clés.
+
+
+Caractéristiques clés :
+
+★ Gratuit et sans pub : VpnHood! est open-source, 100 % gratuit et sans publicités.
+
+★ Facile d'utilisation : Connectez-vous en un seul clic.
+
+★ Rapide et sécurisé (La vitesse dépend du fournisseur et de votre connexion).
+
+★ Open Source : Basé sur le moteur VpnHood (sur GitHub), transparent et fiable.
+
+★ Premier VPN en .NET : Pionnier développé avec .NET, synonyme d'innovation.
+
+★ Haute compatibilité : Android 6+, Android TV et Windows.
+
+★ Support IPv4 & IPv6 : Performances et compatibilité maximales.
+
+
+Options personnalisables :
+
+✔ Split Tunneling par application : Choisissez les apps qui utilisent VpnHood!.
+
+✔ Split Tunneling par pays : Gardez le trafic local hors du tunnel.
+
+✔ Split Tunneling réseau local : Excluez votre réseau local.
+
+✔ TCP, UDP & QUIC : Choisissez le meilleur protocole réseau.
+
+✔ Support Proxy : Acheminez via des proxys SOCKS ou HTTP.
+
+
+Pourquoi choisir VpnHood!?
+
+▶ Indétectable : Contourne la censure sans empreinte. Son trafic ressemble à de simples sites HTTPS.
+
+▶ En constante évolution : Accès Internet libre et sans censure. Testez VpnHood! dès aujourd'hui !
+
+Confidentialité :
+
+VpnHood! CLIENT ne requiert aucun compte ni info personnelle. Nous ne journalisons aucune activité.
+
+L'app peut envoyer des données anonymes (version, erreurs) pour corriger les bugs. Désactivable dans Paramètres > Confidentialité.
+
+Politique de confidentialité : https://www.vpnhood.com/privacy-policy
+
+Support 24/7 !
+
+Contactez-nous sur [support@vpnhood.com](mailto:support@vpnhood.com).
+
+Contribuer : [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)
