@@ -1,0 +1,14 @@
+* Nouveau : prise en charge de QUIC sur toutes les plateformes
+* Nouveau : Split DNS – les requêtes DNS suivent désormais vos règles de tunnel partagé, afin que les applications et sites exclus soient résolus en dehors du tunnel
+* Nouveau : protection des IP non routables – choisissez de bloquer ou de contourner les destinations que le serveur ne peut pas router, pour qu'aucun trafic ne fuite silencieusement
+* Nouveau : interrupteur principal du tunnel partagé – une seule touche garde tout le trafic dans le VPN et bloque ce que le serveur ne peut pas transporter
+* Nouveau : option IPv6 pour bloquer ou contourner l'IPv6 lorsque le serveur ne le prend pas en charge
+* Nouveau : visionneuse de rapports intégrée – consultez et partagez les rapports de diagnostic directement dans l'application
+* Amélioration : tunnel partagé
+* Amélioration : vitesse d'initialisation avec le tunnel partagé par pays
+* Amélioration : stabilité des proxys SOCKS et HTTP
+* Amélioration : utilisation de la mémoire et stabilité
+* Correction : les fonctionnalités premium restaient déverrouillées localement après l'expiration d'un abonnement
+* Correction : un paquet UDP égaré pouvait bloquer définitivement des flux UDP sans rapport partageant le même port du serveur
+* Correction : les flux UDP émettant sans réponse pendant plus d'une minute ne pouvaient plus recevoir de réponses
+* Mise à jour : modifier les filtres split-pays, split-IP et split-domaine ne nécessite plus de reconnexion

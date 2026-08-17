@@ -1,0 +1,14 @@
+* Yeni: tüm platformlarda QUIC desteği
+* Yeni: Bölünmüş DNS — DNS sorguları artık bölünmüş tünel kurallarınızı izliyor, böylece hariç tutulan uygulama ve siteler tünelin dışında çözümlenir
+* Yeni: yönlendirilemeyen IP koruması — sunucunun yönlendiremediği hedefleri engellemeyi veya tünel dışına almayı seçin, böylece trafik sessizce dışarı sızmaz
+* Yeni: bölünmüş tünel ana anahtarı — tek dokunuşla tüm trafik VPN içinde kalır ve sunucunun taşıyamadığı engellenir
+* Yeni: sunucu IPv6'yı desteklemediğinde IPv6'yı engelleme veya tünel dışına alma seçeneği
+* Yeni: yerleşik rapor görüntüleyici — tanılama raporlarını doğrudan uygulama içinde görüntüleyin ve paylaşın
+* İyileştirme: bölünmüş tünel
+* İyileştirme: ülkeye göre bölünmüş tünelde başlatma hızı
+* İyileştirme: SOCKS ve HTTP proxy kararlılığı
+* İyileştirme: bellek kullanımı ve kararlılık
+* Düzeltme: abonelik süresi dolduktan sonra premium özellikler yerel olarak açık kalıyordu
+* Düzeltme: başıboş bir UDP paketi, aynı sunucu portunu paylaşan ilgisiz UDP akışlarını kalıcı olarak durdurabiliyordu
+* Düzeltme: bir dakikadan uzun süre yanıt almadan veri gönderen UDP akışları artık yanıt alamıyordu
+* Güncelleme: bölünmüş ülke, IP ve alan adı filtrelerini değiştirmek artık yeniden bağlanmayı gerektirmiyor

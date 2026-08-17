@@ -1,0 +1,14 @@
+* Novità: supporto QUIC su tutte le piattaforme
+* Novità: Split DNS – le query DNS seguono ora le regole di tunneling selettivo, così le app e i siti esclusi vengono risolti fuori dal tunnel
+* Novità: protezione degli IP non instradabili – scegli se bloccare o escludere le destinazioni che il server non può instradare, così il traffico non esce mai silenziosamente
+* Novità: interruttore principale del tunneling selettivo – con un tocco tutto il traffico resta nella VPN e viene bloccato ciò che il server non può trasportare
+* Novità: opzione IPv6 per bloccare o escludere IPv6 quando il server non lo supporta
+* Novità: visualizzatore di report integrato – consulta e condividi i report diagnostici direttamente nell'app
+* Miglioramento: tunneling selettivo
+* Miglioramento: velocità di avvio con il tunneling selettivo per paese
+* Miglioramento: stabilità dei proxy SOCKS e HTTP
+* Miglioramento: utilizzo della memoria e stabilità
+* Correzione: le funzioni premium restavano sbloccate localmente dopo la scadenza di un abbonamento
+* Correzione: un pacchetto UDP smarrito poteva bloccare in modo permanente flussi UDP non correlati sulla stessa porta del server
+* Correzione: i flussi UDP che inviavano senza risposta per oltre un minuto non potevano più ricevere risposte
+* Aggiornamento: modificare i filtri per paese, IP e dominio del tunneling selettivo non richiede più la riconnessione

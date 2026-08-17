@@ -1,0 +1,14 @@
+* Novidade: suporte de QUIC em todas as plataformas
+* Novidade: Split DNS — as consultas DNS passam a seguir as suas regras de túnel dividido, pelo que as aplicações e os sites excluídos são resolvidos fora do túnel
+* Novidade: proteção de IP não encamináveis — escolha bloquear ou ignorar destinos que o servidor não consegue encaminhar, para que o tráfego nunca saia sem aviso
+* Novidade: interruptor principal do túnel dividido — um toque mantém todo o tráfego na VPN e bloqueia o que o servidor não pode transportar
+* Novidade: opção de IPv6 para bloquear ou ignorar IPv6 quando o servidor não o suporta
+* Novidade: visualizador de relatórios integrado — veja e partilhe relatórios de diagnóstico na própria aplicação
+* Melhoria: túnel dividido
+* Melhoria: velocidade de inicialização com túnel dividido por país
+* Melhoria: estabilidade dos proxies SOCKS e HTTP
+* Melhoria: utilização de memória e estabilidade
+* Correção: as funcionalidades premium continuavam desbloqueadas localmente após a expiração de uma subscrição
+* Correção: um pacote UDP perdido podia impedir permanentemente fluxos UDP não relacionados na mesma porta do servidor
+* Correção: os fluxos UDP que enviavam sem resposta durante mais de um minuto deixavam de receber respostas
+* Atualização: alterar os filtros de país, IP e domínio do túnel dividido já não exige voltar a ligar

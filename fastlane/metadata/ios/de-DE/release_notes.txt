@@ -1,0 +1,14 @@
+* Neu: QUIC-Unterstützung auf allen Plattformen
+* Neu: Split-DNS – DNS-Anfragen folgen jetzt Ihren Split-Tunneling-Regeln, sodass ausgenommene Apps und Websites außerhalb des Tunnels aufgelöst werden
+* Neu: Schutz nicht routbarer IPs – wählen Sie, ob Ziele, die der Server nicht routen kann, blockiert oder umgangen werden, damit kein Datenverkehr unbemerkt abfließt
+* Neu: Hauptschalter für Split-Tunneling – ein Tippen hält den gesamten Datenverkehr im VPN und blockiert, was der Server nicht übertragen kann
+* Neu: IPv6-Option zum Blockieren oder Umgehen von IPv6, wenn der Server es nicht unterstützt
+* Neu: Integrierter Berichtsbetrachter – Diagnoseberichte direkt in der App ansehen und teilen
+* Verbessert: Split-Tunneling
+* Verbessert: Startgeschwindigkeit bei Split-Tunneling nach Land
+* Verbessert: Stabilität der SOCKS- und HTTP-Proxys
+* Verbessert: Speicherverbrauch und Stabilität
+* Behoben: Premium-Funktionen blieben lokal freigeschaltet, nachdem ein Abonnement abgelaufen war
+* Behoben: Ein verirrtes UDP-Paket konnte nicht zusammenhängende UDP-Verbindungen am selben Server-Port dauerhaft blockieren
+* Behoben: UDP-Verbindungen, die über eine Minute ohne Antwort sendeten, konnten keine Antworten mehr empfangen
+* Update: Änderungen an Split-Land-, Split-IP- und Split-Domain-Filtern erfordern keine neue Verbindung mehr
