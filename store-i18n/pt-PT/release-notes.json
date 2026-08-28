@@ -1,0 +1,18 @@
+{
+  "n_e6280572d8": "Novo: Suporte para QUIC em todas as plataformas",
+  "n_1832eb06c1": "Novo: DNS dividido — as consultas seguem as regras de túnel dividido, resolvendo fora do túnel",
+  "n_bd42460eac": "Novo: Proteção de IP não encaminhado — bloqueie ou ignore destinos sem rota para evitar fugas",
+  "n_a88354ede7": "Novo: Interruptor principal de túnel dividido — mantenha o tráfego na VPN com um toque",
+  "n_d28209ee1c": "Novo: Opção de IPv6 para bloquear ou ignorar quando o servidor não o suporta",
+  "n_9c5f3b9e01": "Novo: Visualizador de relatórios integrado — veja e partilhe relatórios na aplicação",
+  "n_334228261e": "Melhoria: Fiabilidade do mosaico de Início Rápido",
+  "n_e2dd69f534": "Melhoria: Túnel dividido",
+  "n_a748595e46": "Melhoria: Velocidade de inicialização ao usar túnel dividido por país",
+  "n_0e99d4abbf": "Melhoria: Estabilidade dos proxies SOCKS e HTTP",
+  "n_726bbdb5b4": "Melhoria: Utilização de memória e estabilidade",
+  "n_581f5f02f0": "Correção: Funcionalidades premium continuavam desbloqueadas após expirar a subscrição",
+  "n_4174396f26": "Correção: Pacotes UDP perdidos podiam parar fluxos UDP não relacionados na mesma porta",
+  "n_0682e5bced": "Correção: Fluxos UDP sem resposta por mais de um minuto deixavam de receber respostas",
+  "n_0b082c2950": "Atualização: Removido o proxy UDP antigo; o proxy partilhado é agora usado como NAT restrito",
+  "n_54981f93bc": "Atualização: Alterar filtros de divisão já não requer uma nova ligação"
+}

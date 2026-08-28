@@ -1,14 +1,15 @@
-* Novidade: suporte a QUIC em todas as plataformas
-* Novidade: Split DNS — as consultas DNS agora seguem suas regras de túnel dividido, então apps e sites ignorados são resolvidos fora do túnel
-* Novidade: proteção de IPs não roteáveis — escolha bloquear ou ignorar destinos que o servidor não consegue rotear, para que o tráfego nunca vaze silenciosamente
-* Novidade: chave geral do túnel dividido — um toque mantém todo o tráfego na VPN e bloqueia o que o servidor não pode transportar
-* Novidade: opção de IPv6 para bloquear ou ignorar IPv6 quando o servidor não oferece suporte
-* Novidade: visualizador de relatórios integrado — veja e compartilhe relatórios de diagnóstico dentro do app
-* Melhoria: túnel dividido
-* Melhoria: velocidade de inicialização ao usar túnel dividido por país
-* Melhoria: estabilidade dos proxies SOCKS e HTTP
-* Melhoria: uso de memória e estabilidade
-* Correção: os recursos premium continuavam liberados localmente após a expiração de uma assinatura
-* Correção: um pacote UDP perdido podia interromper permanentemente fluxos UDP não relacionados na mesma porta do servidor
-* Correção: fluxos UDP que enviavam sem resposta por mais de um minuto não recebiam mais respostas
-* Atualização: alterar os filtros de país, IP e domínio do túnel dividido não exige mais reconectar
+* Recurso: Suporte a QUIC em todas as plataformas
+* Recurso: Split DNS — consultas DNS agora seguem regras de Split Tunneling, resolvendo fora do túnel
+* Recurso: Proteção contra IP não roteado — bloqueie ou ignore destinos sem rota para evitar vazamentos
+* Recurso: Chave mestre de Split Tunneling — mantenha todo o tráfego na VPN com um toque
+* Recurso: Opção IPv6 para bloquear ou ignorar IPv6 quando não suportado pelo servidor
+* Recurso: Visualizador de relatórios — veja e compartilhe relatórios de diagnóstico no app
+* Melhoria: Split Tunneling
+* Melhoria: Velocidade de inicialização ao usar Split Tunneling por país
+* Melhoria: Estabilidade dos proxies SOCKS e HTTP
+* Melhoria: Uso de memória e estabilidade
+* Correção: Recursos Premium continuavam desbloqueados após a expiração da assinatura
+* Correção: Pacote UDP órfão podia interromper fluxos UDP não relacionados na mesma porta
+* Correção: Fluxos UDP sem resposta por mais de um minuto voltaram a receber respostas
+* Atualização: Proxy UDP legado removido; o proxy UDP compartilhado agora atua como NAT restrito
+* Atualização: Alterar filtros de divisão não exige mais reconexão

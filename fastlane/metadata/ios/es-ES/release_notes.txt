@@ -1,14 +1,15 @@
-* Novedad: compatibilidad con QUIC en todas las plataformas
-* Novedad: Split DNS: las consultas DNS ahora siguen tus reglas de túnel dividido, por lo que las apps y los sitios excluidos se resuelven fuera del túnel
-* Novedad: protección de IP no enrutables: elige bloquear o eludir los destinos que el servidor no puede enrutar, para que el tráfico nunca se filtre en silencio
-* Novedad: interruptor principal del túnel dividido: con un toque, todo el tráfico permanece en la VPN y se bloquea lo que el servidor no puede transportar
-* Novedad: opción de IPv6 para bloquear o eludir IPv6 cuando el servidor no lo admite
-* Novedad: visor de informes integrado: consulta y comparte informes de diagnóstico dentro de la app
-* Mejora: túnel dividido
-* Mejora: velocidad de inicio al usar túnel dividido por país
-* Mejora: estabilidad de los proxies SOCKS y HTTP
-* Mejora: uso de memoria y estabilidad
-* Corrección: las funciones premium seguían desbloqueadas localmente después de caducar una suscripción
-* Corrección: un paquete UDP perdido podía detener permanentemente flujos UDP no relacionados que compartían el mismo puerto del servidor
-* Corrección: los flujos UDP que enviaban sin respuesta durante más de un minuto ya no podían recibir respuestas
-* Actualización: cambiar los filtros de país, IP y dominio del túnel dividido ya no requiere volver a conectar
+* Nueva función: Compatibilidad con QUIC en todas las plataformas
+* Nueva función: DNS dividido — las consultas DNS siguen tus reglas de tunelización dividida
+* Nueva función: Protección de IP sin enrutar — bloquea o evita destinos no enrutables para evitar fugas
+* Nueva función: Interruptor principal de túnel dividido — mantén todo el tráfico en la VPN con un toque
+* Nueva función: Opción de IPv6 para bloquear o omitir IPv6 si el servidor no es compatible
+* Nueva función: Visor de informes integrado — visualiza y comparte diagnósticos desde la app
+* Mejora: Tunelización dividida
+* Mejora: Velocidad de inicio al usar túnel dividido por país
+* Mejora: Estabilidad de proxies SOCKS y HTTP
+* Mejora: Uso de memoria y estabilidad
+* Corrección: Las funciones premium seguían desbloqueadas tras caducar la suscripción
+* Corrección: Un paquete UDP errante podía detener flujos UDP independientes en el mismo puerto
+* Corrección: Los flujos UDP sin respuesta durante más de un minuto ya no recibían respuestas
+* Actualización: Se eliminó el proxy UDP heredado; ahora se usa siempre el proxy UDP compartido
+* Actualización: Cambiar filtros de país, IP y dominio divididos ya no requiere reconexión

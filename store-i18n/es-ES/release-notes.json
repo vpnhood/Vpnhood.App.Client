@@ -1,0 +1,18 @@
+{
+  "n_e6280572d8": "Nueva función: Compatibilidad con QUIC en todas las plataformas",
+  "n_1832eb06c1": "Nueva función: DNS dividido — las consultas DNS siguen tus reglas de tunelización dividida",
+  "n_bd42460eac": "Nueva función: Protección de IP sin enrutar — bloquea o evita destinos no enrutables para evitar fugas",
+  "n_a88354ede7": "Nueva función: Interruptor principal de túnel dividido — mantén todo el tráfico en la VPN con un toque",
+  "n_d28209ee1c": "Nueva función: Opción de IPv6 para bloquear o omitir IPv6 si el servidor no es compatible",
+  "n_9c5f3b9e01": "Nueva función: Visor de informes integrado — visualiza y comparte diagnósticos desde la app",
+  "n_334228261e": "Mejora: Fiabilidad del mosaico de inicio rápido",
+  "n_e2dd69f534": "Mejora: Tunelización dividida",
+  "n_a748595e46": "Mejora: Velocidad de inicio al usar túnel dividido por país",
+  "n_0e99d4abbf": "Mejora: Estabilidad de proxies SOCKS y HTTP",
+  "n_726bbdb5b4": "Mejora: Uso de memoria y estabilidad",
+  "n_581f5f02f0": "Corrección: Las funciones premium seguían desbloqueadas tras caducar la suscripción",
+  "n_4174396f26": "Corrección: Un paquete UDP errante podía detener flujos UDP independientes en el mismo puerto",
+  "n_0682e5bced": "Corrección: Los flujos UDP sin respuesta durante más de un minuto ya no recibían respuestas",
+  "n_0b082c2950": "Actualización: Se eliminó el proxy UDP heredado; ahora se usa siempre el proxy UDP compartido",
+  "n_54981f93bc": "Actualización: Cambiar filtros de país, IP y dominio divididos ya no requiere reconexión"
+}

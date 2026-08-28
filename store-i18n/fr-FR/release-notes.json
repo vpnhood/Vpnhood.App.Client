@@ -1,0 +1,18 @@
+{
+  "n_e6280572d8": "Nouveauté : Prise en charge de QUIC sur toutes les plateformes",
+  "n_1832eb06c1": "Nouveauté : DNS fractionné — les requêtes DNS suivent vos règles de tunnel fractionné",
+  "n_bd42460eac": "Nouveauté : Protection IP non routée — bloquez ou contournez les destinations non routables",
+  "n_a88354ede7": "Nouveauté : Interrupteur principal de tunnel fractionné — gardez le contrôle en un geste",
+  "n_d28209ee1c": "Nouveauté : Option IPv6 pour bloquer ou contourner l'IPv6 si non pris en charge",
+  "n_9c5f3b9e01": "Nouveauté : Visionneuse de rapports intégrée — consultez et partagez vos diagnostics",
+  "n_334228261e": "Amélioration : Fiabilité de la tuile Quick Launch",
+  "n_e2dd69f534": "Amélioration : Tunnel fractionné",
+  "n_a748595e46": "Amélioration : Vitesse d'initialisation avec le tunnel fractionné par pays",
+  "n_0e99d4abbf": "Amélioration : Stabilité des proxys SOCKS et HTTP",
+  "n_726bbdb5b4": "Amélioration : Utilisation de la mémoire et stabilité",
+  "n_581f5f02f0": "Correction : Les fonctions Premium restaient débloquées après expiration",
+  "n_4174396f26": "Correction : Un paquet UDP parasite pouvait bloquer des flux UDP indépendants",
+  "n_0682e5bced": "Correction : Des flux UDP sans réponse prolongée pouvaient cesser de fonctionner",
+  "n_0b082c2950": "Mise à jour : Suppression de l'ancien proxy UDP pour utiliser le proxy partagé natif",
+  "n_54981f93bc": "Mise à jour : La modification des filtres ne nécessite plus de reconnexion"
+}
