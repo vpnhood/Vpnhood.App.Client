@@ -8,6 +8,7 @@
 * Improve: Initialization speed when using split tunneling by country
 * Improve: SOCKS & HTTP proxies stability
 * Improve: Memory usage & stability
+* Fix: Very slow download speed on iOS
 * Fix: Premium features stayed unlocked locally after a subscription had expired
 * Fix: A stray UDP packet could permanently stop unrelated UDP flows sharing the same server port
 * Fix: UDP flows sending without replies for over a minute could no longer receive responses

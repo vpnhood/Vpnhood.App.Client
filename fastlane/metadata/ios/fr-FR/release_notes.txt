@@ -8,6 +8,7 @@
 * Amélioration : Vitesse d'initialisation avec le tunnel fractionné par pays
 * Amélioration : Stabilité des proxys SOCKS et HTTP
 * Amélioration : Utilisation de la mémoire et stabilité
+* Correction : Vitesse de téléchargement lente sur iOS
 * Correction : Les fonctions Premium restaient débloquées après expiration
 * Correction : Un paquet UDP parasite pouvait bloquer des flux UDP indépendants
 * Correction : Des flux UDP sans réponse prolongée pouvaient cesser de fonctionner

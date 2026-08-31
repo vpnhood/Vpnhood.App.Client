@@ -10,6 +10,7 @@
   "n_a748595e46": "Improve: Initialization speed when using split tunneling by country",
   "n_0e99d4abbf": "Improve: SOCKS & HTTP proxies stability",
   "n_726bbdb5b4": "Improve: Memory usage & stability",
+  "n_ab1ff88a0f": "Fix: Very slow download speed on iOS",
   "n_581f5f02f0": "Fix: Premium features stayed unlocked locally after a subscription had expired",
   "n_4174396f26": "Fix: A stray UDP packet could permanently stop unrelated UDP flows sharing the same server port",
   "n_0682e5bced": "Fix: UDP flows sending without replies for over a minute could no longer receive responses",

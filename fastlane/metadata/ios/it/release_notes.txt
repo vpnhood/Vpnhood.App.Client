@@ -8,6 +8,7 @@
 * Miglioramento: Velocità di avvio con lo split tunneling per paese
 * Miglioramento: Stabilità dei proxy SOCKS e HTTP
 * Miglioramento: Utilizzo della memoria e stabilità
+* Correggi: Velocità di download molto lenta su iOS
 * Correzione: Le funzioni Premium restavano sbloccate dopo la scadenza
 * Correzione: Un pacchetto UDP poteva bloccare flussi UDP correlati
 * Correzione: I flussi UDP senza risposta per oltre un minuto potevano bloccarsi

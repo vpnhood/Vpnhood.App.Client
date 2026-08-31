@@ -8,6 +8,7 @@
 * Melhoria: Velocidade de inicialização ao usar túnel dividido por país
 * Melhoria: Estabilidade dos proxies SOCKS e HTTP
 * Melhoria: Utilização de memória e estabilidade
+* Correção: Velocidade de descarga muito lenta no iOS
 * Correção: Funcionalidades premium continuavam desbloqueadas após expirar a subscrição
 * Correção: Pacotes UDP perdidos podiam parar fluxos UDP não relacionados na mesma porta
 * Correção: Fluxos UDP sem resposta por mais de um minuto deixavam de receber respostas

@@ -10,6 +10,7 @@
   "n_a748595e46": "Melhoria: Velocidade de inicialização ao usar Split Tunneling por país",
   "n_0e99d4abbf": "Melhoria: Estabilidade dos proxies SOCKS e HTTP",
   "n_726bbdb5b4": "Melhoria: Uso de memória e estabilidade",
+  "n_ab1ff88a0f": "Correção: Velocidade de download muito lenta no iOS",
   "n_581f5f02f0": "Correção: Recursos Premium continuavam desbloqueados após a expiração da assinatura",
   "n_4174396f26": "Correção: Pacote UDP órfão podia interromper fluxos UDP não relacionados na mesma porta",
   "n_0682e5bced": "Correção: Fluxos UDP sem resposta por mais de um minuto voltaram a receber respostas",

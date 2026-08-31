@@ -10,6 +10,7 @@
   "n_a748595e46": "Mejora: Velocidad de inicio al usar túnel dividido por país",
   "n_0e99d4abbf": "Mejora: Estabilidad de proxies SOCKS y HTTP",
   "n_726bbdb5b4": "Mejora: Uso de memoria y estabilidad",
+  "n_ab1ff88a0f": "Corrección: Velocidad de descarga muy lenta en iOS",
   "n_581f5f02f0": "Corrección: Las funciones premium seguían desbloqueadas tras caducar la suscripción",
   "n_4174396f26": "Corrección: Un paquete UDP errante podía detener flujos UDP independientes en el mismo puerto",
   "n_0682e5bced": "Corrección: Los flujos UDP sin respuesta durante más de un minuto ya no recibían respuestas",
