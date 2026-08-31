@@ -55,7 +55,7 @@ O VpnHood! CLIENT não exige conta nem dados pessoais. Não registramos seu hist
 
 Dados anônimos de uso e diagnóstico podem ser enviados para correção de falhas, identificados apenas por um ID aleatório, e você pode desativar isso em Configurações > Privacidade. Nunca vendemos seus dados.
 
-Política de Privacidade: https://www.vpnhood.com/privacy-policy
+Política de Privacidade: https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 Estamos Aqui para Ajudar 24/7!
 

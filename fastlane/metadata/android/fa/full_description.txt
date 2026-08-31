@@ -52,7 +52,7 @@ VpnHood! CLIENT یک ابزار وی‌پی‌ان سریع و امن است ک�
 
 VpnHood! CLIENT نیازی به حساب کاربری ندارد و اطلاعات شخصی نمی‌خواهد. ما فعالیت مرور شما را ثبت نمی‌کنیم.
 
-سیاست حفظ حریم خصوصی: https://www.vpnhood.com/privacy-policy
+سیاست حفظ حریم خصوصی: https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 پشتیبانی ۲۴/۷: [support@vpnhood.com](mailto:support@vpnhood.com)
 

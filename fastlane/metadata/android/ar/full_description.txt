@@ -52,7 +52,7 @@ VpnHood! CLIENT هو تطبيق شبكة افتراضية (VPN) سريع وآم�
 
 VpnHood! CLIENT لا يتطلب حساباً ولا يطلب معلومات شخصية. نحن لا نسجل نشاط التصفح الخاص بك.
 
-سياسة الخصوصية: https://www.vpnhood.com/privacy-policy
+سياسة الخصوصية: https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 اتصل بنا: [support@vpnhood.com](mailto:support@vpnhood.com)
 

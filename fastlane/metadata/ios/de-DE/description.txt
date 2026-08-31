@@ -58,9 +58,9 @@ Datenschutz:
 
 VpnHood! CLIENT erfordert kein Konto. Keine Protokollierung von Browseraktivitäten.
 
-Anonyme Diagnosedaten sind in den Einstellungen deaktivierbar.
 
-Datenschutzrichtlinie: https://www.vpnhood.com/privacy-policy
+
+Datenschutzrichtlinie: https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 Support: [support@vpnhood.com](mailto:support@vpnhood.com).
 

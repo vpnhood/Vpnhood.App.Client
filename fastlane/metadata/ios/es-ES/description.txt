@@ -57,7 +57,7 @@ Privacidad:
 
 VpnHood! CLIENT no requiere cuenta ni datos personales.
 
-Política de privacidad: https://www.vpnhood.com/privacy-policy
+Política de privacidad: https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 Soporte: [support@vpnhood.com](mailto:support@vpnhood.com).
 

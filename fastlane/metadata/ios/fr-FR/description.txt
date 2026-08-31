@@ -57,9 +57,9 @@ Confidentialité :
 
 VpnHood! CLIENT ne requiert aucun compte ni info personnelle. Nous ne journalisons aucune activité.
 
-Données anonymes (version, erreurs) envoyées pour corriger les bugs. Désactivable dans Réglages > Confidentialité.
 
-Politique de confidentialité : https://www.vpnhood.com/privacy-policy
+
+Politique de confidentialité : https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 Support 24/7 !
 

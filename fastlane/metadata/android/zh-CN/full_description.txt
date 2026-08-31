@@ -55,7 +55,7 @@ VpnHood! CLIENT 不需要账号，也绝不索取个人信息。我们不会记�
 
 应用可能会发送匿名的使用和诊断数据（如应用版本、语言、连接结果和错误消息），以便我们查找并修复问题。这些数据仅由与您无关的随机 ID 标识，您随时可以在“设置 > 隐私”中将其关闭。我们绝不会出售您的数据或出于自身目的将其分享给第三方。
 
-隐私政策：https://www.vpnhood.com/privacy-policy
+隐私政策：https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 全天候为您服务！
 

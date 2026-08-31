@@ -55,7 +55,7 @@ VpnHood! CLIENT ne requiert aucun compte ni info personnelle. Nous ne journaliso
 
 L'app peut envoyer des données anonymes (version, erreurs) pour corriger les bugs. Désactivable dans Paramètres > Confidentialité.
 
-Politique de confidentialité : https://www.vpnhood.com/privacy-policy
+Politique de confidentialité : https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 Support 24/7 !
 

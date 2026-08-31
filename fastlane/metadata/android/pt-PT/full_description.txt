@@ -55,7 +55,7 @@ O VpnHood! CLIENT não exige conta nem dados pessoais. Não registamos a sua ati
 
 A app pode enviar dados anónimos de diagnóstico (versão, idioma, erros) para melhorarmos o serviço. Pode desativar isto em Definições > Privacidade. Nunca vendemos os seus dados.
 
-Política de Privacidade: https://www.vpnhood.com/privacy-policy
+Política de Privacidade: https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 Estamos Sempre Cá para Si!
 

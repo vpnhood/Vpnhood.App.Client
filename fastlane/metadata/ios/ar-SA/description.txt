@@ -56,7 +56,7 @@ VpnHood! CLIENT هو حل VPN سريع وآمن وموثوق مدعوم بمحر
 
 VpnHood! CLIENT لا يتطلب حساباً ولا يسجل نشاط التصفح الخاص بك.
 
-سياسة الخصوصية: https://www.vpnhood.com/privacy-policy
+سياسة الخصوصية: https://www.vpnhood.com/vpnhood-client-privacy-policy
 
 اتصل بنا: [support@vpnhood.com](mailto:support@vpnhood.com)
 
