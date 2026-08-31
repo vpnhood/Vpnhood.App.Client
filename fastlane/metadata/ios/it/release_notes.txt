@@ -1,15 +1,2 @@
-* Nuovo: Supporto QUIC su tutte le piattaforme
-* Nuovo: Split DNS — le query DNS seguono le regole di Split Tunneling
-* Nuovo: Protezione IP non instradati — blocca o evita destinazioni non instradabili
-* Nuovo: Interruttore principale Split Tunneling — gestisci tutto il traffico con un tap
-* Nuovo: Opzione IPv6 per bloccare o evitare IPv6 se non supportato dal server
-* Nuovo: Visualizzatore report integrato — visualizza e condividi i report nell'app
-* Miglioramento: Split Tunneling
-* Miglioramento: Velocità di avvio con lo split tunneling per paese
-* Miglioramento: Stabilità dei proxy SOCKS e HTTP
-* Miglioramento: Utilizzo della memoria e stabilità
-* Correzione: Le funzioni Premium restavano sbloccate dopo la scadenza
-* Correzione: Un pacchetto UDP poteva bloccare flussi UDP correlati
-* Correzione: I flussi UDP senza risposta per oltre un minuto potevano bloccarsi
-* Aggiornamento: Rimossi il vecchio proxy UDP e l'opzione UseUdpProxy2
-* Aggiornamento: La modifica dei filtri split non richiede più la riconnessione
+* Miglioramento: Velocità di download molto più rapida
+* Miglioramento: Velocità e stabilità

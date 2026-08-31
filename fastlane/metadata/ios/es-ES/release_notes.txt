@@ -1,15 +1,2 @@
-* Nueva función: Compatibilidad con QUIC en todas las plataformas
-* Nueva función: DNS dividido — las consultas DNS siguen tus reglas de tunelización dividida
-* Nueva función: Protección de IP sin enrutar — bloquea o evita destinos no enrutables para evitar fugas
-* Nueva función: Interruptor principal de túnel dividido — mantén todo el tráfico en la VPN con un toque
-* Nueva función: Opción de IPv6 para bloquear o omitir IPv6 si el servidor no es compatible
-* Nueva función: Visor de informes integrado — visualiza y comparte diagnósticos desde la app
-* Mejora: Tunelización dividida
-* Mejora: Velocidad de inicio al usar túnel dividido por país
-* Mejora: Estabilidad de proxies SOCKS y HTTP
-* Mejora: Uso de memoria y estabilidad
-* Corrección: Las funciones premium seguían desbloqueadas tras caducar la suscripción
-* Corrección: Un paquete UDP errante podía detener flujos UDP independientes en el mismo puerto
-* Corrección: Los flujos UDP sin respuesta durante más de un minuto ya no recibían respuestas
-* Actualización: Se eliminó el proxy UDP heredado; ahora se usa siempre el proxy UDP compartido
-* Actualización: Cambiar filtros de país, IP y dominio divididos ya no requiere reconexión
+* Mejora: Velocidad de descarga mucho mayor
+* Mejora: Velocidad y estabilidad

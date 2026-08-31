@@ -1,15 +1,2 @@
-* Nouveauté : Prise en charge de QUIC sur toutes les plateformes
-* Nouveauté : DNS fractionné — les requêtes DNS suivent vos règles de tunnel fractionné
-* Nouveauté : Protection IP non routée — bloquez ou contournez les destinations non routables
-* Nouveauté : Interrupteur principal de tunnel fractionné — gardez le contrôle en un geste
-* Nouveauté : Option IPv6 pour bloquer ou contourner l'IPv6 si non pris en charge
-* Nouveauté : Visionneuse de rapports intégrée — consultez et partagez vos diagnostics
-* Amélioration : Tunnel fractionné
-* Amélioration : Vitesse d'initialisation avec le tunnel fractionné par pays
-* Amélioration : Stabilité des proxys SOCKS et HTTP
-* Amélioration : Utilisation de la mémoire et stabilité
-* Correction : Les fonctions Premium restaient débloquées après expiration
-* Correction : Un paquet UDP parasite pouvait bloquer des flux UDP indépendants
-* Correction : Des flux UDP sans réponse prolongée pouvaient cesser de fonctionner
-* Mise à jour : Suppression de l'ancien proxy UDP pour utiliser le proxy partagé natif
-* Mise à jour : La modification des filtres ne nécessite plus de reconnexion
+* Amélioration : Vitesse de téléchargement accrue
+* Amélioration : Vitesse et stabilité

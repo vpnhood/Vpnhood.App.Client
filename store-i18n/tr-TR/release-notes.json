@@ -1,18 +1,4 @@
 {
-  "n_e6280572d8": "Özellik: Tüm platformlarda QUIC desteği",
-  "n_1832eb06c1": "Özellik: Bölünmüş DNS — DNS sorguları artık tünelleme kurallarınızı izler",
-  "n_bd42460eac": "Özellik: Yönlendirilmeyen IP koruması — tünel dışına veri sızıntısını önleyin",
-  "n_a88354ede7": "Özellik: Split Tunneling ana şalteri — tüm trafiği VPN'de tutun ve engelli olanları süzün",
-  "n_d28209ee1c": "Özellik: Sunucu desteklemediğinde IPv6'yı engelleme veya atlama seçeneği",
-  "n_9c5f3b9e01": "Özellik: Dahili rapor görüntüleyici — tanı raporlarını uygulama içinden paylaşın",
-  "n_334228261e": "İyileştirme: Quick Launch döşeme güvenilirliği",
-  "n_e2dd69f534": "İyileştirme: Split Tunneling",
-  "n_a748595e46": "İyileştirme: Ülkeye göre split tunneling kullanımında başlatma hızı",
-  "n_0e99d4abbf": "İyileştirme: SOCKS ve HTTP proxy kararlılığı",
-  "n_726bbdb5b4": "İyileştirme: Bellek kullanımı ve kararlılık",
-  "n_581f5f02f0": "Düzeltme: Abonelik süresi dolduktan sonra premium özelliklerin kilidi açık kalıyordu",
-  "n_4174396f26": "Düzeltme: Başıboş bir UDP paketi aynı sunucu portunu kullanan diğer akışları durdurabiliyordu",
-  "n_0682e5bced": "Düzeltme: Bir dakikadan uzun süredir yanıt almayan UDP akışları yanıt alamaz hale geliyordu",
-  "n_0b082c2950": "Güncelleme: Eski UDP proxy kaldırıldı; paylaşımlı UDP proxy artık her zaman kullanılmaktadır",
-  "n_54981f93bc": "Güncelleme: Bölge, IP ve etki alanı filtrelerini değiştirirken yeniden bağlanmak gerekmiyor"
+  "n_cdee61af18": "İyileştirme: Çok daha hızlı indirme hızı",
+  "n_26dbbfa01b": "İyileştirme: Hız ve kararlılık"
 }
