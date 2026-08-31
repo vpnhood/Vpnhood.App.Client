@@ -1,16 +1,2 @@
-* Özellik: Tüm platformlarda QUIC desteği
-* Özellik: Bölünmüş DNS — DNS sorguları artık tünelleme kurallarınızı izler
-* Özellik: Yönlendirilmeyen IP koruması — tünel dışına veri sızıntısını önleyin
-* Özellik: Split Tunneling ana şalteri — tüm trafiği VPN'de tutun ve engelli olanları süzün
-* Özellik: Sunucu desteklemediğinde IPv6'yı engelleme veya atlama seçeneği
-* Özellik: Dahili rapor görüntüleyici — tanı raporlarını uygulama içinden paylaşın
-* İyileştirme: Split Tunneling
-* İyileştirme: Ülkeye göre split tunneling kullanımında başlatma hızı
-* İyileştirme: SOCKS ve HTTP proxy kararlılığı
-* İyileştirme: Bellek kullanımı ve kararlılık
-* Düzeltme: iOS'ta çok yavaş indirme hızı
-* Düzeltme: Abonelik süresi dolduktan sonra premium özelliklerin kilidi açık kalıyordu
-* Düzeltme: Başıboş bir UDP paketi aynı sunucu portunu kullanan diğer akışları durdurabiliyordu
-* Düzeltme: Bir dakikadan uzun süredir yanıt almayan UDP akışları yanıt alamaz hale geliyordu
-* Güncelleme: Eski UDP proxy kaldırıldı; paylaşımlı UDP proxy artık her zaman kullanılmaktadır
-* Güncelleme: Bölge, IP ve etki alanı filtrelerini değiştirirken yeniden bağlanmak gerekmiyor
+* İyileştirme: Çok daha hızlı indirme hızı
+* İyileştirme: Hız ve kararlılık

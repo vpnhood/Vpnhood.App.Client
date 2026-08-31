@@ -1,19 +1,4 @@
 {
-  "n_e6280572d8": "Recurso: Suporte a QUIC em todas as plataformas",
-  "n_1832eb06c1": "Recurso: Split DNS — consultas DNS agora seguem regras de Split Tunneling, resolvendo fora do túnel",
-  "n_bd42460eac": "Recurso: Proteção contra IP não roteado — bloqueie ou ignore destinos sem rota para evitar vazamentos",
-  "n_a88354ede7": "Recurso: Chave mestre de Split Tunneling — mantenha todo o tráfego na VPN com um toque",
-  "n_d28209ee1c": "Recurso: Opção IPv6 para bloquear ou ignorar IPv6 quando não suportado pelo servidor",
-  "n_9c5f3b9e01": "Recurso: Visualizador de relatórios — veja e compartilhe relatórios de diagnóstico no app",
-  "n_334228261e": "Melhoria: Confiabilidade do Quick Launch",
-  "n_e2dd69f534": "Melhoria: Split Tunneling",
-  "n_a748595e46": "Melhoria: Velocidade de inicialização ao usar Split Tunneling por país",
-  "n_0e99d4abbf": "Melhoria: Estabilidade dos proxies SOCKS e HTTP",
-  "n_726bbdb5b4": "Melhoria: Uso de memória e estabilidade",
-  "n_ab1ff88a0f": "Correção: Velocidade de download muito lenta no iOS",
-  "n_581f5f02f0": "Correção: Recursos Premium continuavam desbloqueados após a expiração da assinatura",
-  "n_4174396f26": "Correção: Pacote UDP órfão podia interromper fluxos UDP não relacionados na mesma porta",
-  "n_0682e5bced": "Correção: Fluxos UDP sem resposta por mais de um minuto voltaram a receber respostas",
-  "n_0b082c2950": "Atualização: Proxy UDP legado removido; o proxy UDP compartilhado agora atua como NAT restrito",
-  "n_54981f93bc": "Atualização: Alterar filtros de divisão não exige mais reconexão"
+  "n_cdee61af18": "Melhoria: Velocidade de download muito maior",
+  "n_26dbbfa01b": "Melhoria: Velocidade e estabilidade"
 }

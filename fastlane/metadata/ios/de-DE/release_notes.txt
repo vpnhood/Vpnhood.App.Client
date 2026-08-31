@@ -1,16 +1,2 @@
-* Neu: QUIC-Unterstützung auf allen Plattformen
-* Neu: Split-DNS — DNS-Anfragen folgen nun Ihren Split-Tunneling-Regeln
-* Neu: Schutz vor ungerouteten IPs — Ziele blockieren oder umgehen
-* Neu: Split-Tunneling-Hauptschalter — gesamter Traffic sicher im VPN
-* Neu: IPv6-Option zum Blockieren oder Umgehen von IPv6
-* Neu: Integrierter Berichtsviewer — Diagnoseberichte direkt teilen
-* Verbesserung: Split Tunneling
-* Verbesserung: Startgeschwindigkeit bei länderspezifischem Split Tunneling
-* Verbesserung: Stabilität von SOCKS- und HTTP-Proxys
-* Verbesserung: Speichernutzung und Stabilität
-* Fix: Sehr langsame Download-Geschwindigkeit unter iOS
-* Behoben: Premium-Funktionen blieben nach Ablauf des Abos lokal aktiv
-* Behoben: Isolierte UDP-Pakete stoppten manchmal verwandte UDP-Abläufe
-* Behoben: UDP-Streams ohne Antwort empfingen nach einer Minute nichts mehr
-* Update: Legacy-UDP-Proxy entfernt; der geteilte UDP-Proxy wird nun immer genutzt
-* Update: Filteränderungen erfordern keinen Neustart der Verbindung mehr
+* Verbesserung: Viel schnellerer Download
+* Verbesserung: Tempo und Stabilität

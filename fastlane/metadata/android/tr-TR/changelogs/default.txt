@@ -1,3 +1,1 @@
-* Özellik: Tüm platformlarda QUIC desteği
-* Özellik: Bölünmüş DNS — DNS sorguları artık tünelleme kurallarınızı izler
-* İyileştirme: Bellek kullanımı ve kararlılık
+* İyileştirme: Hız ve kararlılık

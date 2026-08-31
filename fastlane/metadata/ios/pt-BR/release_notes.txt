@@ -1,16 +1,2 @@
-* Recurso: Suporte a QUIC em todas as plataformas
-* Recurso: Split DNS — consultas DNS agora seguem regras de Split Tunneling, resolvendo fora do túnel
-* Recurso: Proteção contra IP não roteado — bloqueie ou ignore destinos sem rota para evitar vazamentos
-* Recurso: Chave mestre de Split Tunneling — mantenha todo o tráfego na VPN com um toque
-* Recurso: Opção IPv6 para bloquear ou ignorar IPv6 quando não suportado pelo servidor
-* Recurso: Visualizador de relatórios — veja e compartilhe relatórios de diagnóstico no app
-* Melhoria: Split Tunneling
-* Melhoria: Velocidade de inicialização ao usar Split Tunneling por país
-* Melhoria: Estabilidade dos proxies SOCKS e HTTP
-* Melhoria: Uso de memória e estabilidade
-* Correção: Velocidade de download muito lenta no iOS
-* Correção: Recursos Premium continuavam desbloqueados após a expiração da assinatura
-* Correção: Pacote UDP órfão podia interromper fluxos UDP não relacionados na mesma porta
-* Correção: Fluxos UDP sem resposta por mais de um minuto voltaram a receber respostas
-* Atualização: Proxy UDP legado removido; o proxy UDP compartilhado agora atua como NAT restrito
-* Atualização: Alterar filtros de divisão não exige mais reconexão
+* Melhoria: Velocidade de download muito maior
+* Melhoria: Velocidade e estabilidade

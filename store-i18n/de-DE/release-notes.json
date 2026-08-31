@@ -1,19 +1,4 @@
 {
-  "n_e6280572d8": "Neu: QUIC-Unterstützung auf allen Plattformen",
-  "n_1832eb06c1": "Neu: Split-DNS — DNS-Anfragen folgen nun Ihren Split-Tunneling-Regeln",
-  "n_bd42460eac": "Neu: Schutz vor ungerouteten IPs — Ziele blockieren oder umgehen",
-  "n_a88354ede7": "Neu: Split-Tunneling-Hauptschalter — gesamter Traffic sicher im VPN",
-  "n_d28209ee1c": "Neu: IPv6-Option zum Blockieren oder Umgehen von IPv6",
-  "n_9c5f3b9e01": "Neu: Integrierter Berichtsviewer — Diagnoseberichte direkt teilen",
-  "n_334228261e": "Verbesserung: Zuverlässigkeit der Schnellstart-Kachel",
-  "n_e2dd69f534": "Verbesserung: Split Tunneling",
-  "n_a748595e46": "Verbesserung: Startgeschwindigkeit bei länderspezifischem Split Tunneling",
-  "n_0e99d4abbf": "Verbesserung: Stabilität von SOCKS- und HTTP-Proxys",
-  "n_726bbdb5b4": "Verbesserung: Speichernutzung und Stabilität",
-  "n_ab1ff88a0f": "Fix: Sehr langsame Download-Geschwindigkeit unter iOS",
-  "n_581f5f02f0": "Behoben: Premium-Funktionen blieben nach Ablauf des Abos lokal aktiv",
-  "n_4174396f26": "Behoben: Isolierte UDP-Pakete stoppten manchmal verwandte UDP-Abläufe",
-  "n_0682e5bced": "Behoben: UDP-Streams ohne Antwort empfingen nach einer Minute nichts mehr",
-  "n_0b082c2950": "Update: Legacy-UDP-Proxy entfernt; der geteilte UDP-Proxy wird nun immer genutzt",
-  "n_54981f93bc": "Update: Filteränderungen erfordern keinen Neustart der Verbindung mehr"
+  "n_cdee61af18": "Verbesserung: Viel schnellerer Download",
+  "n_26dbbfa01b": "Verbesserung: Tempo und Stabilität"
 }

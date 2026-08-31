@@ -1,16 +1,2 @@
-* Feature: Support QUIC on all platforms
-* Feature: Split DNS — DNS queries now follow your split tunneling rules, so bypassed apps and sites resolve outside the tunnel
-* Feature: Unrouted IP protection — choose to block or bypass destinations the server cannot route, so traffic never leaks silently
-* Feature: Split tunneling master switch — one tap keeps all traffic inside the VPN and blocks what the server cannot carry
-* Feature: IPv6 option to block or bypass IPv6 when the server does not support it
-* Feature: Built-in report viewer — view and share diagnostic reports right inside the app
-* Improve: Split tunneling
-* Improve: Initialization speed when using split tunneling by country
-* Improve: SOCKS & HTTP proxies stability
-* Improve: Memory usage & stability
-* Fix: Very slow download speed on iOS
-* Fix: Premium features stayed unlocked locally after a subscription had expired
-* Fix: A stray UDP packet could permanently stop unrelated UDP flows sharing the same server port
-* Fix: UDP flows sending without replies for over a minute could no longer receive responses
-* Update: Removed the legacy UDP proxy and the server's UseUdpProxy2 option; the shared UDP proxy is now always used and behaves as a port-restricted NAT
-* Update: Changing split-country, split-ip and split-domain filters no longer needs a reconnect
+* Improve: Much faster download speed
+* Improve: Speed and stability

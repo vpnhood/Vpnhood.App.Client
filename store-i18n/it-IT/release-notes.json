@@ -1,19 +1,4 @@
 {
-  "n_e6280572d8": "Nuovo: Supporto QUIC su tutte le piattaforme",
-  "n_1832eb06c1": "Nuovo: Split DNS — le query DNS seguono le regole di Split Tunneling",
-  "n_bd42460eac": "Nuovo: Protezione IP non instradati — blocca o evita destinazioni non instradabili",
-  "n_a88354ede7": "Nuovo: Interruttore principale Split Tunneling — gestisci tutto il traffico con un tap",
-  "n_d28209ee1c": "Nuovo: Opzione IPv6 per bloccare o evitare IPv6 se non supportato dal server",
-  "n_9c5f3b9e01": "Nuovo: Visualizzatore report integrato — visualizza e condividi i report nell'app",
-  "n_334228261e": "Miglioramento: Affidabilità del tile Quick Launch",
-  "n_e2dd69f534": "Miglioramento: Split Tunneling",
-  "n_a748595e46": "Miglioramento: Velocità di avvio con lo split tunneling per paese",
-  "n_0e99d4abbf": "Miglioramento: Stabilità dei proxy SOCKS e HTTP",
-  "n_726bbdb5b4": "Miglioramento: Utilizzo della memoria e stabilità",
-  "n_ab1ff88a0f": "Correggi: Velocità di download molto lenta su iOS",
-  "n_581f5f02f0": "Correzione: Le funzioni Premium restavano sbloccate dopo la scadenza",
-  "n_4174396f26": "Correzione: Un pacchetto UDP poteva bloccare flussi UDP correlati",
-  "n_0682e5bced": "Correzione: I flussi UDP senza risposta per oltre un minuto potevano bloccarsi",
-  "n_0b082c2950": "Aggiornamento: Rimossi il vecchio proxy UDP e l'opzione UseUdpProxy2",
-  "n_54981f93bc": "Aggiornamento: La modifica dei filtri split non richiede più la riconnessione"
+  "n_cdee61af18": "Miglioramento: Velocità di download molto più rapida",
+  "n_26dbbfa01b": "Miglioramento: Velocità e stabilità"
 }
