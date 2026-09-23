@@ -1,0 +1,327 @@
+{
+  // Store screenshots for VpnHood! CLIENT: the languages, the stores, the devices and the screens.
+  //
+  // THIS is the file to edit - the tool that reads it (VpnHood/src/Apps/Tools/StoreScreenshots) is
+  // never edited to change what a listing shows. Beside it, fixture.json is the app's own answers,
+  // recorded from a Windows Release client with every identifying value replaced; each platform
+  // below lays its own capabilities over that recording, and each shot lays over what its screen
+  // needs. A patch value is never invented: it mirrors a device class in the VpnHood repo, cited
+  // beside it, and when a capability changes there it changes here.
+  //
+  // Array order IS the store's order - a file is numbered by where its shot sits in the list - so
+  // reordering a set means moving items, never renumbering them.
+  //
+  // The maintainer's map of the whole pipeline is store/README.md.
+
+  "installRoot": "..",
+
+  // Every language the UI ships. `tag` is the store's code, which is also the folder a set installs
+  // into; `culture` is the app's own language. `stores` spells a tag differently for one store, and
+  // null there means that store has no such language, so the set is not installed for it.
+  // fa and ar exercise the whole right-to-left path.
+  "locales": [
+    { "tag": "en-US", "culture": "en" },
+    { "tag": "ar", "culture": "ar", "stores": { "appStore": "ar-SA" } },
+    { "tag": "de-DE", "culture": "de" },
+    { "tag": "es-ES", "culture": "es" },
+    { "tag": "fa", "culture": "fa", "stores": { "appStore": null } },
+    { "tag": "fr-FR", "culture": "fr" },
+    { "tag": "hi-IN", "culture": "hi", "stores": { "appStore": "hi" } },
+    { "tag": "it-IT", "culture": "it", "stores": { "appStore": "it" } },
+    { "tag": "pt-BR", "culture": "pt-BR" },
+    { "tag": "pt-PT", "culture": "pt" },
+    { "tag": "ru-RU", "culture": "ru", "stores": { "appStore": "ru" } },
+    { "tag": "tr-TR", "culture": "tr", "stores": { "appStore": "tr" } },
+    { "tag": "zh-CN", "culture": "zh", "stores": { "appStore": "zh-Hans" } }
+  ],
+
+  // What the Split Apps screen lists. A real device answers with what is installed, icons and all;
+  // a listing cannot show those - another company's icon is its artwork and its trademark - so the
+  // tool draws a tile per app in the colour it is known by, with its initial.
+  "installedApps": [
+    { "appId": "com.android.vending", "appName": "Play Store", "background": ["#ffffff"], "foreground": ["#00c4ff", "#00e59d"] },
+    { "appId": "com.whatsapp", "appName": "WhatsApp", "background": ["#25D366"], "foreground": ["#ffffff"] },
+    { "appId": "com.android.calculator", "appName": "Calculator", "background": ["#43A047"], "foreground": ["#ffffff"] },
+    { "appId": "com.android.calendar", "appName": "Calendar", "background": ["#1E88E5"], "foreground": ["#ffffff"] },
+    { "appId": "com.android.camera", "appName": "Camera", "background": ["#E53935"], "foreground": ["#ffffff"] },
+    { "appId": "com.android.chrome", "appName": "Chrome", "background": ["#4285F4"], "foreground": ["#ffffff"] },
+    { "appId": "com.android.deskclock", "appName": "Clock", "background": ["#5C6BC0"], "foreground": ["#ffffff"] },
+    { "appId": "com.facebook.katana", "appName": "Facebook", "background": ["#1877F2"], "foreground": ["#ffffff"] },
+    { "appId": "com.google.android.gm", "appName": "Gmail", "background": ["#ffffff"], "foreground": ["#EA4335"] },
+    { "appId": "com.instagram.android", "appName": "Instagram", "background": ["#F58529", "#DD2A7B", "#8134AF"], "foreground": ["#ffffff"] },
+    { "appId": "com.google.android.apps.maps", "appName": "Maps", "background": ["#ffffff"], "foreground": ["#34A853"] },
+    { "appId": "com.spotify.music", "appName": "Spotify", "background": ["#1DB954"], "foreground": ["#ffffff"] },
+    { "appId": "com.google.android.youtube", "appName": "YouTube", "background": ["#FF0000"], "foreground": ["#ffffff"] }
+  ],
+
+  "platforms": {
+  // The fixture IS the iOS capability profile: it was recorded from a Windows Release client, and
+  // WinDevice/WinDeviceUiProvider gate off the same features IosDevice does - no app split, no
+  // private DNS, no kill switch. Only the operating system has to be corrected, because the UI
+  // drops the VpnHood! CONNECT pointer on the Servers screen for App Store builds and the
+  // recorded 'Windows' would show copy iOS never renders.
+  // iOS copy must never name another platform (App Store guideline 2.3.10).
+    "ios": {
+      "label": "App Store",
+      "store": "appStore",
+      "installDir": "fastlane/screenshots/ios/<locale>",
+      "patch": { "features": { "osType": "Ios" } },
+      "devices": {
+        "iphone-6.9": {
+          "label": "iPhone 6.9",
+          "prefix": "",
+          "frame": "phone",
+          "cssWidth": 430, "cssHeight": 932, "scale": 3,
+          "safeTop": 59, "safeBottom": 34,
+          "screenW": 344,
+          "bezel": 9, "outerRadius": 54, "screenRadius": 46,
+          "island": { "width": 86, "height": 25 },
+          "statusFont": 11.5, "statusPad": 26,
+          "indicatorWidth": 105
+        },
+        "ipad-13": {
+          "label": "iPad 13",
+          "prefix": "ipad_",
+          "frame": "phone",
+          "cssWidth": 1032, "cssHeight": 1376, "scale": 2,
+          "safeTop": 24, "safeBottom": 20,
+          "screenW": 800,
+          "bezel": 20, "outerRadius": 58, "screenRadius": 40,
+          "statusFont": 9, "statusPad": 34,
+          "indicatorWidth": 224
+        }
+      },
+      "shots": [
+        { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
+        { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/protocols", "label": "Protocols" },
+        { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
+        { "route": "/dns", "label": "DNS" },
+        { "route": "/settings/proxies", "label": "Proxies" }
+      ]
+    },
+
+  // AndroidDevice + AndroidDeviceUiProvider on a phone or tablet: every intent below is gated on
+  // !IsTv plus an API floor the Play target exceeds. Phones and tablets share one capability set -
+  // only the viewport differs. Google Play takes at most eight screenshots per device type, so the
+  // set draws every screen worth having and the install ships the leading eight.
+    "android-phone": {
+      "label": "Google Play",
+      "store": "googlePlay",
+      "installDir": "fastlane/metadata/android/<locale>/images/phoneScreenshots",
+      "installMax": 8,
+      "patch": {
+        "features": {
+          "osType": "Android",
+          "isExcludeAppsSupported": true,
+          "isIncludeAppsSupported": true
+        },
+        "intentFeatures": {
+          "isQuickLaunchSupported": true,
+          "isRequestQuickLaunchSupported": true,
+          "isRequestNotificationSupported": true,
+          "isPrivateDnsSettingsSupported": true,
+          "isKillSwitchSettingsSupported": true,
+          "isAlwaysOnSettingsSupported": true,
+          "isSettingsSupported": true,
+          "isAppSettingsSupported": true,
+          "isAppNotificationSettingsSupported": true
+        },
+        "state": { "isNotificationEnabled": true }
+      },
+      "devices": {
+        "android-phone": {
+          "label": "Android",
+          "prefix": "",
+          "frame": "phone",
+          "statusStyle": "android",
+          "cssWidth": 360, "cssHeight": 740, "scale": 4,
+          "safeTop": 28, "safeBottom": 20,
+          "screenW": 288,
+          "bezel": 4, "outerRadius": 40, "screenRadius": 36,
+          "punchHole": { "size": 12 },
+          "statusFont": 11, "statusPad": 22,
+          "indicatorWidth": 96
+        }
+      },
+      "shots": [
+        { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
+        { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/protocols", "label": "Protocols" },
+        { "route": "/split-tunneling/split-apps", "label": "Apps Filter", "patch": { "userSettings": { "splitTunneling": { "appMode": "Exclude", "apps": ["com.android.vending", "com.whatsapp"] } } } },
+        { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
+        { "route": "/settings/kill-switch", "label": "Kill Switch" },
+        { "route": "/dns", "label": "DNS" },
+        { "route": "/settings/always-on", "label": "Always On" },
+        { "route": "/settings/quick-launch", "label": "Quick Launch" },
+        { "route": "/settings/proxies", "label": "Proxies" }
+      ]
+    },
+
+    "android-tablet-7": {
+      "label": "Google Play 7-inch tablet",
+      "store": "googlePlay",
+      "installDir": "fastlane/metadata/android/<locale>/images/sevenInchScreenshots",
+      "installMax": 8,
+      "patch": {
+        "features": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true },
+        "intentFeatures": {
+          "isQuickLaunchSupported": true,
+          "isRequestQuickLaunchSupported": true,
+          "isRequestNotificationSupported": true,
+          "isPrivateDnsSettingsSupported": true,
+          "isKillSwitchSettingsSupported": true,
+          "isAlwaysOnSettingsSupported": true,
+          "isSettingsSupported": true,
+          "isAppSettingsSupported": true,
+          "isAppNotificationSettingsSupported": true
+        },
+        "state": { "isNotificationEnabled": true }
+      },
+      "devices": {
+        "android-tablet-7": {
+          "label": "Tablet 7",
+          "prefix": "",
+          "frame": "phone",
+          "statusStyle": "android",
+          "cssWidth": 600, "cssHeight": 960, "scale": 2,
+          "safeTop": 24, "safeBottom": 18,
+          "screenW": 480,
+          "bezel": 14, "outerRadius": 36, "screenRadius": 26,
+          "statusFont": 10, "statusPad": 26,
+          "indicatorWidth": 140
+        }
+      },
+      "shots": [
+        { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
+        { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/protocols", "label": "Protocols" },
+        { "route": "/split-tunneling/split-apps", "label": "Apps Filter", "patch": { "userSettings": { "splitTunneling": { "appMode": "Exclude", "apps": ["com.android.vending", "com.whatsapp"] } } } },
+        { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
+        { "route": "/settings/kill-switch", "label": "Kill Switch" },
+        { "route": "/dns", "label": "DNS" },
+        { "route": "/settings/always-on", "label": "Always On" },
+        { "route": "/settings/quick-launch", "label": "Quick Launch" },
+        { "route": "/settings/proxies", "label": "Proxies" }
+      ]
+    },
+
+    "android-tablet-10": {
+      "label": "Google Play 10-inch tablet",
+      "store": "googlePlay",
+      "installDir": "fastlane/metadata/android/<locale>/images/tenInchScreenshots",
+      "installMax": 8,
+      "patch": {
+        "features": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true },
+        "intentFeatures": {
+          "isQuickLaunchSupported": true,
+          "isRequestQuickLaunchSupported": true,
+          "isRequestNotificationSupported": true,
+          "isPrivateDnsSettingsSupported": true,
+          "isKillSwitchSettingsSupported": true,
+          "isAlwaysOnSettingsSupported": true,
+          "isSettingsSupported": true,
+          "isAppSettingsSupported": true,
+          "isAppNotificationSettingsSupported": true
+        },
+        "state": { "isNotificationEnabled": true }
+      },
+      "devices": {
+        "android-tablet-10": {
+          "label": "Tablet 10",
+          "prefix": "",
+          "frame": "phone",
+          "statusStyle": "android",
+          "cssWidth": 800, "cssHeight": 1280, "scale": 2,
+          "safeTop": 24, "safeBottom": 18,
+          "screenW": 640,
+          "bezel": 18, "outerRadius": 42, "screenRadius": 30,
+          "statusFont": 10, "statusPad": 30,
+          "indicatorWidth": 180
+        }
+      },
+      "shots": [
+        { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
+        { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/protocols", "label": "Protocols" },
+        { "route": "/split-tunneling/split-apps", "label": "Apps Filter", "patch": { "userSettings": { "splitTunneling": { "appMode": "Exclude", "apps": ["com.android.vending", "com.whatsapp"] } } } },
+        { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
+        { "route": "/settings/kill-switch", "label": "Kill Switch" },
+        { "route": "/dns", "label": "DNS" },
+        { "route": "/settings/always-on", "label": "Always On" },
+        { "route": "/settings/quick-launch", "label": "Quick Launch" },
+        { "route": "/settings/proxies", "label": "Proxies" }
+      ]
+    },
+
+  // AndroidDevice with AndroidUtils.IsTv() true: the app split stays supported, but every
+  // AndroidDeviceUiProvider intent is gated on !IsTv, so the intents keep the fixture's all-false
+  // baseline and the UI switches to its television layout. No Apps Filter (the list is finger-
+  // driven) and no Kill Switch, Always On or Quick Launch (each one is gated !IsTv).
+  // Bare on purpose: a television screenshot IS the whole panel, and a bezel would only letterbox it.
+    "android-tv": {
+      "label": "Google Play TV",
+      "store": "googlePlay",
+      "installDir": "fastlane/metadata/android/<locale>/images/tvScreenshots",
+      "installMax": 8,
+      "patch": {
+        "features": {
+          "osType": "Android",
+          "isTv": true,
+          "isExcludeAppsSupported": true,
+          "isIncludeAppsSupported": true
+        }
+      },
+      "devices": {
+        "android-tv": {
+          "label": "Android TV",
+          "prefix": "",
+          "frame": "none",
+          "cssWidth": 1280, "cssHeight": 720, "scale": 1.5
+        }
+      },
+      "shots": [
+        { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
+        { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/protocols", "label": "Protocols" },
+        { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
+        { "route": "/dns", "label": "DNS" },
+        { "route": "/settings/proxies", "label": "Proxies" }
+      ]
+    },
+
+  // No patch: the fixture was recorded from this exact build. The real window is a fixed 400x700,
+  // far under the Microsoft Store's 1366x768 floor, so the capture is composited into a desktop
+  // scene. There is no fastlane lane for that store - upload through Partner Center or the msstore
+  // command line.
+    "windows": {
+      "label": "Microsoft Store",
+      "store": "microsoftStore",
+      "installDir": "store/microsoft/<locale>/screenshots",
+      "devices": {
+        "windows-desktop": {
+          "label": "Windows",
+          "prefix": "",
+          "frame": "desktop",
+          "cssWidth": 400, "cssHeight": 700, "scale": 3,
+          "canvas": { "width": 1920, "height": 1080, "windowWidth": 520, "titleBar": 40 },
+          "windowTitle": "VpnHood! CLIENT"
+        }
+      },
+      "shots": [
+        { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
+        { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/protocols", "label": "Protocols" },
+        { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
+        { "route": "/dns", "label": "DNS" },
+        { "route": "/settings/proxies", "label": "Proxies" }
+      ]
+    }
+  }
+}
