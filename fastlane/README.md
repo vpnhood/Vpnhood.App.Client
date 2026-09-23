@@ -108,7 +108,7 @@ makes it runnable in CI (`update-screenshots.yml`).
 
 The tool is `VpnHoodStoreScreenshots` in the VpnHood repo (`src/Apps/Tools/StoreScreenshots`), and
 its README is the maintainer's map. The look it draws with is a submodule of that repo
-(`src/AppUi/Assets/Classic`), so a checkout with `--recurse-submodules` carries everything the
+(`src/AppUi/VpnHood.AppUi.Assets.Classic`), so a checkout with `--recurse-submodules` carries everything the
 pictures need.
 
 One command regenerates every set, from a VpnHood checkout beside this one:
@@ -116,7 +116,7 @@ One command regenerates every set, from a VpnHood checkout beside this one:
 ```bash
 dotnet build -c Release ../VpnHood/src/Apps/Tools/StoreScreenshots/VpnHood.App.StoreScreenshots.csproj
 ../VpnHood/src/Apps/Tools/StoreScreenshots/bin/Release/net10.0/VpnHoodStoreScreenshots generate \
-  --config store/screenshots.json --assets ../VpnHood/src/AppUi/Assets/Classic/assets
+  --config store/screenshots.json --assets ../VpnHood/src/AppUi/VpnHood.AppUi.Assets.Classic/assets
 ```
 
 Outputs land in this repo's `test-results/store-screenshots/` - `final/<platform>/` is the
