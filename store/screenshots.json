@@ -94,7 +94,7 @@
       "shots": [
         { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
         { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
-        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "vpnProfileInfos": [] } },
         { "route": "/protocols", "label": "Protocols" },
         { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
         { "route": "/dns", "label": "DNS" },
@@ -148,7 +148,7 @@
       "shots": [
         { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
         { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
-        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "vpnProfileInfos": [] } },
         { "route": "/protocols", "label": "Protocols" },
         { "route": "/split-tunneling/split-apps", "label": "Apps Filter", "patch": { "userSettings": { "splitTunneling": { "appMode": "Exclude", "apps": ["com.android.vending", "com.whatsapp"] } } } },
         { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
@@ -197,7 +197,7 @@
       "shots": [
         { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
         { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
-        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "vpnProfileInfos": [] } },
         { "route": "/protocols", "label": "Protocols" },
         { "route": "/split-tunneling/split-apps", "label": "Apps Filter", "patch": { "userSettings": { "splitTunneling": { "appMode": "Exclude", "apps": ["com.android.vending", "com.whatsapp"] } } } },
         { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
@@ -246,7 +246,7 @@
       "shots": [
         { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
         { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
-        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "vpnProfileInfos": [] } },
         { "route": "/protocols", "label": "Protocols" },
         { "route": "/split-tunneling/split-apps", "label": "Apps Filter", "patch": { "userSettings": { "splitTunneling": { "appMode": "Exclude", "apps": ["com.android.vending", "com.whatsapp"] } } } },
         { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
@@ -287,7 +287,7 @@
       "shots": [
         { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
         { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
-        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "vpnProfileInfos": [] } },
         { "route": "/protocols", "label": "Protocols" },
         { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
         { "route": "/dns", "label": "DNS" },
@@ -316,7 +316,7 @@
       "shots": [
         { "route": "/", "label": "Home (connected)", "patch": { "state": { "connectionState": "Connected", "sessionStatus": { "speed": { "received": 11640000, "sent": 8939000 } } } } },
         { "route": "/protocols/cloak-mode", "label": "Cloak Mode" },
-        { "route": "/servers", "label": "Servers (empty)", "patch": { "clientProfileInfos": [] } },
+        { "route": "/servers", "label": "Servers (empty)", "patch": { "vpnProfileInfos": [] } },
         { "route": "/protocols", "label": "Protocols" },
         { "route": "/split-tunneling", "label": "Split Tunneling", "hide": ["EnabledItem/WarningChip"] },
         { "route": "/dns", "label": "DNS" },
