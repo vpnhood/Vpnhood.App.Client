@@ -1,4 +1,4 @@
-﻿# 🚀 Publishing the app with Fastlane
+# 🚀 Publishing the app with Fastlane
 
 This document outlines the steps required to set up your environment, manage dependencies, and deploy the application (AAB) to the Google Play Store using **Fastlane**, plus the rules for the App Store listing.
 
@@ -235,7 +235,7 @@ Translate and compile:
 dotnet tool restore && dotnet vhtranslator      # in this repo; needs GEMINI_API_KEY in the
                                                 # environment (CI feeds it from the org secret
                                                 # GOOGLE_GEMINI_TRNSLATE_APP_API_KEY; locally it is
-                                                # .user/google_gemini_translate_app_api_key.txt)
+                                                # .user/vendors/google/google_gemini_translate_app_api_key.txt)
 cd ../VpnHood.AppUi.Spa/src/VpnHood.AppUi.Presentation.Classic.Spa
 node e2e/store-metadata.mjs --root ../../../Vpnhood.App.Client    # --check validates without writing
 ```
