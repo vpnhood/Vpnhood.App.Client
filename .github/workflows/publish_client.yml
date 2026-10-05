@@ -16,11 +16,11 @@ name: Publish Client (All Platforms)
 # Releasing into another repo cannot use github.token — it is scoped to this repo. A GitHub App
 # installed on vpnhood/VpnHood with `Contents: Read and write` supplies a short-lived installation
 # token instead:
-#   vars.PUBLISHER_APP_ID + secrets.PUBLISHER_APP_PRIVATE_KEY
+#   vars.PUBLISHER_APP_CLIENT_ID + secrets.PUBLISHER_APP_PRIVATE_KEY
 # Absent while VH_PUBLISH_REPO points elsewhere -> the run fails loudly rather than 404-ing in gh.
 #
 # Secrets/vars live in THIS repo (standardized names, shared with Connect):
-#   vars.APPSETTINGS, vars.PUBLISH, vars.VH_PUBLISH_REPO, vars.PUBLISHER_APP_ID
+#   vars.APPSETTINGS, vars.PUBLISH, vars.VH_PUBLISH_REPO, vars.PUBLISHER_APP_CLIENT_ID
 #   secrets.ANDROID_KEYSTORE_GOOGLE_* / _WEB_*      (Play + web signing; publish_app maps these onto
 #                                                    the CLIENT_* names its signing map expects)
 #   secrets.IOS_PROVISION_APP_BASE64 / _EXT_BASE64  (iOS App Store profiles)
