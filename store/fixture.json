@@ -59,7 +59,6 @@
     "version": "8.1.835.0",
     "premium": null,
     "authProviderIds": [],
-    "accountWebsiteUrl": null,
     "isLicenseAgreementRequired": false,
     "isRemoteAccessSupported": false,
     "isSplitCountrySupported": true
