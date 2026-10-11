@@ -25,7 +25,7 @@ name: Publish Client (All Platforms)
 #                                                    the CLIENT_* names its signing map expects)
 #   secrets.IOS_PROVISION_APP_BASE64 / _EXT_BASE64  (iOS App Store profiles)
 #   secrets.PUBLISHER_APP_PRIVATE_KEY               (cross-repo release)
-# Org secrets inherited: ADVANCED_INSTALLER_LICENSE, AZURE_SIGNING_*, APPLE_DISTRIBUTION_CERT_*,
+# Org secrets inherited: AZURE_SIGNING_*, APPLE_DISTRIBUTION_CERT_*,
 #   APPSTORE_CONNECT_*, GOOGLE_PLAY_API_KEY.
 #
 # The VERSION still lives in the monorepo and is still bumped there (Bump Version workflow). Bump
