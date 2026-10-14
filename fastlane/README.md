@@ -157,8 +157,8 @@ Apple has no Android-style optionality here, but the equivalent iPad slot is alr
 
 deliver assigns each iOS screenshot to a device slot by its **pixel size**, not its filename, so the
 `ipad_` prefix is only there to keep the two sets apart for humans; both live in the same locale
-folder. The Windows composite exists because the real WPF window is a fixed 400 × 700
-(`AppResources.WindowSize`) — far under the Store's 1366 × 768 floor — and its backdrop is a brand
+folder. The Windows composite exists because the real window is a fixed 400 × 700
+(`ClassicAvaloniaApp.WindowFit`) — far under the Store's 1366 × 768 floor — and its backdrop is a brand
 gradient on purpose: Windows wallpaper artwork is Microsoft's, not ours to put in a listing.
 
 ### What each platform's set shows
