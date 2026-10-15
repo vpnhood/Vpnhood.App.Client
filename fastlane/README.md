@@ -74,7 +74,7 @@ Not available on iOS — keep them out of `metadata/ios/**` and out of every scr
 | Split tunneling **by app** (Apps Filter page) | A regular iOS VPN app cannot enumerate or filter per-app traffic (`IosDevice.InstalledApps` throws) | `features.isExcludeAppsSupported` / `isIncludeAppsSupported` = `false` |
 | **Private DNS** | No iOS settings intent for it | `intentFeatures.isPrivateDnsSettingsSupported` = `false` |
 | **Kill switch** | No iOS settings intent for it | `intentFeatures.isKillSwitchSettingsSupported` = `false` |
-| **Always-on VPN** | Not a user-facing iOS setting | `intentFeatures.isAlwaysOnSettingsSupported` / `IosDevice.IsAlwaysOnSupported` = `false` |
+| **Always-on VPN** | Not a user-facing iOS setting | `features.alwaysOnSupport` = `None` (`IosDevice.IsAlwaysOnSupported` = `false`) |
 | **Quick Launch** | Android-only shortcut | `intentFeatures.isQuickLaunchSupported` = `false` |
 | Any mention of **Android / Android TV / Windows** | Guideline 2.3.10 | — |
 

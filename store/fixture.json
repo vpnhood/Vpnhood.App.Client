@@ -70,7 +70,6 @@
     "isRequestNotificationSupported": false,
     "isPrivateDnsSettingsSupported": false,
     "isKillSwitchSettingsSupported": false,
-    "isAlwaysOnSettingsSupported": false,
     "isSettingsSupported": false,
     "isAppSettingsSupported": false,
     "isAppNotificationSettingsSupported": false,

@@ -115,7 +115,8 @@
         "features": {
           "osType": "Android",
           "isExcludeAppsSupported": true,
-          "isIncludeAppsSupported": true
+          "isIncludeAppsSupported": true,
+          "alwaysOnSupport": "Device"
         },
         "intentFeatures": {
           "isQuickLaunchSupported": true,
@@ -123,7 +124,6 @@
           "isRequestNotificationSupported": true,
           "isPrivateDnsSettingsSupported": true,
           "isKillSwitchSettingsSupported": true,
-          "isAlwaysOnSettingsSupported": true,
           "isSettingsSupported": true,
           "isAppSettingsSupported": true,
           "isAppNotificationSettingsSupported": true
@@ -166,14 +166,13 @@
       "installDir": "fastlane/metadata/android/<locale>/images/sevenInchScreenshots",
       "installMax": 8,
       "patch": {
-        "features": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true },
+        "features": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true, "alwaysOnSupport": "Device" },
         "intentFeatures": {
           "isQuickLaunchSupported": true,
           "isRequestQuickLaunchSupported": true,
           "isRequestNotificationSupported": true,
           "isPrivateDnsSettingsSupported": true,
           "isKillSwitchSettingsSupported": true,
-          "isAlwaysOnSettingsSupported": true,
           "isSettingsSupported": true,
           "isAppSettingsSupported": true,
           "isAppNotificationSettingsSupported": true
@@ -215,14 +214,13 @@
       "installDir": "fastlane/metadata/android/<locale>/images/tenInchScreenshots",
       "installMax": 8,
       "patch": {
-        "features": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true },
+        "features": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true, "alwaysOnSupport": "Device" },
         "intentFeatures": {
           "isQuickLaunchSupported": true,
           "isRequestQuickLaunchSupported": true,
           "isRequestNotificationSupported": true,
           "isPrivateDnsSettingsSupported": true,
           "isKillSwitchSettingsSupported": true,
-          "isAlwaysOnSettingsSupported": true,
           "isSettingsSupported": true,
           "isAppSettingsSupported": true,
           "isAppNotificationSettingsSupported": true
