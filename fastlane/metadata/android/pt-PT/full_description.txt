@@ -1,64 +1,64 @@
 NOTA: Esta aplicação EXIGE UMA CHAVE DE SERVIDOR.
 
-VpnHood! CLIENT é uma solução VPN rápida, segura e fiável com o motor ★★VpnHood! ENGINE★★, open-source e a primeira VPN desenvolvida em .NET.
+O VpnHood! CLIENT é uma solução VPN rápida, segura e fiável com o motor ★★VpnHood! ENGINE★★, totalmente open-source e desenvolvido com a plataforma .NET.
 
-Estabelece túneis encriptados para um servidor VPN através do protocolo VpnHood. O protocolo VpnHood não tem pegada digital e é indetetável por filtros de censura.
+Estabelece túneis encriptados para servidores VpnHood através do protocolo VpnHood, que não tem pegada digital e é indetetável por filtros de censura.
 
-É necessária uma ServerKey para usar a aplicação. Pode obtê-la de várias formas:
+Para usar a aplicação, precisa de uma ServerKey, obtida por:
 
 ▶ Obter chaves de amigos ou comunidades.
 
-▶ Comprar chaves a fornecedores externos.
+▶ Comprar chaves a revendedores terceiros.
 
-▶ Criar o seu próprio servidor VpnHood num serviço de alojamento.
+▶ Configurar o seu próprio servidor VpnHood.
 
 
-Principais Características:
+Principais Funcionalidades:
 
-★ Gratuita e Sem Anúncios: VpnHood! é open-source, totalmente grátis e sem anúncios.
+★ Gratuito e sem Anúncios: O VpnHood! é open-source, totalmente gratuito e sem anúncios.
 
 ★ Fácil de Usar: Conecte-se ao VpnHood! com apenas um clique.
 
-★ Rápida e Segura (A velocidade depende do fornecedor e da sua ligação.)
+★ Rápido e Seguro (A velocidade depende do fornecedor e da sua ligação.)
 
-★ Open Source: Construída sobre o motor VpnHood (no GitHub), é transparente e de confiança.
+★ Open Source: Transparente e de confiança, baseado no motor VpnHood (no GitHub).
 
-★ Primeira VPN em .NET: A primeira app VPN no mundo desenvolvida em .NET, demonstrando excelência técnica.
+★ Inovador em .NET: A primeira aplicação VPN do mundo desenvolvida em .NET.
 
-★ Ampla Compatibilidade: Suporta Android 6 e superior, incluindo Android TV e Windows.
+★ Ampla Compatibilidade: Suporta Android 6 e superior, Android TV e Windows.
 
 ★ Suporte IPv4 e IPv6: Máxima compatibilidade e desempenho.
 
 
 Opções Personalizáveis:
 
-✔ Split Tunneling para Aplicação: Escolha que apps usam o VpnHood! com opções flexíveis de filtro.
+✔ Split Tunneling por Aplicação: Escolha quais as aplicações que usam o VpnHood!.
 
-✔ Split Tunneling por País: Mantenha o tráfego do seu país fora do túnel para manter serviços locais rápidos.
+✔ Split Tunneling por País: Mantenha o tráfego local fora do túnel para maior velocidade.
 
-✔ Split Tunneling para Rede Local: Exclua a sua rede local para manter o acesso a recursos locais.
+✔ Split Tunneling para Rede Local: Exclua a rede local para aceder a recursos locais.
 
 ✔ TCP, UDP e QUIC: Escolha o protocolo de transporte ideal para a sua rede.
 
-✔ Suporte de Proxy: Envie a ligação através de proxies SOCKS ou HTTP.
+✔ Suporte de Proxy: Envie a ligação por proxies SOCKS ou HTTP.
 
 
 Porquê Escolher o VpnHood!?
 
-▶ Indetetável: O protocolo VpnHood! ignora filtros de censura sem deixar pegada. O tráfego assemelha-se a sites HTTPS normais.
+▶ Indetetável: O protocolo VpnHood! ignora filtros de censura e imita o tráfego HTTPS normal.
 
-▶ Em Constante Evolução: O VpnHood! melhora continuamente para garantir acesso livre à internet. Experimente já!
+▶ Em Constante Evolução: Inovação contínua para uma internet sem censura. Experimente o VpnHood! hoje!
 
-A sua Privacidade:
+Privacidade:
 
-O VpnHood! CLIENT não exige conta nem dados pessoais. Não registamos a sua atividade de navegação nem o conteúdo do tráfego.
+O VpnHood! CLIENT não exige conta nem dados pessoais. Não registamos a sua atividade de navegação.
 
-A app pode enviar dados anónimos de diagnóstico (versão, idioma, erros) para melhorarmos o serviço. Pode desativar isto em Definições > Privacidade. Nunca vendemos os seus dados.
+Dados anónimos de diagnóstico podem ser enviados para corrigir erros, identificados apenas por um ID anónimo (desativável em Definições > Privacidade).
 
 Política de Privacidade: https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
-Estamos Sempre Cá para Si!
+Apoio ao Cliente 24/7!
 
-A equipa de apoio do VpnHood está disponível 24/7. Se tiver dúvidas, contacte-nos em [support@vpnhood.com](mailto:support@vpnhood.com).
+Contacte-nos em [support@vpnhood.com](mailto:support@vpnhood.com).
 
 Contribuir: [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)

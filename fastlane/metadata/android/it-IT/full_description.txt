@@ -1,61 +1,64 @@
 NOTA: Questa app RICHIEDE UNA CHIAVE SERVER.
 
-VpnHood! CLIENT è una VPN veloce e sicura basata su ★★VpnHood! ENGINE★★, open source e sviluppata in .NET.
+VpnHood! CLIENT è una VPN veloce e sicura basata sul motore ★★VpnHood! ENGINE★★, open source e sviluppato in .NET.
 
-Crea tunnel crittografati sicuri verso server VpnHood senza impronte digitali, risultando invisibile alla censura.
+Stabilisce tunnel crittografati verso i server VpnHood tramite l'omonimo protocollo, privo di impronte e invisibile ai filtri di censura.
 
-È necessaria una chiave server, ottenibile così:
+È necessaria una ServerKey, ottenibile così:
 
 ▶ Da amici o community.
 
-▶ Acquistandola da rivenditori.
+▶ Acquistandola da terze parti.
 
-▶ Creando un tuo server VpnHood.
+▶ Creando un server VpnHood personale.
 
 
 Caratteristiche principali:
 
-★ Gratis e senza pubblicità: Open source e senza ad.
+★ Gratis e senza pubblicità: VpnHood! è open-source, gratuito e senza annunci.
 
-★ Facile da usare: Connessione con un solo tocco.
+★ Semplice: Connettiti con un semplice tocco.
 
-★ Veloce e sicura.
+★ Veloce e sicuro (la velocità varia in base al server e alla rete).
 
-★ Open Source: Trasparente e affidabile.
+★ Open Source: Trasparente e affidabile su GitHub.
 
-★ Prima VPN in .NET.
+★ Primo in .NET: Innovazione e tecnologia all'avanguardia.
 
-★ Compatibilità: Android 6+, Android TV e Windows.
+★ Compatibile: Supporta Android 6+, Android TV e Windows.
 
 ★ Supporto IPv4 e IPv6.
 
 
 Opzioni personalizzabili:
 
-✔ Split Tunneling per app.
+✔ Split Tunneling per app: Scegli quali app usare con VpnHood!.
 
-✔ Split Tunneling per paese.
+✔ Split Tunneling per paese: Escludi il traffico locale per mantenere la velocità.
 
-✔ Split Tunneling per rete locale.
+✔ Split Tunneling per rete locale: Accedi alle risorse locali.
 
-✔ TCP, UDP e QUIC.
+✔ TCP, UDP e QUIC: Scegli il protocollo migliore.
 
-✔ Supporto Proxy SOCKS e HTTP.
+✔ Supporto Proxy: Usa proxy SOCKS o HTTP.
 
 
 Perché scegliere VpnHood!?
 
-▶ Indetectable: Bypassa i filtri di censura imitando il traffico HTTPS.
+▶ Irrintracciabile: Ideale per aggirare la censura, con traffico simile a normali siti HTTPS.
 
-▶ In costante evoluzione per garantirti piena libertà online.
+▶ In costante evoluzione per la massima libertà online.
 
-
-Privacy:
+La tua privacy:
 
 VpnHood! CLIENT non richiede account né dati personali. Non registriamo la tua attività di navigazione.
 
+Dati diagnostici anonimi aiutano a risolvere i problemi. Disattivabili in Impostazioni > Privacy. Non vendiamo i tuoi dati.
+
 Informativa sulla privacy: https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
-Supporto 24/7: [support@vpnhood.com](mailto:support@vpnhood.com).
+Siamo sempre con te!
+
+Assistenza 24/7: [support@vpnhood.com](mailto:support@vpnhood.com).
 
 Contribuisci: [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)

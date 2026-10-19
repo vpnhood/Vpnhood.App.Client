@@ -1,64 +1,61 @@
 REMARQUE : Cette application NÉCESSITE UNE CLÉ DE SERVEUR.
 
-VpnHood! CLIENT est une solution VPN rapide, sûre et fiable propulsée par le ★★VpnHood! ENGINE★★, open-source et premier VPN développé entièrement avec la plateforme .NET.
+VpnHood! CLIENT est une solution VPN rapide, sécurisée et fiable propulsée par le ★★VpnHood! ENGINE★★, open source et premier VPN développé sous .NET.
 
-Il établit des tunnels chiffrés et sécurisés vers un serveur VpnHood via le protocole VpnHood, sans empreinte et indétectable par la censure.
+Il établit des tunnels chiffrés et sécurisés via le protocole VpnHood, indétectable par la censure.
 
-Une Clé de serveur est requise :
+Une ServerKey est requise :
 
-▶ Obtenez des clés auprès de proches ou de communautés.
+▶ Obtenez des clés auprès d'amis ou de communautés.
 
 ▶ Achetez des clés auprès de revendeurs tiers.
 
-▶ Hébergez votre propre serveur VpnHood et créez vos clés.
+▶ Créez votre propre serveur VpnHood.
 
 
-Caractéristiques clés :
+Fonctionnalités clés :
 
-★ Gratuit et sans pub : VpnHood! est open-source, 100 % gratuit et sans publicités.
+★ Gratuit et sans pub : VpnHood! est open source, 100 % gratuit et sans publicité.
 
-★ Facile d'utilisation : Connectez-vous en un seul clic.
+★ Facile à utiliser : Connectez-vous en un seul clic.
 
-★ Rapide et sécurisé (La vitesse dépend du fournisseur et de votre connexion).
+★ Rapide et sécurisé
 
-★ Open Source : Basé sur le moteur VpnHood (sur GitHub), transparent et fiable.
+★ Open Source : Transparent et fiable.
 
-★ Premier VPN en .NET : Pionnier développé avec .NET, synonyme d'innovation.
+★ Premier VPN en .NET
 
-★ Haute compatibilité : Android 6+, Android TV et Windows.
+★ Large compatibilité : Android 6+, Android TV et Windows.
 
-★ Support IPv4 & IPv6 : Performances et compatibilité maximales.
+★ Support IPv4 et IPv6
 
 
 Options personnalisables :
 
-✔ Split Tunneling par application : Choisissez les apps qui utilisent VpnHood!.
+✔ Split Tunneling par app
 
-✔ Split Tunneling par pays : Gardez le trafic local hors du tunnel.
+✔ Split Tunneling par pays
 
-✔ Split Tunneling réseau local : Excluez votre réseau local.
+✔ Split Tunneling réseau local
 
-✔ TCP, UDP & QUIC : Choisissez le meilleur protocole réseau.
+✔ TCP, UDP et QUIC
 
-✔ Support Proxy : Acheminez via des proxys SOCKS ou HTTP.
+✔ Support Proxy (SOCKS / HTTP)
 
 
 Pourquoi choisir VpnHood!?
 
-▶ Indétectable : Contourne la censure sans empreinte. Son trafic ressemble à de simples sites HTTPS.
+▶ Indétectable : Contournez la censure sans empreinte numérique.
 
-▶ En constante évolution : Accès Internet libre et sans censure. Testez VpnHood! dès aujourd'hui !
+▶ En constante évolution
 
-Confidentialité :
 
-VpnHood! CLIENT ne requiert aucun compte ni info personnelle. Nous ne journalisons aucune activité.
+Votre vie privée :
 
-L'app peut envoyer des données anonymes (version, erreurs) pour corriger les bugs. Désactivable dans Paramètres > Confidentialité.
+VpnHood! CLIENT ne requiert aucun compte ni information personnelle. Aucun journal de navigation n'est conservé.
 
 Politique de confidentialité : https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
-Support 24/7 !
-
-Contactez-nous sur [support@vpnhood.com](mailto:support@vpnhood.com).
+Support 24/7 : [support@vpnhood.com](mailto:support@vpnhood.com)
 
 Contribuer : [https://github.com/vpnhood/VpnHood](https://github.com/vpnhood/VpnHood)
