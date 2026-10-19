@@ -6,11 +6,11 @@ Erstellt verschlüsselte Tunnel zu VpnHood-Servern über das VpnHood-Protokoll o
 
 Ein ServerKey ist erforderlich:
 
-▶ Von Freunden oder Communitys erhalten.
+• Von Freunden oder Communitys erhalten.
 
-▶ Von Drittanbietern kaufen.
+• Von Drittanbietern kaufen.
 
-▶ Eigenen VpnHood-Server einrichten.
+• Eigenen VpnHood-Server einrichten.
 
 
 Hauptfunktionen:
@@ -49,9 +49,9 @@ Optionen:
 
 Warum VpnHood!?
 
-▶ Unauffällig: Umgeht Zensur und gleicht HTTPS-Traffic.
+• Unauffällig: Umgeht Zensur und gleicht HTTPS-Traffic.
 
-▶ Ständige Weiterentwicklung für freies Internet.
+• Ständige Weiterentwicklung für freies Internet.
 
 
 Datenschutz:
@@ -60,7 +60,7 @@ VpnHood! CLIENT erfordert kein Konto. Keine Protokollierung von Browseraktivitä
 
 
 
-Datenschutzrichtlinie: https://www.vpnhood.com/vpnhood-client-privacy-policy
+Datenschutzrichtlinie: https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
 Support: [support@vpnhood.com](mailto:support@vpnhood.com).
 

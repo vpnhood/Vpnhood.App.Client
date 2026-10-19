@@ -6,11 +6,11 @@ It is a client application that establishes encrypted, secure tunnels to a VPN s
 
 To use this app, a ServerKey is required. You can acquire one through the following methods:
 
-▶ Get server keys from friends or communities that distribute them.
+• Get server keys from friends or communities that distribute them.
 
-▶ Purchase server keys for yourself or your friends from third-party sellers.
+• Purchase server keys for yourself or your friends from third-party sellers.
 
-▶ Set up your own VpnHood server on a hosting service and create server keys yourself.
+• Set up your own VpnHood server on a hosting service and create server keys yourself.
 
 
 Key Features:
@@ -49,15 +49,15 @@ Customizable Options:
 
 Why Choose VpnHood!?
 
-▶ Undetectable: The VpnHood! protocol is designed to bypass censorship filters. It is a secure protocol without any fingerprint. Its traffic patterns look exactly like regular HTTPS websites, making it virtually indistinguishable.
+• Undetectable: The VpnHood! protocol is designed to bypass censorship filters. It is a secure protocol without any fingerprint. Its traffic patterns look exactly like regular HTTPS websites, making it virtually indistinguishable.
 
-▶ Constantly Evolving: VpnHood! is committed to continuous improvement and innovation, ensuring you enjoy unrestricted and censorship-free internet access. Try VpnHood! today and experience the true freedom of the web!
+• Constantly Evolving: VpnHood! is committed to continuous improvement and innovation, ensuring you enjoy unrestricted and censorship-free internet access. Try VpnHood! today and experience the true freedom of the web!
 
 Your Privacy:
 
 VpnHood! CLIENT does not require an account and never asks for personal information. We do not log your browsing activity, the websites you visit, or the content of your traffic.
 
-Privacy Policy: https://www.vpnhood.com/vpnhood-client-privacy-policy
+Privacy Policy: https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
 We’re Here for You Around the Clock!
 

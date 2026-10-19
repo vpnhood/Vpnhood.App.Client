@@ -6,11 +6,11 @@ Estabelece túneis encriptados para um servidor VPN através do protocolo VpnHoo
 
 É necessária uma ServerKey para usar a aplicação. Pode obtê-la de várias formas:
 
-▶ Obter chaves de amigos ou comunidades.
+• Obter chaves de amigos ou comunidades.
 
-▶ Comprar chaves a fornecedores externos.
+• Comprar chaves a fornecedores externos.
 
-▶ Criar o seu próprio servidor VpnHood num serviço de alojamento.
+• Criar o seu próprio servidor VpnHood num serviço de alojamento.
 
 
 Principais Características:
@@ -49,9 +49,9 @@ Opções Personalizáveis:
 
 Porquê Escolher o VpnHood!?
 
-▶ Indetetável: O protocolo VpnHood! ignora filtros de censura sem deixar pegada digital, assemelhando-se a sites HTTPS.
+• Indetetável: O protocolo VpnHood! ignora filtros de censura sem deixar pegada digital, assemelhando-se a sites HTTPS.
 
-▶ Em Constante Evolução: O VpnHood! melhora continuamente para garantir acesso livre à internet. Experimente já!
+• Em Constante Evolução: O VpnHood! melhora continuamente para garantir acesso livre à internet. Experimente já!
 
 A sua Privacidade:
 
@@ -59,7 +59,7 @@ O VpnHood! CLIENT não exige conta nem dados pessoais. Não registamos a sua ati
 
 
 
-Política de Privacidade: https://www.vpnhood.com/vpnhood-client-privacy-policy
+Política de Privacidade: https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
 Estamos Sempre Cá para Si!
 

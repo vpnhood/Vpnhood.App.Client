@@ -6,11 +6,11 @@ Crea tunnel crittografati sicuri verso server VpnHood senza impronte digitali, r
 
 È necessaria una chiave server, ottenibile così:
 
-▶ Da amici o community.
+• Da amici o community.
 
-▶ Acquistandola da rivenditori.
+• Acquistandola da rivenditori.
 
-▶ Creando un tuo server VpnHood.
+• Creando un tuo server VpnHood.
 
 
 Caratteristiche principali:
@@ -49,16 +49,16 @@ Opzioni personalizzabili:
 
 Perché scegliere VpnHood!?
 
-▶ Indetectable: Bypassa i filtri di censura imitando il traffico HTTPS.
+• Indetectable: Bypassa i filtri di censura imitando il traffico HTTPS.
 
-▶ In costante evoluzione per garantirti piena libertà online.
+• In costante evoluzione per garantirti piena libertà online.
 
 
 Privacy:
 
 VpnHood! CLIENT non richiede account né dati personali. Non registriamo la tua attività di navigazione.
 
-Informativa sulla privacy: https://www.vpnhood.com/vpnhood-client-privacy-policy
+Informativa sulla privacy: https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
 Supporto 24/7: [support@vpnhood.com](mailto:support@vpnhood.com).
 

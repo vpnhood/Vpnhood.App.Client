@@ -6,11 +6,11 @@ VpnHood protokolünü kullanarak güvenli tüneller kuran bir istemci uygulamas�
 
 Kullanmak için bir ServerKey gereklidir. Şu yöntemlerle edinebilirsiniz:
 
-▶ Arkadaşlarınızdan veya topluluklardan sunucu anahtarları alın.
+• Arkadaşlarınızdan veya topluluklardan sunucu anahtarları alın.
 
-▶ Üçüncü taraf satıcılardan sunucu anahtarları satın alın.
+• Üçüncü taraf satıcılardan sunucu anahtarları satın alın.
 
-▶ Kendi VpnHood sunucunuzu kurun ve anahtarları kendiniz oluşturun.
+• Kendi VpnHood sunucunuzu kurun ve anahtarları kendiniz oluşturun.
 
 
 Başlıca Özellikler:
@@ -49,15 +49,15 @@ Başlıca Özellikler:
 
 Neden VpnHood!?
 
-▶ Tespit Edilemez: Sansür filtrelerini aşmak için tasarlanmıştır.
+• Tespit Edilemez: Sansür filtrelerini aşmak için tasarlanmıştır.
 
-▶ Sürekli Gelişiyor: Kesintisiz internet erişimi sunar.
+• Sürekli Gelişiyor: Kesintisiz internet erişimi sunar.
 
 Gizliliğiniz:
 
 VpnHood! CLIENT hesap gerektirmez. Aktivitenizi kaydetmeyiz.
 
-Gizlilik Politikası: https://www.vpnhood.com/vpnhood-client-privacy-policy
+Gizlilik Politikası: https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
 7/24 Yanınızdayız!
 

@@ -6,11 +6,11 @@ Il établit des tunnels sécurisés vers un serveur VpnHood via le protocole Vpn
 
 Une Clé de serveur est requise :
 
-▶ Obtenez des clés auprès de proches ou de communautés.
+• Obtenez des clés auprès de proches ou de communautés.
 
-▶ Achetez des clés auprès de tiers.
+• Achetez des clés auprès de tiers.
 
-▶ Hébergez votre propre serveur VpnHood.
+• Hébergez votre propre serveur VpnHood.
 
 
 Caractéristiques :
@@ -49,9 +49,9 @@ Options personnalisables :
 
 Pourquoi choisir VpnHood!?
 
-▶ Indétectable : Contourne la censure sans empreinte. Son trafic ressemble à de simples sites HTTPS.
+• Indétectable : Contourne la censure sans empreinte. Son trafic ressemble à de simples sites HTTPS.
 
-▶ En constante évolution : Accès Internet libre et sans censure. Testez VpnHood! dès aujourd'hui !
+• En constante évolution : Accès Internet libre et sans censure. Testez VpnHood! dès aujourd'hui !
 
 Confidentialité :
 
@@ -59,7 +59,7 @@ VpnHood! CLIENT ne requiert aucun compte ni info personnelle. Nous ne journaliso
 
 
 
-Politique de confidentialité : https://www.vpnhood.com/vpnhood-client-privacy-policy
+Politique de confidentialité : https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
 Support 24/7 !
 

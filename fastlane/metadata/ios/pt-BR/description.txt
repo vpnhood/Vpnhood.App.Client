@@ -6,11 +6,11 @@ O VpnHood! CLIENT é uma solução de VPN rápida, segura e confiável alimentad
 
 Para usar este aplicativo, é necessário uma ServerKey. Você pode obtê-la das seguintes formas:
 
-▶ Obtenha chaves de servidores com amigos ou comunidades que as distribuem.
+• Obtenha chaves de servidores com amigos ou comunidades que as distribuem.
 
-▶ Compre chaves para você ou seus amigos de vendedores terceirizados.
+• Compre chaves para você ou seus amigos de vendedores terceirizados.
 
-▶ Configure seu próprio servidor VpnHood em um serviço de hospedagem e crie suas chaves.
+• Configure seu próprio servidor VpnHood em um serviço de hospedagem e crie suas chaves.
 
 
 Recursos Principais:
@@ -49,9 +49,9 @@ Opções Customizáveis:
 
 Por que Escolher o VpnHood!?
 
-▶ Indetectável: O protocolo VpnHood! foi criado para burlar filtros de censura sem deixar rastros. Seu tráfego se parece com o de sites HTTPS comuns.
+• Indetectável: O protocolo VpnHood! foi criado para burlar filtros de censura sem deixar rastros. Seu tráfego se parece com o de sites HTTPS comuns.
 
-▶ Em Constante Evolução: O VpnHood! busca melhorias contínuas para garantir acesso livre à internet. Experimente hoje!
+• Em Constante Evolução: O VpnHood! busca melhorias contínuas para garantir acesso livre à internet. Experimente hoje!
 
 Sua Privacidade:
 
@@ -59,7 +59,7 @@ O VpnHood! CLIENT não exige conta nem dados pessoais. Não registramos seu hist
 
 
 
-Política de Privacidade: https://www.vpnhood.com/vpnhood-client-privacy-policy
+Política de Privacidade: https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
 Estamos Aqui para Ajudar 24/7!
 

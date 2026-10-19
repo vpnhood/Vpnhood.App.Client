@@ -6,11 +6,11 @@ Establece túneles cifrados con el protocolo VpnHood, que es indetectable por la
 
 Se requiere una ServerKey. Consíguela así:
 
-▶ Pídesela a amigos o comunidades.
+• Pídesela a amigos o comunidades.
 
-▶ Cómprala a terceros.
+• Cómprala a terceros.
 
-▶ Crea tu propio servidor VpnHood.
+• Crea tu propio servidor VpnHood.
 
 
 Características:
@@ -49,15 +49,15 @@ Opciones:
 
 ¿Por qué VpnHood!?
 
-▶ Indetectable: Diseñado para saltarse la censura sin dejar huella.
+• Indetectable: Diseñado para saltarse la censura sin dejar huella.
 
-▶ En constante evolución.
+• En constante evolución.
 
 Privacidad:
 
 VpnHood! CLIENT no requiere cuenta ni datos personales.
 
-Política de privacidad: https://www.vpnhood.com/vpnhood-client-privacy-policy
+Política de privacidad: https://www.vpnhood.com/legal/vpnhood-client/privacy-policy/
 
 Soporte: [support@vpnhood.com](mailto:support@vpnhood.com).
 
