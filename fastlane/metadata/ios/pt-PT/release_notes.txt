@@ -8,6 +8,6 @@
 * Correção: Uma VPN iniciada sem abrir a aplicação segue as suas definições mais recentes e o servidor escolhido.
 * Correção: "Verificar atualização" responde sempre e mostra o aviso da mesma mesmo após escolher Mais tarde.
 * Correção: Ao atualizar a aplicação ligada, esta abre em Desligado em vez de indicar um erro no serviço VPN.
-* Correção: As suas definições e servidores são agora incluídos na cópia de segurança do telemóvel.
+* Correção: As suas definições e servidores vão agora para a cópia de segurança do telemóvel e regressam num telemóvel novo, enquanto a sua sessão, os registos da aplicação e os seus ficheiros descompactados ficam no telemóvel a que pertencem
 * Correção: Um envio pesado numa ligação lenta já não bloqueia o restante tráfego do dispositivo, como a navegação.
 * Correção: Jogos online como CS2 e Dota 2 funcionam agora perfeitamente através da VPN.

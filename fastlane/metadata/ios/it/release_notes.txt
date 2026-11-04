@@ -8,6 +8,6 @@
 * Correzione: Le VPN avviate senza aprire l'app seguono ora correttamente le ultime impostazioni e i server scelti.
 * Correzione: La funzione "Cerca aggiornamenti" risponde sempre correttamente e mostra gli avvisi.
 * Correzione: Dopo un aggiornamento durante la connessione, ora l'app si apre su Disconnesso.
-* Correzione: Ridotte le dimensioni dei backup per rispettare i limiti di Google ed evitare errori.
+* Correzione: impostazioni e server ora finiscono nel backup del telefono e tornano su un telefono nuovo, mentre l'accesso, i log dell'app e i suoi file decompressi restano sul telefono a cui appartengono
 * Correzione: I caricamenti pesanti su connessioni lente non bloccano più la normale navigazione.
 * Correzione: i giochi online con pacchetti grandi (es. CS2, Dota 2) ora funzionano perfettamente tramite VPN.

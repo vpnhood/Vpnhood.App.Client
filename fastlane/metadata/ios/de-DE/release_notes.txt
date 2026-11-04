@@ -8,6 +8,6 @@
 * Behebung: Im Hintergrund oder über Schnelleinstellungen gestartetes VPN nutzt nun korrekt die aktuellen Einstellungen.
 * Behebung: „Nach Update suchen“ liefert nun immer eine verlässliche Rückmeldung.
 * Behebung: App zeigt nach Updates während einer aktiven Verbindung nun korrekt den Status „Getrennt“ an.
-* Behebung: Einstellungen und Server werden nun erfolgreich im Telefon-Backup gesichert.
+* Behebung: Ihre Einstellungen und Server kommen jetzt in das Backup Ihres Telefons und auf einem neuen Telefon zurück, während Ihre Anmeldung, die Protokolle der App und ihre entpackten Dateien auf dem Telefon bleiben, zu dem sie gehören
 * Behebung: Große Uploads blockieren nun nicht mehr den restlichen Datenverkehr wie das Surfen.
 * Fix: Online-Spiele mit großen Paketen wie CS2 und Dota 2 funktionieren jetzt über das VPN.

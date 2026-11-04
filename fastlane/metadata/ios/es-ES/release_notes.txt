@@ -8,6 +8,6 @@
 * Corrección: Una VPN iniciada sin abrir la app sigue tus ajustes recientes y el servidor elegido, nunca uno eliminado.
 * Corrección: "Buscar actualización" siempre responde y muestra el aviso aunque hayas elegido Más tarde.
 * Corrección: Al actualizar la app estando conectado, ahora se abre en Desconectado en lugar de mostrar un error.
-* Corrección: Tus ajustes y servidores ahora se respaldan y restauran en nuevos teléfonos sin superar los límites de Google.
+* Corrección: Tus ajustes y servidores ahora se incluyen en la copia de seguridad del teléfono y vuelven en un teléfono nuevo, mientras que tu inicio de sesión, los registros de la app y sus archivos descomprimidos se quedan en el teléfono al que pertenecen
 * Corrección: Una subida pesada en conexiones lentas ya no bloquea el resto del tráfico del dispositivo.
 * Corrección: Los juegos online con paquetes grandes (CS2, Dota 2) ya funcionan bien con la VPN.

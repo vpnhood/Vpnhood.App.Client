@@ -256,7 +256,13 @@
     {
       "key": "n_42884457e6",
       "platforms": [
-        "android",
+        "android"
+      ],
+      "store": false
+    },
+    {
+      "key": "n_f55957fcdf",
+      "platforms": [
         "ios"
       ],
       "store": false
@@ -276,6 +282,13 @@
     },
     {
       "key": "n_3df80e8c17",
+      "platforms": [
+        "linux"
+      ],
+      "store": false
+    },
+    {
+      "key": "n_39a95b95e3",
       "platforms": [
         "linux"
       ],

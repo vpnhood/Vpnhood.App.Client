@@ -8,6 +8,6 @@
 * Correção: Uma VPN iniciada sem abrir o app respeita suas configurações e o servidor escolhido, nunca usando um servidor removido.
 * Correção: "Verificar atualização" agora sempre responde corretamente e exibe o aviso mesmo após escolher "Mais tarde".
 * Correção: Ao atualizar o app conectado, ele agora abre como Desconectado em vez de exibir um erro no serviço VPN.
-* Correção: Suas configurações e servidores agora são incluídos no backup do celular sem exceder o limite do Google.
+* Correção: Suas configurações e servidores agora vão para o backup do celular e voltam em um celular novo, enquanto seu login, os logs do app e seus arquivos descompactados ficam no celular a que pertencem
 * Correção: Uploads grandes em conexões lentas não travam mais o restante do tráfego do dispositivo, como a navegação.
 * Correção: Jogos online como CS2 e Dota 2 agora funcionam via VPN (pacotes grandes eram descartados). Atualize também o VpnHoodServer.

@@ -8,6 +8,6 @@
 * Fix: A VPN started without opening the app - always-on, the quick-settings tile, the phone's VPN settings, or the system restarting it - follows your latest settings, "Share anonymous usage data" among them, and the server and location you chose, never a server you removed
 * Fix: "Check for update" always answers - you have the latest version, or it could not check - and shows the update's notice even after you chose Later
 * Fix: When the app was updated while connected, it now opens on Disconnected instead of saying "VPN service encountered an issue"
-* Fix: Your settings and servers now go into your phone's backup and come back on a new phone - the backup used to be too big for Google's limit - while your sign-in, the app's logs and its unpacked files stay on the phone they belong to
+* Fix: Your settings and servers now go into your phone's backup and come back on a new phone, while your sign-in, the app's logs and its unpacked files stay on the phone they belong to
 * Fix: A big upload over a slow connection no longer holds up the device's other traffic, such as browsing
 * Fix: Online games that send large packets, such as Counter-Strike 2 and Dota 2 on Steam, work through the VPN; every packet over 1280 bytes was dropped. A VpnHoodServer of your own needs this release too

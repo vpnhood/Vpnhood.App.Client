@@ -8,6 +8,6 @@
 * Düzeltme: Uygulama dışından başlatılan VPN, en son ayarlarınıza ve seçtiğiniz sunucuya uyar
 * Düzeltme: "Güncellemeleri kontrol et" her zaman yanıt verir ve bildirimleri gösterir
 * Düzeltme: Bağlantı sırasında güncellenen uygulama artık hata vermek yerine Bağlı Değil olarak açılır
-* Düzeltme: Ayarlarınız ve sunucularınız artık Google yedekleme limitini aşmadan yeni telefona aktarılır
+* Düzeltme: Ayarlarınız ve sunucularınız artık telefonunuzun yedeğine giriyor ve yeni telefonda geri geliyor; oturumunuz, uygulamanın günlükleri ve açılmış dosyaları ise ait oldukları telefonda kalıyor
 * Düzeltme: Yavaş bağlantıda yapılan büyük yüklemelerin diğer internet trafiğini yavaşlatması engellendi
 * Düzeltme: Büyük paket gönderen çevrimiçi oyunlar (CS2, Dota 2) VPN üzerinden çalışır hale getirildi.

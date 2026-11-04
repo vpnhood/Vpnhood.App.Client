@@ -8,6 +8,6 @@
 * Correctif : Un VPN démarré hors application (toujours activé, tuile rapide, paramètres du téléphone ou redémarrage) respecte vos derniers réglages et le serveur choisi, jamais un serveur supprimé.
 * Correctif : "Vérifier les mises à jour" répond toujours correctement et affiche la notification de mise à jour même après avoir choisi "Plus tard".
 * Correctif : Si l'application est mise à jour pendant la connexion, elle s'ouvre désormais sur Déconnecté au lieu d'afficher une erreur.
-* Correctif : Vos paramètres et serveurs sont désormais sauvegardés et restaurés sur un nouvel appareil sans dépasser les limites de Google.
+* Correction : Vos paramètres et serveurs vont désormais dans la sauvegarde du téléphone et reviennent sur un nouveau téléphone, tandis que votre connexion, les journaux de l'application et ses fichiers décompressés restent sur le téléphone auquel ils appartiennent
 * Correctif : Un téléchargement volumineux sur une connexion lente ne bloque plus le reste du trafic de l'appareil (comme la navigation).
 * Correction : les jeux en ligne (CS2, Dota 2) fonctionnent désormais via le VPN (les paquets > 1280 octets passaient mal).
