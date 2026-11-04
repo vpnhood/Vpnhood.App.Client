@@ -1,1 +1,3 @@
-* Amélioration : Vitesse et stabilité
+* Amélioration : L'application Android démarre deux à quatre fois plus vite, surtout sur les téléphones d'entrée de gamme
+* Correctif : Lorsque Google Play fonctionne uniquement via le VPN, la mise à jour de l'application s'effectue dès la connexion.
+* Correction : arrêt propre de l'application si le service VPN refuse de démarrer, au lieu d'un plantage.

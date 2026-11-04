@@ -1,1 +1,3 @@
-* Melhoria: Velocidade e estabilidade
+* Melhoria: A aplicação Android inicia 2 a 4 vezes mais rápido, especialmente em telemóveis económicos.
+* Correção: Quando o Google Play apenas funciona através da VPN, a atualização da aplicação chega assim que se liga.
+* Correção: O sistema já não encerra a aplicação abruptamente após uma falha de arranque.

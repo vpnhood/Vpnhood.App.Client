@@ -1,1 +1,3 @@
-* İyileştirme: Hız ve kararlılık
+* İyileştirme: Android uygulaması iki ila dört kat daha hızlı açılıyor, özellikle bütçe dostu telefonlarda
+* Düzeltme: Google Play yalnızca VPN üzerinden çalışırken güncellemeler bağlantı kurulduğunda gelir
+* Düzeltme: VPN hizmeti başlatılamadığında sistemin uygulamayı sonlandırma sorunu giderildi.

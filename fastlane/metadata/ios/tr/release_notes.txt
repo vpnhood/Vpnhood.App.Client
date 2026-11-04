@@ -1,2 +1,13 @@
-* İyileştirme: Çok daha hızlı indirme hızı
-* İyileştirme: Hız ve kararlılık
+* Güncelleme: Bu sürümün bağlanabilmesi için kendi VpnHoodServer'ınız bu sürüm veya sonrasını çalıştırmalıdır
+* Güncelleme: UDP yeni bir protokole sahip; henüz güncellenmeyen sunucularda uygulama UDP olmadan bağlanır
+* İyileştirme: Uygulama ekranları web sayfası yerine kendi çizer; metinler daha yüksek kontrastla okunur
+* Özellik: Erişim anahtarı dosyası (.cdy) ve bağlantısı (vh:...) VpnHood! CLIENT ile açılır, sunucuyu ekler ve seçer
+* Güncelleme: Erişim anahtarları vh:// yerine vh: ile başlar, böylece bağlantıları iPhone ve Mac'te de açılır
+* Güncelleme: Hız sınırlı planlarda, duraklama sonrası ilk megabaytlar tam hızda akar, böylece sayfalar hızlı yüklenir
+* Düzeltme: Yerel Ağı Böl işlevini tam olarak yerine getirir: açıkken yazıcı veya TV gibi yerel cihazlara doğrudan erişilir
+* Düzeltme: Uygulama dışından başlatılan VPN, en son ayarlarınıza ve seçtiğiniz sunucuya uyar
+* Düzeltme: "Güncellemeleri kontrol et" her zaman yanıt verir ve bildirimleri gösterir
+* Düzeltme: Bağlantı sırasında güncellenen uygulama artık hata vermek yerine Bağlı Değil olarak açılır
+* Düzeltme: Ayarlarınız ve sunucularınız artık Google yedekleme limitini aşmadan yeni telefona aktarılır
+* Düzeltme: Yavaş bağlantıda yapılan büyük yüklemelerin diğer internet trafiğini yavaşlatması engellendi
+* Düzeltme: Büyük paket gönderen çevrimiçi oyunlar (CS2, Dota 2) VPN üzerinden çalışır hale getirildi.

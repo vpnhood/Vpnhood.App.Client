@@ -1,2 +1,13 @@
-* Verbesserung: Viel schnellerer Download
-* Verbesserung: Tempo und Stabilität
+* Update: Ein eigener VpnHoodServer muss diese oder eine neuere Version nutzen, damit sich diese Version verbinden kann
+* Update: UDP nutzt ein neues Protokoll; auf Servern ohne dieses Update verbindet sich die App ohne UDP
+* Improve: Die App rendert Bildschirme direkt statt als Webseite – für bessere Lesbarkeit und mehr Kontrast
+* Feature: Zugriffsschlüssel-Dateien (.cdy) und Links (vh:...) öffnen sich direkt in VpnHood! CLIENT
+* Update: Zugriffsschlüssel beginnen nun mit vh: statt vh://, damit Links auch auf iPhone und Mac funktionieren
+* Update: Bei Tarifen mit Drosselung starten die ersten Megabyte nach einer Pause mit voller Geschwindigkeit
+* Fix: Lokales Netzwerk aufteilen funktioniert nun wie erwartet: Lokale Geräte wie Drucker oder TVs werden direkt erreicht
+* Behebung: Im Hintergrund oder über Schnelleinstellungen gestartetes VPN nutzt nun korrekt die aktuellen Einstellungen.
+* Behebung: „Nach Update suchen“ liefert nun immer eine verlässliche Rückmeldung.
+* Behebung: App zeigt nach Updates während einer aktiven Verbindung nun korrekt den Status „Getrennt“ an.
+* Behebung: Einstellungen und Server werden nun erfolgreich im Telefon-Backup gesichert.
+* Behebung: Große Uploads blockieren nun nicht mehr den restlichen Datenverkehr wie das Surfen.
+* Fix: Online-Spiele mit großen Paketen wie CS2 und Dota 2 funktionieren jetzt über das VPN.

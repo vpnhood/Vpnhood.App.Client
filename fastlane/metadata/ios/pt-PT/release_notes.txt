@@ -1,2 +1,13 @@
-* Melhoria: Velocidade de descarga muito superior
-* Melhoria: Velocidade e estabilidade
+* Atualização: O seu VpnHoodServer deve executar esta versão ou posterior para permitir a ligação.
+* Atualização: Novo protocolo UDP; se o servidor não estiver atualizado, a aplicação liga-se sem UDP.
+* Melhoria: Ecrãs desenhados nativamente em vez de página web, com texto mais legível e maior contraste.
+* Funcionalidade: Ficheiros (.cdy) e ligações (vh:...) abrem no VpnHood! CLIENT para adicionar o servidor.
+* Atualização: As chaves de acesso começam por vh: em vez de vh:// para abrir também no iPhone e Mac.
+* Atualização: Em planos com limite de velocidade, os primeiros megabytes após uma pausa beneficiam de velocidade máxima.
+* Correção: O Modo de Rede Local Dividida funciona agora corretamente.
+* Correção: Uma VPN iniciada sem abrir a aplicação segue as suas definições mais recentes e o servidor escolhido.
+* Correção: "Verificar atualização" responde sempre e mostra o aviso da mesma mesmo após escolher Mais tarde.
+* Correção: Ao atualizar a aplicação ligada, esta abre em Desligado em vez de indicar um erro no serviço VPN.
+* Correção: As suas definições e servidores são agora incluídos na cópia de segurança do telemóvel.
+* Correção: Um envio pesado numa ligação lenta já não bloqueia o restante tráfego do dispositivo, como a navegação.
+* Correção: Jogos online como CS2 e Dota 2 funcionam agora perfeitamente através da VPN.

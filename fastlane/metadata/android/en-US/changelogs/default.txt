@@ -1,1 +1,3 @@
-* Improve: Speed and stability
+* Improve: The Android app starts two to four times faster, most of all on budget phones
+* Fix: Where Google Play works only through the VPN, the app's update now comes once you connect
+* Fix: The system could kill the app ten seconds after a refused VPN service start instead of the service stopping cleanly

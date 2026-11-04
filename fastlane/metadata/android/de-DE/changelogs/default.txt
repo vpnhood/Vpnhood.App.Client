@@ -1,1 +1,3 @@
-* Verbesserung: Tempo und Stabilität
+* Improve: Die Android-App startet zwei- bis viermal schneller, besonders auf Einsteigerhandys
+* Behebung: App-Updates über Google Play funktionieren nun direkt nach dem Herstellen der Verbindung.
+* Fix: Behebt App-Abstürze nach abgelehntem VPN-Start.

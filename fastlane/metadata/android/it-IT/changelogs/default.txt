@@ -1,1 +1,3 @@
-* Miglioramento: Velocità e stabilità
+* Miglioramento: L'app Android si avvia fino a quattro volte più velocemente, soprattutto sui telefoni economici.
+* Correzione: Gli aggiornamenti tramite Google Play ora arrivano correttamente alla connessione.
+* Correzione: il sistema poteva terminare l'app in modo anomalo dopo il rifiuto dell'avvio del servizio VPN.

@@ -1,2 +1,13 @@
-* Melhoria: Velocidade de download muito maior
-* Melhoria: Velocidade e estabilidade
+* Atualização: Seu VpnHoodServer deve executar esta versão ou posterior para permitir a conexão
+* Atualização: Novo protocolo UDP; em servidores não atualizados, o app conecta sem UDP
+* Melhoria: Telas redesenhadas sem páginas web, com texto mais legível e maior contraste
+* Recurso: Arquivos (.cdy) e links (vh:...) de chaves de acesso abrem direto no VpnHood! CLIENT
+* Atualização: Chaves de acesso agora iniciam com vh: para suporte a iPhone e Mac
+* Atualização: Em planos limitados, os primeiros megabytes após uma pausa usam velocidade total
+* Correção: O recurso Rede Local Dividida agora funciona corretamente conforme configurado
+* Correção: Uma VPN iniciada sem abrir o app respeita suas configurações e o servidor escolhido, nunca usando um servidor removido.
+* Correção: "Verificar atualização" agora sempre responde corretamente e exibe o aviso mesmo após escolher "Mais tarde".
+* Correção: Ao atualizar o app conectado, ele agora abre como Desconectado em vez de exibir um erro no serviço VPN.
+* Correção: Suas configurações e servidores agora são incluídos no backup do celular sem exceder o limite do Google.
+* Correção: Uploads grandes em conexões lentas não travam mais o restante do tráfego do dispositivo, como a navegação.
+* Correção: Jogos online como CS2 e Dota 2 agora funcionam via VPN (pacotes grandes eram descartados). Atualize também o VpnHoodServer.
