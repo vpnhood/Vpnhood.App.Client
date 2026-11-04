@@ -1,5 +1,5 @@
 {
-  "features": {
+  "descriptor": {
     "appId": "com.vpnhood.client.windows",
     "appName": "VpnHood! CLIENT",
     "packageTitle": "VpnHoodClient",

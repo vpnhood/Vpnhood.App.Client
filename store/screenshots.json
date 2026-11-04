@@ -65,7 +65,7 @@
       "label": "App Store",
       "store": "appStore",
       "installDir": "fastlane/screenshots/ios/<locale>",
-      "patch": { "features": { "osType": "Ios" } },
+      "patch": { "descriptor": { "osType": "Ios" } },
       "devices": {
         "iphone-6.9": {
           "label": "iPhone 6.9",
@@ -112,7 +112,7 @@
       "installDir": "fastlane/metadata/android/<locale>/images/phoneScreenshots",
       "installMax": 8,
       "patch": {
-        "features": {
+        "descriptor": {
           "osType": "Android",
           "isExcludeAppsSupported": true,
           "isIncludeAppsSupported": true,
@@ -166,7 +166,7 @@
       "installDir": "fastlane/metadata/android/<locale>/images/sevenInchScreenshots",
       "installMax": 8,
       "patch": {
-        "features": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true, "alwaysOnSupport": "Device" },
+        "descriptor": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true, "alwaysOnSupport": "Device" },
         "intentFeatures": {
           "isQuickLaunchSupported": true,
           "isRequestQuickLaunchSupported": true,
@@ -214,7 +214,7 @@
       "installDir": "fastlane/metadata/android/<locale>/images/tenInchScreenshots",
       "installMax": 8,
       "patch": {
-        "features": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true, "alwaysOnSupport": "Device" },
+        "descriptor": { "osType": "Android", "isExcludeAppsSupported": true, "isIncludeAppsSupported": true, "alwaysOnSupport": "Device" },
         "intentFeatures": {
           "isQuickLaunchSupported": true,
           "isRequestQuickLaunchSupported": true,
@@ -267,7 +267,7 @@
       "installDir": "fastlane/metadata/android/<locale>/images/tvScreenshots",
       "installMax": 8,
       "patch": {
-        "features": {
+        "descriptor": {
           "osType": "Android",
           "isTv": true,
           "isExcludeAppsSupported": true,
