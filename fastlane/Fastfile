@@ -33,6 +33,9 @@ platform :android do
         skip_upload_metadata: skip_meta,
         skip_upload_changelogs: skip_meta,
         sync_image_upload: !skip_meta,
+        # Changes wait in the Play Console for a person to send: an upload that does not wait with them
+        # is refused, or takes them along. Take this out once they are through review.
+        changes_not_sent_for_review: true,
         # A staged rollout (fraction < 1, e.g. 0.01 = 1%) must be 'inProgress'; a full release is
         # 'completed'. Passing rollout with 'completed' is rejected by the Play API.
         release_status: (options[:rollout].to_s.empty? || options[:rollout].to_f >= 1.0) ? 'completed' : 'inProgress'
@@ -85,7 +88,9 @@ platform :android do
       skip_upload_images: false,
       skip_upload_metadata: false,
       skip_upload_changelogs: true,
-      sync_image_upload: true
+      sync_image_upload: true,
+      # as the playstore lane's
+      changes_not_sent_for_review: true
     )
     
     UI.success("✅ Store contents published successfully")
