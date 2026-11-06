@@ -87,11 +87,11 @@ protocols, IPv4 + IPv6, and adding server keys (`IsAddAccessKeySupported` = `tru
 App Store Connect takes the 1024 icon from the **binary**, not from deliver — there is no icon file
 in `fastlane/` for iOS. It must carry no alpha channel: Apple rejects on the channel being present
 (ITMS-90717), not on any pixel being translucent.
-[`e2e/store-icon.mjs`](../../VpnHood.AppUi.Spa/src/VpnHood.AppUi.Presentation.Classic.Spa/e2e/store-icon.mjs) re-encodes the appiconset to
+[`store-icon.mjs`](https://github.com/vpnhood/VpnHood/blob/develop/src/Apps/Tools/StoreListing/store-icon.mjs) in the main repo re-encodes the appiconset to
 PNG colour type 2, and refuses any icon with real translucency rather than guessing a backdrop:
 
 ```bash
-node e2e/store-icon.mjs --in-place
+node src/Apps/Tools/StoreListing/store-icon.mjs --in <the appiconset> --in-place
 ```
 
 ---
@@ -236,8 +236,8 @@ dotnet tool restore && dotnet vhtranslator      # in this repo; needs GEMINI_API
                                                 # environment (CI feeds it from the org secret
                                                 # GOOGLE_GEMINI_TRNSLATE_APP_API_KEY; locally it is
                                                 # .user/vendors/google/google_gemini_translate_app_api_key.txt)
-cd ../VpnHood.AppUi.Spa/src/VpnHood.AppUi.Presentation.Classic.Spa
-node e2e/store-metadata.mjs --root ../../../Vpnhood.App.Client    # --check validates without writing
+cd ../VpnHood
+node src/Apps/Tools/StoreListing/store-metadata.mjs --root ../Vpnhood.App.Client    # --check validates without writing
 ```
 
 The compiler fails loudly on what hand-kept txt files get wrong silently: store character limits
