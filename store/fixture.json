@@ -183,7 +183,9 @@
         "Quic"
       ],
       "isTcpProxySupported": true,
-      "isTcpPacketSupported": true
+      "isTcpPacketSupported": true,
+      "isQuicPacketSupported": true,
+      "isUdpPacketSupported": true
     },
     "sessionStatus": {
       "connectorStat": {
