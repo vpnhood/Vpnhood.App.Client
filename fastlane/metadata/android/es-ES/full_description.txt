@@ -1,10 +1,10 @@
-NOTA: Esta app REQUIERE UNA CLAVE DE SERVIDOR.
+NOTA: Esta app REQUIERE UNA CLAVE DE ACCESO.
 
 VpnHood! CLIENT es una solución VPN rápida, segura y fiable con tecnología de ★★VpnHood! ENGINE★★, de código abierto y la primera VPN desarrollada íntegramente en .NET.
 
 Establece túneles cifrados y seguros hacia servidores VpnHood mediante el protocolo VpnHood, que carece de huella digital y es indetectable por la censura.
 
-Para usar la app necesitas una ServerKey, que puedes conseguir así:
+Para usar la app necesitas una clave de acceso, que puedes conseguir así:
 
 ▶ Pídesela a amigos o comunidades.
 

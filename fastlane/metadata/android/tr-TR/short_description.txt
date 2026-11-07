@@ -1,1 +1,1 @@
-Açık kaynaklı, güvenli VPN istemcisi (sunucu anahtarı gerektirir)
+Açık kaynaklı, güvenli VPN istemcisi (erişim anahtarı gerektirir)

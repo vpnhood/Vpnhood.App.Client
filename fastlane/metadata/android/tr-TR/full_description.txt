@@ -1,10 +1,10 @@
-NOT: Bu uygulama bir SUNUCU ANAHTARI GEREKTİRİR.
+NOT: Bu uygulama bir ERİŞİM ANAHTARI GEREKTİRİR.
 
 VpnHood! CLIENT, açık kaynaklı ve .NET platformuyla geliştirilen ilk VPN olan ★★VpnHood! ENGINE★★ ile güçlendirilmiş hızlı ve güvenli bir VPN çözümüdür.
 
 VpnHood protokolünü kullanarak VpnHood sunucularına şifreli tüneller kuran bir istemci uygulamasıdır. Sansür filtrelerince algılanamaz.
 
-Kullanmak için ServerKey gereklidir. Şöyle edinebilirsiniz:
+Kullanmak için erişim anahtarı gereklidir. Şöyle edinebilirsiniz:
 
 ▶ Arkadaşlardan veya topluluklardan anahtar alın.
 

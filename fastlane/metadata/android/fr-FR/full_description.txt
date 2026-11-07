@@ -1,10 +1,10 @@
-REMARQUE : Cette application NÉCESSITE UNE CLÉ DE SERVEUR.
+REMARQUE : Cette application NÉCESSITE UNE CLÉ D'ACCÈS.
 
 VpnHood! CLIENT est une solution VPN rapide, sécurisée et fiable propulsée par le ★★VpnHood! ENGINE★★, open source et premier VPN développé sous .NET.
 
 Il établit des tunnels chiffrés et sécurisés via le protocole VpnHood, indétectable par la censure.
 
-Une ServerKey est requise :
+Une clé d'accès est requise :
 
 ▶ Obtenez des clés auprès d'amis ou de communautés.
 

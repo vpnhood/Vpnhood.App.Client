@@ -80,7 +80,7 @@ Not available on iOS — keep them out of `metadata/ios/**` and out of every scr
 
 Available on iOS and safe to promote: Cloak Mode (`IosDevice.IsTcpProxySupported` = `true`), split
 tunneling by country / domain / IP address / local network, custom (adapter) DNS, TCP & UDP channel
-protocols, IPv4 + IPv6, and adding server keys (`IsAddAccessKeySupported` = `true`).
+protocols, IPv4 + IPv6, and adding access keys (`IsAddAccessKeySupported` = `true`).
 
 ### App icon
 

@@ -1,1 +1,1 @@
-Client VPN sécurisé, open source et auto-hébergé (clé serveur requise).
+Client VPN sécurisé, open source et auto-hébergé (clé d'accès requise).

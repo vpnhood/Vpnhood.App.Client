@@ -1,10 +1,10 @@
-NOTA: Esta aplicación REQUIERE UNA CLAVE DE SERVIDOR.
+NOTA: Esta aplicación REQUIERE UNA CLAVE DE ACCESO.
 
 VpnHood! CLIENT es una VPN rápida y segura con VpnHood! ENGINE, de código abierto y primera VPN en .NET.
 
 Establece túneles cifrados con el protocolo VpnHood, que es indetectable por la censura.
 
-Se requiere una ServerKey. Consíguela así:
+Se requiere una clave de acceso. Consíguela así:
 
 • Pídesela a amigos o comunidades.
 
@@ -30,7 +30,7 @@ Características:
 
 Opciones:
 
-• Cloak Mode: Oculta tu tráfico como web normal.
+• Modo Camuflaje: Oculta tu tráfico como web normal.
 
 • Split Tunneling por país.
 

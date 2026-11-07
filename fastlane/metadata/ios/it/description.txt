@@ -1,10 +1,10 @@
-NOTA: Questa app RICHIEDE UNA CHIAVE SERVER.
+NOTA: Questa app RICHIEDE UNA CHIAVE DI ACCESSO.
 
 VpnHood! CLIENT è una VPN veloce e sicura basata su VpnHood! ENGINE, open source e sviluppata in .NET.
 
 Crea tunnel crittografati sicuri verso server VpnHood senza impronte digitali, risultando invisibile alla censura.
 
-È necessaria una chiave server, ottenibile così:
+È necessaria una chiave di accesso, ottenibile così:
 
 • Da amici o community.
 
@@ -30,7 +30,7 @@ Caratteristiche principali:
 
 Opzioni personalizzabili:
 
-• Cloak Mode: Maschera il traffico VPN.
+• Modalità camuffamento: Maschera il traffico VPN.
 
 • Split Tunneling per paese.
 

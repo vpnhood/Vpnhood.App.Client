@@ -1,1 +1,1 @@
-VPN client open-source sicuro e self-hosted (richiede chiave server)
+VPN client open-source sicuro e self-hosted (richiede chiave di accesso)

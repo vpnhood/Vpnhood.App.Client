@@ -1,1 +1,1 @@
-Client VPN sécurisé, open source et auto-hébergé. Clé serveur requise. Propulsé par le moteur open source VpnHood!.
+Client VPN sécurisé, open source et auto-hébergé. Clé d'accès requise. Propulsé par le moteur open source VpnHood!.
