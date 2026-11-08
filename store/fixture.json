@@ -5,7 +5,6 @@
     "packageTitle": "VpnHoodClient",
     "isExcludeAppsSupported": false,
     "isIncludeAppsSupported": false,
-    "uiName": null,
     "companyName": "VpnHood",
     "uiTheme": "blue",
     "logoAssetPath": "images/logo-client.png",
@@ -15,18 +14,14 @@
       "termsOfUse": "https://www.vpnhood.com/legal/vpnhood-client/terms-of-use/"
     },
     "showPoweredBy": true,
-    "isPremiumFlagSupported": false,
     "isAddAccessKeySupported": true,
     "isAccountSupported": false,
     "isBillingSupported": false,
-    "isTcpForwardingSupported": true,
     "isQuicSupported": true,
-    "isSplitDomainSupported": true,
     "isUserReviewSupported": false,
     "isAnonymousTrackerSupported": true,
     "isTv": false,
     "osType": "Windows",
-    "gaMeasurementId": null,
     "clientId": "00000000-0000-4000-8000-000000000001",
     "isDebugMode": false,
     "debugCommands": [
@@ -44,12 +39,9 @@
       "/os-tcp-stack"
     ],
     "isProxySupported": true,
-    "adjustForSystemBars": true,
     "allowEndPointStrategy": false,
-    "autoRemoveExpiredPremium": false,
     "isAdSupported": false,
     "isRewardedAdSupported": false,
-    "premiumFeatures": [],
     "channelProtocols": [
       "Tcp",
       "Udp",
@@ -61,7 +53,11 @@
     "authProviderIds": [],
     "isLicenseAgreementRequired": false,
     "isRemoteAccessSupported": false,
-    "isSplitCountrySupported": true
+    "isSplitCountrySupported": true,
+    "isKillSwitchSupported": false,
+    "killSwitchOffScriptPath": null,
+    "isAutomaticUpdateSupported": false,
+    "alwaysOnSupport": "None"
   },
   "intentFeatures": {
     "isUserReviewSupported": false,
@@ -73,7 +69,8 @@
     "isSettingsSupported": false,
     "isAppSettingsSupported": false,
     "isAppNotificationSettingsSupported": false,
-    "isWebBrowserSupported": true
+    "isWebBrowserSupported": true,
+    "isShareSupported": false
   },
   "state": {
     "configTime": "2026-07-31T02:37:24.3124913-07:00",
@@ -163,10 +160,8 @@
       "isIpV6SupportedByServer": true,
       "serverLocationInfo": {
         "hasMultipleRegions": false,
-        "translatedCountryName": "United States",
         "countryCode": "US",
         "regionName": "Oregon",
-        "tags": [],
         "serverLocation": "US/Oregon",
         "countryName": "United States",
         "isAuto": false,
@@ -232,10 +227,8 @@
     "proxyConnectorStatus": null,
     "serverLocationInfo": {
       "hasMultipleRegions": false,
-      "translatedCountryName": "United States",
       "countryCode": "US",
       "regionName": "Oregon",
-      "tags": [],
       "serverLocation": "US/Oregon",
       "countryName": "United States",
       "isAuto": false,
@@ -251,13 +244,11 @@
       "isPremiumLocationSelected": true,
       "isPremium": true,
       "hasAccessCode": false,
-      "isAccessCodeFromAccount": false,
       "canGoPremium": false,
       "canTryPremium": false,
       "selectedLocationInfo": {
         "isNestedCountry": false,
         "isDefault": true,
-        "translatedCountryName": "United States",
         "options": {
           "normal": 0,
           "normalByRewardedAd": null,
@@ -305,18 +296,16 @@
         "deprecatedVersion": "7.0.0",
         "notificationDelay": "03:00:00"
       },
-      "prompt": false
+      "prompt": false,
+      "updateState": null
     },
     "canDisconnect": true,
     "canConnect": false,
     "canDiagnose": true,
     "userReviewRecommended": 0,
     "isQuickLaunchRecommended": false,
-    "clientCountryInfo": {
-      "englishName": "United States",
-      "translatedName": "United States",
-      "countryCode": "US"
-    },
+    "isAnonymousTrackerPromptRequired": false,
+    "clientCountryCode": "US",
     "currentUiCultureInfo": {
       "code": "en",
       "nativeName": "English"
@@ -333,6 +322,7 @@
     "isNotificationEnabled": false,
     "systemPrivateDns": null,
     "isWaitingForInternalAd": false,
+    "isAdPrivacyOptionsRequired": false,
     "stateProgress": null,
     "isDiagnosing": false,
     "channelProtocol": "Tcp",
@@ -354,7 +344,9 @@
       "countries": [],
       "dnsMode": "IncludeAll",
       "unsupportedIpV6Mode": "Block"
-    }
+    },
+    "alwaysOnState": null,
+    "isKillSwitchBlocking": false
   },
   "userSettings": {
     "isLicenseAccepted": false,
@@ -363,7 +355,6 @@
     "cultureCode": null,
     "countryCode": null,
     "vpnProfileId": "00000000-0000-4000-8000-000000000201",
-    "maxPacketChannelCount": 4,
     "splitTunneling": {
       "enabled": true,
       "appMode": "All",
@@ -417,12 +408,10 @@
       "isValidHostName": false,
       "isBuiltIn": false,
       "accessCode": null,
-      "isAccessCodeFromAccount": false,
       "locationInfos": [
         {
           "isNestedCountry": false,
           "isDefault": true,
-          "translatedCountryName": "United States",
           "options": {
             "normal": null,
             "normalByRewardedAd": null,
@@ -454,7 +443,6 @@
       "selectedLocationInfo": {
         "isNestedCountry": false,
         "isDefault": true,
-        "translatedCountryName": "United States",
         "options": {
           "normal": null,
           "normalByRewardedAd": null,
@@ -493,8 +481,7 @@
         "pbe": false,
         "pbp": true,
         "pbc": true,
-        "pur_url": null,
-        "pur_url_f": 0
+        "pur_url": null
       },
       "accessCodeRefusal": null,
       "canImportAccessCode": false,
@@ -516,12 +503,10 @@
       "isValidHostName": true,
       "isBuiltIn": false,
       "accessCode": null,
-      "isAccessCodeFromAccount": false,
       "locationInfos": [
         {
           "isNestedCountry": false,
           "isDefault": true,
-          "translatedCountryName": "United States",
           "options": {
             "normal": null,
             "normalByRewardedAd": null,
@@ -554,7 +539,6 @@
       "selectedLocationInfo": {
         "isNestedCountry": false,
         "isDefault": true,
-        "translatedCountryName": "United States",
         "options": {
           "normal": null,
           "normalByRewardedAd": null,
@@ -594,8 +578,7 @@
         "pbe": false,
         "pbp": true,
         "pbc": true,
-        "pur_url": null,
-        "pur_url_f": 0
+        "pur_url": null
       },
       "accessCodeRefusal": null,
       "canImportAccessCode": false,

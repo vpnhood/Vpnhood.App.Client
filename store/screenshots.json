@@ -65,7 +65,8 @@
       "label": "App Store",
       "store": "appStore",
       "installDir": "fastlane/screenshots/ios/<locale>",
-      "patch": { "descriptor": { "osType": "Ios" } },
+      // IosDeviceUiProvider.IsShareSupported is true: the log's Share button opens the share sheet.
+      "patch": { "descriptor": { "osType": "Ios" }, "intentFeatures": { "isShareSupported": true } },
       "devices": {
         "iphone-6.9": {
           "label": "iPhone 6.9",
@@ -128,7 +129,9 @@
           "isKillSwitchSettingsSupported": true,
           "isSettingsSupported": true,
           "isAppSettingsSupported": true,
-          "isAppNotificationSettingsSupported": true
+          "isAppNotificationSettingsSupported": true,
+          // AndroidDeviceUiProvider.IsShareSupported => !IsTv: the log's Share button opens the share sheet
+          "isShareSupported": true
         },
         "state": { "isNotificationEnabled": true }
       },
@@ -177,7 +180,9 @@
           "isKillSwitchSettingsSupported": true,
           "isSettingsSupported": true,
           "isAppSettingsSupported": true,
-          "isAppNotificationSettingsSupported": true
+          "isAppNotificationSettingsSupported": true,
+          // AndroidDeviceUiProvider.IsShareSupported => !IsTv: the log's Share button opens the share sheet
+          "isShareSupported": true
         },
         "state": { "isNotificationEnabled": true }
       },
@@ -225,7 +230,9 @@
           "isKillSwitchSettingsSupported": true,
           "isSettingsSupported": true,
           "isAppSettingsSupported": true,
-          "isAppNotificationSettingsSupported": true
+          "isAppNotificationSettingsSupported": true,
+          // AndroidDeviceUiProvider.IsShareSupported => !IsTv: the log's Share button opens the share sheet
+          "isShareSupported": true
         },
         "state": { "isNotificationEnabled": true }
       },
@@ -306,6 +313,8 @@
       "installDir": "fastlane/screenshots/appletv/<locale>",
       "patch": {
         "descriptor": { "osType": "Ios", "isTv": true, "isRemoteAccessSupported": true, "version": "9.1.868.0" },
+        // the iPhone's head: IosDeviceUiProvider.IsShareSupported is true here too
+        "intentFeatures": { "isShareSupported": true },
         "userSettings": { "vpnProfileId": "00000000-0000-4000-8000-000000000202" }
       },
       "devices": {
@@ -326,7 +335,10 @@
       ]
     },
 
-  // No patch: the fixture was recorded from this exact build. The real window is a fixed 400x700,
+  // No patch: the fixture was recorded from this exact build. So its kill switch and automatic update are off,
+  // as in every set here: WindowsVpnPluginDevice.KillSwitch is null (the sandbox cannot reach WFP), and
+  // MicrosoftStoreAppUpdaterProvider.IsAutomaticUpdateSupported is false (the Store updates it).
+  // The real window is a fixed 400x700,
   // far under the Microsoft Store's 1366x768 floor, so the capture is composited into a desktop
   // scene. There is no fastlane lane for that store - upload through Partner Center or the msstore
   // command line.
