@@ -1,13 +1,19 @@
-* Actualización: Tu VpnHoodServer propio debe ejecutar esta versión o posterior para poder conectarse
+* Novedad: La app funciona en Apple TV, y con Acceso remoto la configuras desde un móvil u ordenador de la misma red
 * Actualización: UDP tiene un nuevo protocolo; si el servidor no se ha actualizado, la app conecta sin UDP
 * Mejora: La app dibuja sus pantallas de forma nativa para mejorar la legibilidad y el contraste del texto
+* Novedad: El informe tiene un botón Compartir en móviles y tabletas, Copiar en el ordenador y Descargar en el navegador con Acceso remoto, para enviarlo fácilmente al soporte
 * Novedad: Los archivos (.cdy) y enlaces (vh:...) de claves de acceso se abren directamente en VpnHood! CLIENT
 * Actualización: Las claves de acceso ahora usan el prefijo vh: en lugar de vh:// para mayor compatibilidad con iOS y Mac
 * Actualización: En planes con límite de velocidad, los primeros megabytes tras una pausa aprovechan toda la velocidad
+* Novedad: En Modo Camuflaje, la página Protocolos tiene Bloquear UDP en otras apps, que detiene todo el UDP excepto DNS; las llamadas de voz y vídeo y los juegos que necesitan UDP dejan de funcionar con él
+* Actualización: La página Protocolos distingue dos QUIC: el interruptor ahora es Bloquear QUIC en otras apps, y TCP, UDP y QUIC están bajo su propio encabezado, Protocolo del túnel
+* Corrección: La página de inicio muestra Camuflaje siempre que el Modo Camuflaje está activo, también cuando lo activan el servidor o los ajustes de Dividir dominios, y ya no lo muestra cuando el servidor lo mantiene apagado
 * Corrección: Se ha mejorado el funcionamiento de la opción Red Local Dividida para acceder directamente a dispositivos locales
 * Corrección: Una VPN iniciada sin abrir la app sigue tus ajustes recientes y el servidor elegido, nunca uno eliminado.
 * Corrección: "Buscar actualización" siempre responde y muestra el aviso aunque hayas elegido Más tarde.
+* Corrección: El idioma de la app se puede elegir en los ajustes del dispositivo y en la app, y cada uno muestra la elección del otro: la página de la app en Ajustes tiene una fila Idioma si el dispositivo tiene más de un idioma
 * Corrección: Al actualizar la app estando conectado, ahora se abre en Desconectado en lugar de mostrar un error.
 * Corrección: Tus ajustes y servidores ahora se incluyen en la copia de seguridad del teléfono y vuelven en un teléfono nuevo, mientras que tu inicio de sesión, los registros de la app y sus archivos descomprimidos se quedan en el teléfono al que pertenecen
 * Corrección: Una subida pesada en conexiones lentas ya no bloquea el resto del tráfico del dispositivo.
 * Corrección: Los juegos online con paquetes grandes (CS2, Dota 2) ya funcionan bien con la VPN.
+* Mejora: Cuando un servidor con nombre DNS dinámico cambia de dirección mientras estás conectado, la app encuentra la nueva dirección y se vuelve a conectar sola, salvo que esté configurada en UDP

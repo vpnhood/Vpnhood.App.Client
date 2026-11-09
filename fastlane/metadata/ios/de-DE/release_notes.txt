@@ -1,13 +1,19 @@
-* Update: Ein eigener VpnHoodServer muss diese oder eine neuere Version nutzen, damit sich diese Version verbinden kann
+* Feature: Die App läuft auf Apple TV, und per Fernzugriff lässt sie sich von einem Handy oder Computer im selben Netzwerk einrichten
 * Update: UDP nutzt ein neues Protokoll; auf Servern ohne dieses Update verbindet sich die App ohne UDP
 * Improve: Die App rendert Bildschirme direkt statt als Webseite – für bessere Lesbarkeit und mehr Kontrast
+* Feature: Der Bericht hat einen Teilen-Button auf Handys und Tablets, einen Kopieren-Button am Computer und einen Herunterladen-Button im Browser beim Fernzugriff, damit er sich leicht an den Support senden lässt
 * Feature: Zugriffsschlüssel-Dateien (.cdy) und Links (vh:...) öffnen sich direkt in VpnHood! CLIENT
 * Update: Zugriffsschlüssel beginnen nun mit vh: statt vh://, damit Links auch auf iPhone und Mac funktionieren
 * Update: Bei Tarifen mit Drosselung starten die ersten Megabyte nach einer Pause mit voller Geschwindigkeit
+* Feature: Im Tarnmodus hat die Seite Protokolle die Option UDP in anderen Apps blockieren, die alles UDP außer DNS stoppt; Sprach- und Videoanrufe sowie Spiele, die UDP brauchen, funktionieren damit nicht mehr
+* Update: Die Seite Protokolle unterscheidet zwei QUICs: Der Schalter heißt jetzt QUIC in anderen Apps blockieren, und TCP, UDP und QUIC stehen unter einer eigenen Überschrift, Tunnelprotokoll
+* Fix: Die Startseite zeigt Tarnung immer, wenn der Tarnmodus an ist, auch wenn der Server oder die Domain-Filter ihn einschalten, und nicht mehr, wenn der Server ihn ausgeschaltet lässt
 * Fix: Lokales Netzwerk aufteilen funktioniert nun wie erwartet: Lokale Geräte wie Drucker oder TVs werden direkt erreicht
 * Behebung: Im Hintergrund oder über Schnelleinstellungen gestartetes VPN nutzt nun korrekt die aktuellen Einstellungen.
 * Behebung: „Nach Update suchen“ liefert nun immer eine verlässliche Rückmeldung.
+* Fix: Die Sprache der App lässt sich in den Geräteeinstellungen wie in der App festlegen, und beide zeigen die Wahl des anderen: Die Seite der App in den Einstellungen hat eine Zeile Sprache, wenn das Gerät mehr als eine Sprache hat
 * Behebung: App zeigt nach Updates während einer aktiven Verbindung nun korrekt den Status „Getrennt“ an.
 * Behebung: Ihre Einstellungen und Server kommen jetzt in das Backup Ihres Telefons und auf einem neuen Telefon zurück, während Ihre Anmeldung, die Protokolle der App und ihre entpackten Dateien auf dem Telefon bleiben, zu dem sie gehören
 * Behebung: Große Uploads blockieren nun nicht mehr den restlichen Datenverkehr wie das Surfen.
 * Fix: Online-Spiele mit großen Paketen wie CS2 und Dota 2 funktionieren jetzt über das VPN.
+* Improve: Bekommt ein Server mit dynamischem DNS-Namen während der Verbindung eine neue Adresse, findet die App sie und verbindet sich von selbst neu, außer sie ist auf UDP eingestellt

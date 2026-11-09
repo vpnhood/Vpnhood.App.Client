@@ -1,3 +1,4 @@
+* Feature: Die App läuft auf Android TV, und per Fernzugriff lässt sie sich von einem Handy oder Computer im selben Netzwerk einrichten
 * Improve: Die Android-App startet zwei- bis viermal schneller, besonders auf Einsteigerhandys
 * Behebung: App-Updates über Google Play funktionieren nun direkt nach dem Herstellen der Verbindung.
 * Fix: Behebt App-Abstürze nach abgelehntem VPN-Start.

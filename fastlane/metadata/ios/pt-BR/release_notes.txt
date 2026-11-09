@@ -1,13 +1,19 @@
-* Atualização: Seu VpnHoodServer deve executar esta versão ou posterior para permitir a conexão
+* Recurso: O app funciona na Apple TV, e com o Acesso Remoto você o configura de um celular ou computador na mesma rede
 * Atualização: Novo protocolo UDP; em servidores não atualizados, o app conecta sem UDP
 * Melhoria: Telas redesenhadas sem páginas web, com texto mais legível e maior contraste
+* Recurso: O relatório tem um botão Compartilhar em celulares e tablets, Copiar no computador e Baixar no navegador pelo Acesso Remoto, para enviá-lo facilmente ao suporte
 * Recurso: Arquivos (.cdy) e links (vh:...) de chaves de acesso abrem direto no VpnHood! CLIENT
 * Atualização: Chaves de acesso agora iniciam com vh: para suporte a iPhone e Mac
 * Atualização: Em planos limitados, os primeiros megabytes após uma pausa usam velocidade total
+* Recurso: No Modo invisível, a página Protocolos tem Bloquear UDP em outros apps, que bloqueia todo UDP exceto DNS; chamadas de voz e vídeo e jogos que usam UDP param de funcionar com ele
+* Atualização: A página Protocolos diferencia dois QUICs: a chave agora é Bloquear QUIC em outros apps, e TCP, UDP e QUIC ficam sob um título próprio, Protocolo do túnel
+* Correção: A tela inicial mostra Invisível sempre que o Modo invisível está ligado, também quando o servidor ou as configurações de Dividir Domínios o ligam, e não mostra mais quando o servidor o mantém desligado
 * Correção: O recurso Rede Local Dividida agora funciona corretamente conforme configurado
 * Correção: Uma VPN iniciada sem abrir o app respeita suas configurações e o servidor escolhido, nunca usando um servidor removido.
 * Correção: "Verificar atualização" agora sempre responde corretamente e exibe o aviso mesmo após escolher "Mais tarde".
+* Correção: O idioma do app pode ser definido nas configurações do dispositivo e no app, e cada um mostra a escolha do outro: a página do app em Ajustes tem uma linha Idioma quando o dispositivo tem mais de um idioma
 * Correção: Ao atualizar o app conectado, ele agora abre como Desconectado em vez de exibir um erro no serviço VPN.
 * Correção: Suas configurações e servidores agora vão para o backup do celular e voltam em um celular novo, enquanto seu login, os logs do app e seus arquivos descompactados ficam no celular a que pertencem
 * Correção: Uploads grandes em conexões lentas não travam mais o restante do tráfego do dispositivo, como a navegação.
 * Correção: Jogos online como CS2 e Dota 2 agora funcionam via VPN (pacotes grandes eram descartados). Atualize também o VpnHoodServer.
+* Melhoria: Quando um servidor com nome DNS dinâmico recebe um novo endereço enquanto você está conectado, o app encontra o novo endereço e se reconecta sozinho, a menos que esteja configurado para UDP

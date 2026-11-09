@@ -1,13 +1,19 @@
-* Atualização: O seu VpnHoodServer deve executar esta versão ou posterior para permitir a ligação.
+* Funcionalidade: A app funciona na Apple TV, e com o Acesso Remoto pode configurá-la a partir de um telemóvel ou computador na mesma rede
 * Atualização: Novo protocolo UDP; se o servidor não estiver atualizado, a aplicação liga-se sem UDP.
 * Melhoria: Ecrãs desenhados nativamente em vez de página web, com texto mais legível e maior contraste.
+* Funcionalidade: O relatório tem um botão Partilhar em telemóveis e tablets, Copiar no computador e Transferir no navegador com o Acesso Remoto, para o enviar facilmente ao suporte
 * Funcionalidade: Ficheiros (.cdy) e ligações (vh:...) abrem no VpnHood! CLIENT para adicionar o servidor.
 * Atualização: As chaves de acesso começam por vh: em vez de vh:// para abrir também no iPhone e Mac.
 * Atualização: Em planos com limite de velocidade, os primeiros megabytes após uma pausa beneficiam de velocidade máxima.
+* Funcionalidade: No Modo invisível, a página Protocolos tem Bloquear UDP noutras apps, que bloqueia todo o UDP exceto DNS; chamadas de voz e vídeo e jogos que usam UDP deixam de funcionar com ele
+* Atualização: A página Protocolos distingue dois QUIC: o interruptor é agora Bloquear QUIC noutras apps, e TCP, UDP e QUIC ficam sob um título próprio, Protocolo do túnel
+* Correção: O ecrã inicial mostra Invisível sempre que o Modo invisível está ligado, também quando o servidor ou as definições de Dividir Domínios o ligam, e já não o mostra quando o servidor o mantém desligado
 * Correção: O Modo de Rede Local Dividida funciona agora corretamente.
 * Correção: Uma VPN iniciada sem abrir a aplicação segue as suas definições mais recentes e o servidor escolhido.
 * Correção: "Verificar atualização" responde sempre e mostra o aviso da mesma mesmo após escolher Mais tarde.
+* Correção: O idioma da app pode ser definido nas definições do dispositivo e na app, e cada um mostra a escolha do outro: a página da app nas Definições tem uma linha Idioma quando o dispositivo tem mais de um idioma
 * Correção: Ao atualizar a aplicação ligada, esta abre em Desligado em vez de indicar um erro no serviço VPN.
 * Correção: As suas definições e servidores vão agora para a cópia de segurança do telemóvel e regressam num telemóvel novo, enquanto a sua sessão, os registos da aplicação e os seus ficheiros descompactados ficam no telemóvel a que pertencem
 * Correção: Um envio pesado numa ligação lenta já não bloqueia o restante tráfego do dispositivo, como a navegação.
 * Correção: Jogos online como CS2 e Dota 2 funcionam agora perfeitamente através da VPN.
+* Melhoria: Quando um servidor com nome DNS dinâmico recebe um novo endereço enquanto está ligado, a app encontra o novo endereço e volta a ligar-se sozinha, exceto se estiver definida para UDP

@@ -1,3 +1,4 @@
+* Funcionalidade: A app funciona na Android TV, e com o Acesso Remoto pode configurá-la a partir de um telemóvel ou computador na mesma rede
 * Melhoria: A aplicação Android inicia 2 a 4 vezes mais rápido, especialmente em telemóveis económicos.
 * Correção: Quando o Google Play apenas funciona através da VPN, a atualização da aplicação chega assim que se liga.
 * Correção: O sistema já não encerra a aplicação abruptamente após uma falha de arranque.

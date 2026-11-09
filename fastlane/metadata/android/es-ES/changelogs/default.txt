@@ -1,3 +1,4 @@
+* Novedad: La app funciona en Android TV, y con Acceso remoto la configuras desde un móvil u ordenador de la misma red
 * Mejora: La app de Android inicia de dos a cuatro veces más rápido, especialmente en móviles económicos
 * Corrección: Si Google Play solo funciona mediante la VPN, la actualización llega al conectarte.
 * Corrección: El sistema ya no cierra la app abruptamente tras rechazar el inicio del servicio VPN.

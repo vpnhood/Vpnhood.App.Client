@@ -1,3 +1,4 @@
+* Feature: The app runs on Android TV, and Remote Access lets you set it up from a phone or computer on the same network
 * Improve: The Android app starts two to four times faster, most of all on budget phones
 * Fix: Where Google Play works only through the VPN, the app's update now comes once you connect
 * Fix: The system could kill the app ten seconds after a refused VPN service start instead of the service stopping cleanly

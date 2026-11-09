@@ -1,13 +1,19 @@
-* Güncelleme: Bu sürümün bağlanabilmesi için kendi VpnHoodServer'ınız bu sürüm veya sonrasını çalıştırmalıdır
+* Özellik: Uygulama Apple TV'de çalışır; Uzaktan Erişim ile aynı ağdaki bir telefondan veya bilgisayardan ayarlayabilirsiniz
 * Güncelleme: UDP yeni bir protokole sahip; henüz güncellenmeyen sunucularda uygulama UDP olmadan bağlanır
 * İyileştirme: Uygulama ekranları web sayfası yerine kendi çizer; metinler daha yüksek kontrastla okunur
+* Özellik: Raporda telefon ve tabletlerde Paylaş, bilgisayarda Kopyala, Uzaktan Erişim'de tarayıcıda İndir düğmesi var; böylece desteğe göndermek kolay
 * Özellik: Erişim anahtarı dosyası (.cdy) ve bağlantısı (vh:...) VpnHood! CLIENT ile açılır, sunucuyu ekler ve seçer
 * Güncelleme: Erişim anahtarları vh:// yerine vh: ile başlar, böylece bağlantıları iPhone ve Mac'te de açılır
 * Güncelleme: Hız sınırlı planlarda, duraklama sonrası ilk megabaytlar tam hızda akar, böylece sayfalar hızlı yüklenir
+* Özellik: Kamufle Modu'nda Protokoller sayfasında Diğer Uygulamalarda UDP'yi Engelle var; DNS dışındaki tüm UDP'yi durdurur ve UDP gerektiren sesli ve görüntülü aramalar ile oyunlar onunla çalışmaz
+* Güncelleme: Protokoller sayfası iki QUIC'i ayırır: anahtar artık Diğer Uygulamalarda QUIC'i Engelle, TCP, UDP ve QUIC ise kendi başlıkları olan Tünel protokolü altında
+* Düzeltme: Ana sayfa, Kamufle Modu açık olduğunda, sunucu veya Alan Adlarını Ayır ayarları açtığında da Kamufle gösterir; sunucu kapalı tuttuğunda artık göstermez
 * Düzeltme: Yerel Ağı Böl işlevini tam olarak yerine getirir: açıkken yazıcı veya TV gibi yerel cihazlara doğrudan erişilir
 * Düzeltme: Uygulama dışından başlatılan VPN, en son ayarlarınıza ve seçtiğiniz sunucuya uyar
 * Düzeltme: "Güncellemeleri kontrol et" her zaman yanıt verir ve bildirimleri gösterir
+* Düzeltme: Uygulamanın dili hem cihaz ayarlarından hem uygulamadan seçilebilir ve her biri diğerinin seçimini gösterir: cihazda birden fazla dil varsa Ayarlar'daki uygulama sayfasında Dil satırı bulunur
 * Düzeltme: Bağlantı sırasında güncellenen uygulama artık hata vermek yerine Bağlı Değil olarak açılır
 * Düzeltme: Ayarlarınız ve sunucularınız artık telefonunuzun yedeğine giriyor ve yeni telefonda geri geliyor; oturumunuz, uygulamanın günlükleri ve açılmış dosyaları ise ait oldukları telefonda kalıyor
 * Düzeltme: Yavaş bağlantıda yapılan büyük yüklemelerin diğer internet trafiğini yavaşlatması engellendi
 * Düzeltme: Büyük paket gönderen çevrimiçi oyunlar (CS2, Dota 2) VPN üzerinden çalışır hale getirildi.
+* İyileştirme: Dinamik DNS adındaki bir sunucu siz bağlıyken yeni bir adres aldığında, UDP'ye ayarlı değilse uygulama yeni adresi bulur ve kendiliğinden yeniden bağlanır

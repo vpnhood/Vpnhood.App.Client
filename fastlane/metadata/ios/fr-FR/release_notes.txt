@@ -1,13 +1,19 @@
-* Mise à jour : Votre VpnHoodServer doit exécuter cette version ou une version ultérieure pour s'y connecter
+* Fonctionnalité : L'app arrive sur Apple TV ; l'Accès distant la règle depuis un téléphone ou ordinateur du même réseau
 * Mise à jour : Nouveau protocole UDP ; sur un serveur non mis à jour, l'application se connecte sans UDP
 * Amélioration : L'application dessinte ses écrans en natif, le texte est plus lisible et offre un meilleur contraste
+* Fonctionnalité : Le rapport a un bouton Partager sur téléphone et tablette, Copier sur ordinateur et Télécharger dans le navigateur avec l'Accès distant, pour l'envoyer facilement au support
 * Fonctionnalité : Les fichiers de clé d'accès (.cdy) et leurs liens (vh:...) s'ouvrent directement dans VpnHood! CLIENT
 * Mise à jour : Les clés d'accès commencent par vh: au lieu de vh:// pour fonctionner aussi sur iPhone et Mac
 * Mise à jour : Sur les forfaits limités, les premiers mégaoctets après une pause profitent d'une vitesse maximale
+* Fonctionnalité : En Mode furtif, la page Protocoles propose Bloquer UDP dans les autres applications, qui arrête tout l'UDP sauf le DNS ; les appels audio et vidéo et les jeux qui ont besoin d'UDP ne fonctionnent plus avec
+* Mise à jour : La page Protocoles distingue deux QUIC : l'interrupteur s'appelle désormais Bloquer QUIC dans les autres applications, et TCP, UDP et QUIC ont leur propre titre, Protocole du tunnel
+* Correction : L'accueil affiche Furtif dès que le Mode furtif est actif, y compris quand le serveur ou les réglages Domaines personnalisés l'activent, et ne l'affiche plus quand le serveur le garde désactivé
 * Correction : Le tunneling local fonctionne désormais correctement selon vos préférences
 * Correctif : Un VPN démarré hors application (toujours activé, tuile rapide, paramètres du téléphone ou redémarrage) respecte vos derniers réglages et le serveur choisi, jamais un serveur supprimé.
 * Correctif : "Vérifier les mises à jour" répond toujours correctement et affiche la notification de mise à jour même après avoir choisi "Plus tard".
+* Correction : La langue de l'app peut se régler dans les paramètres de l'appareil comme dans l'app, et chacun affiche le choix de l'autre : la page de l'app dans Réglages a une ligne Langue quand l'appareil a plus d'une langue
 * Correctif : Si l'application est mise à jour pendant la connexion, elle s'ouvre désormais sur Déconnecté au lieu d'afficher une erreur.
 * Correction : Vos paramètres et serveurs vont désormais dans la sauvegarde du téléphone et reviennent sur un nouveau téléphone, tandis que votre connexion, les journaux de l'application et ses fichiers décompressés restent sur le téléphone auquel ils appartiennent
 * Correctif : Un téléchargement volumineux sur une connexion lente ne bloque plus le reste du trafic de l'appareil (comme la navigation).
 * Correction : les jeux en ligne (CS2, Dota 2) fonctionnent désormais via le VPN (les paquets > 1280 octets passaient mal).
+* Amélioration : Quand un serveur au nom DNS dynamique change d'adresse pendant que vous êtes connecté, l'app trouve la nouvelle adresse et se reconnecte d'elle-même, sauf si elle est réglée sur UDP
