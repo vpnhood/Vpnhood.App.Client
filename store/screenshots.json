@@ -1,7 +1,7 @@
 {
   // Store screenshots for VpnHood! CLIENT: the languages, the stores, the devices and the screens.
   //
-  // THIS is the file to edit - the tool that reads it (VpnHood/src/Apps/Tools/StoreScreenshots) is
+  // THIS is the file to edit - the tool that reads it (VpnHood/tools/StoreScreenshots) is
   // never edited to change what a listing shows. Beside it, fixture.json is the app's own answers,
   // recorded from a Windows Release client with every identifying value replaced; each platform
   // below lays its own capabilities over that recording, and each shot lays over what its screen

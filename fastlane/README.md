@@ -87,11 +87,11 @@ protocols, IPv4 + IPv6, and adding access keys (`IsAddAccessKeySupported` = `tru
 App Store Connect takes the 1024 icon from the **binary**, not from deliver — there is no icon file
 in `fastlane/` for iOS. It must carry no alpha channel: Apple rejects on the channel being present
 (ITMS-90717), not on any pixel being translucent.
-[`store-icon.mjs`](https://github.com/vpnhood/VpnHood/blob/develop/src/Apps/Tools/StoreListing/store-icon.mjs) in the main repo re-encodes the appiconset to
+[`store-icon.mjs`](https://github.com/vpnhood/VpnHood/blob/develop/tools/StoreListing/store-icon.mjs) in the main repo re-encodes the appiconset to
 PNG colour type 2, and refuses any icon with real translucency rather than guessing a backdrop:
 
 ```bash
-node src/Apps/Tools/StoreListing/store-icon.mjs --in <the appiconset> --in-place
+node tools/StoreListing/store-icon.mjs --in <the appiconset> --in-place
 ```
 
 ---
@@ -106,17 +106,17 @@ says which languages, stores, devices and screens, and each store's own capabili
 shows exactly what that build of the app does. The same inputs give the same bytes, which is what
 makes it runnable in CI (`update-screenshots.yml`).
 
-The tool is `VpnHoodStoreScreenshots` in the VpnHood repo (`src/Apps/Tools/StoreScreenshots`), and
+The tool is `VpnHoodStoreScreenshots` in the VpnHood repo (`tools/StoreScreenshots`), and
 its README is the maintainer's map. The look it draws with is a submodule of that repo
-(`src/AppUi/VpnHood.AppUi.Assets.Classic`), so a checkout with `--recurse-submodules` carries everything the
+(`src/libs/AppUi/VpnHood.AppUi.Assets.Classic`), so a checkout with `--recurse-submodules` carries everything the
 pictures need.
 
 One command regenerates every set, from a VpnHood checkout beside this one:
 
 ```bash
-dotnet build -c Release ../VpnHood/src/Apps/Tools/StoreScreenshots/VpnHood.App.StoreScreenshots.csproj
-../VpnHood/src/Apps/Tools/StoreScreenshots/bin/Release/net10.0/VpnHoodStoreScreenshots generate \
-  --config store/screenshots.json --assets ../VpnHood/src/AppUi/VpnHood.AppUi.Assets.Classic/assets
+dotnet build -c Release ../VpnHood/tools/StoreScreenshots/VpnHood.App.StoreScreenshots.csproj
+../VpnHood/tools/StoreScreenshots/bin/Release/net11.0/VpnHoodStoreScreenshots generate \
+  --config store/screenshots.json --assets ../VpnHood/src/libs/AppUi/VpnHood.AppUi.Assets.Classic/assets
 ```
 
 Outputs land in this repo's `test-results/store-screenshots/` - `final/<platform>/` is the
@@ -237,7 +237,7 @@ dotnet tool restore && dotnet vhtranslator      # in this repo; needs GEMINI_API
                                                 # GOOGLE_GEMINI_TRNSLATE_APP_API_KEY; locally it is
                                                 # .user/vendors/google/google_gemini_translate_app_api_key.txt)
 cd ../VpnHood
-node src/Apps/Tools/StoreListing/store-metadata.mjs --root ../Vpnhood.App.Client    # --check validates without writing
+node tools/StoreListing/store-metadata.mjs --root ../Vpnhood.App.Client    # --check validates without writing
 ```
 
 The compiler fails loudly on what hand-kept txt files get wrong silently: store character limits
