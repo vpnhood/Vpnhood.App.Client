@@ -226,8 +226,8 @@ and never hand them to a translator. The source of truth is [`store-i18n/`](../s
   store does not offer declares it here (`"stores": { "appStore": null }`) and that store skips it.
 - `<locale>/store.json` — the texts, one folder per locale, as a FLAT map of `"<store>.<field>"`
   keys (`"android.title"`, `"ios.keywords"`, …). Only the source folder is written by humans;
-  `vhtranslator` generates every sibling folder — the same rule as the SPA's `en.json`. The
-  translator's config and store-copy prompt live in [`vh_translator/`](../vh_translator/).
+  `vhtranslator` generates every sibling folder. The translator's config and store-copy prompt
+  live in [`vh_translator/`](../vh_translator/).
 
 Translate and compile:
 
