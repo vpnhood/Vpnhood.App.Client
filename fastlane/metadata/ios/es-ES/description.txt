@@ -2,7 +2,7 @@ NOTA: Esta aplicación REQUIERE UNA CLAVE DE ACCESO.
 
 VpnHood! CLIENT es una VPN rápida y segura con VpnHood! ENGINE, de código abierto y primera VPN en .NET.
 
-Establece túneles cifrados con el protocolo VpnHood, que es indetectable por la censura.
+Establece túneles cifrados con el protocolo VpnHood. Con el Modo Camuflaje, su tráfico parece navegación web normal y las redes difícilmente pueden saber que usas una VPN.
 
 Se requiere una clave de acceso. Consíguela así:
 
@@ -30,7 +30,7 @@ Características:
 
 Opciones:
 
-• Modo Camuflaje: Oculta tu tráfico como web normal.
+• Modo Camuflaje: Disfraza tu tráfico VPN como tráfico web normal, así que las redes difícilmente saben que usas una VPN. Lo hace resistente a la inspección profunda de paquetes (DPI) y te permite superar los bloqueos de VPN y las restricciones de red.
 
 • Split Tunneling por país.
 
@@ -49,9 +49,9 @@ Opciones:
 
 ¿Por qué VpnHood!?
 
-• Indetectable: Diseñado para saltarse la censura sin dejar huella.
+• Indetectable: Parece navegación cifrada normal, así que tu red difícilmente sabe que usas una VPN, y el DPI, los cortafuegos y las restricciones de red no encuentran ninguna firma de VPN.
 
-• En constante evolución.
+• En constante evolución: tu conexión sigue siendo privada y funciona en cualquier red, incluso en las que bloquean las VPN.
 
 Privacidad:
 

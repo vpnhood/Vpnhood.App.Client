@@ -2,7 +2,7 @@ NOT: Bu uygulama bir ERİŞİM ANAHTARI GEREKTİRİR.
 
 VpnHood! CLIENT, açık kaynaklı ve .NET ile geliştirilen ilk VPN olan VpnHood! ENGINE gücüyle çalışan hızlı ve güvenli bir VPN'dir.
 
-VpnHood protokolünü kullanarak güvenli tüneller kuran bir istemci uygulamasıdır. Protokolün parmak izi yoktur ve sansürler tarafından tespit edilemez.
+VpnHood protokolünü kullanarak güvenli tüneller kuran bir istemci uygulamasıdır. Kamufle Modu'nda trafiği sıradan web gezintisi gibi görünür; böylece ağlar VPN kullandığınızı pek anlayamaz.
 
 Kullanmak için bir erişim anahtarı gereklidir. Şu yöntemlerle edinebilirsiniz:
 
@@ -30,7 +30,7 @@ Başlıca Özellikler:
 
 Özelleştirilebilir Seçenekler:
 
-• Kamufle Modu: VPN trafiğinizi normal web trafiği gibi gizler.
+• Kamufle Modu: VPN trafiğinizi normal web trafiği gibi gizler; böylece ağlar VPN kullandığınızı pek anlayamaz. Bu, onu derin paket incelemesine (DPI) karşı dirençli kılar ve VPN engellerini ve ağ kısıtlamalarını aşmanızı sağlar.
 
 • Split Tunneling for Country: Ülke trafiğinizi tünel dışında tutun.
 
@@ -49,9 +49,9 @@ Başlıca Özellikler:
 
 Neden VpnHood!?
 
-• Tespit Edilemez: Sansür filtrelerini aşmak için tasarlanmıştır.
+• Tespit Edilemez: Sıradan şifreli gezinti gibi görünür; ağınız VPN kullandığınızı pek anlayamaz, DPI, güvenlik duvarları ve ağ kısıtlamaları da hiçbir VPN izi bulamaz.
 
-• Sürekli Gelişiyor: Kesintisiz internet erişimi sunar.
+• Sürekli Gelişiyor: Bağlantınızın gizliliği korunur ve VPN'leri engelleyen ağlar dahil her ağda çalışır.
 
 Gizliliğiniz:
 

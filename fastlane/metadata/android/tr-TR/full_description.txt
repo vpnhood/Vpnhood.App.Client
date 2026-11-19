@@ -2,7 +2,7 @@ NOT: Bu uygulama bir ERİŞİM ANAHTARI GEREKTİRİR.
 
 VpnHood! CLIENT, açık kaynaklı ve .NET platformuyla geliştirilen ilk VPN olan ★★VpnHood! ENGINE★★ ile güçlendirilmiş hızlı ve güvenli bir VPN çözümüdür.
 
-VpnHood protokolünü kullanarak VpnHood sunucularına şifreli tüneller kuran bir istemci uygulamasıdır. Sansür filtrelerince algılanamaz.
+VpnHood protokolünü kullanarak VpnHood sunucularına şifreli tüneller kuran bir istemci uygulamasıdır. Kamufle Modu'nda trafiği sıradan web gezintisi gibi görünür; böylece geçtiği ağlar VPN kullandığınızı pek anlayamaz.
 
 Kullanmak için erişim anahtarı gereklidir. Şöyle edinebilirsiniz:
 
@@ -25,7 +25,7 @@ Kullanmak için erişim anahtarı gereklidir. Şöyle edinebilirsiniz:
 
 ★ İlk .NET VPN: İnovatif ve tekniktir.
 
-★ Geniş Uyumluluk: Android 6+, Android TV ve Windows'u destekler.
+★ Geniş Uyumluluk: Android 7+, Android TV ve Windows'u destekler.
 
 ★ IPv4 & IPv6 Desteği.
 
@@ -45,9 +45,9 @@ Kullanmak için erişim anahtarı gereklidir. Şöyle edinebilirsiniz:
 
 Neden VpnHood!?
 
-▶ Tespit Edilemez: Sansür filtrelerini aşmak için tasarlanmıştır.
+▶ Tespit Edilemez: Çoğu VPN ne yaptığınızı gizler, ama VPN kullandığınızı gizlemez. VpnHood! sıradan şifreli gezinti gibi görünür; ağınız bunu pek anlayamaz, DPI, güvenlik duvarları ve ağ kısıtlamaları da hiçbir VPN izi bulamaz.
 
-▶ Sürekli Gelişiyor: Sansürsüz internet özgürlüğünü yaşayın!
+▶ Sürekli Gelişiyor: VpnHood! sürekli iyileşir; bağlantınızın gizliliği korunur ve VPN'leri engelleyen ağlar dahil her ağda çalışmaya devam eder.
 
 Gizliliğiniz:
 

@@ -2,7 +2,7 @@ HINWEIS: Diese App ERFORDERT EINEN ZUGANGSSCHLÜSSEL.
 
 VpnHood! CLIENT ist eine schnelle und sichere VPN-Lösung auf Basis der ★★VpnHood! ENGINE★★, dem ersten Open-Source-VPN in .NET.
 
-Die App baut verschlüsselte Tunnel zu VpnHood-Servern auf. Das VpnHood-Protokoll ist unsichtbar und umgeht Zensurfilter zuverlässig.
+Die App baut verschlüsselte Tunnel zu VpnHood-Servern auf. Im Tarnmodus sieht der Datenverkehr wie normales Surfen aus, sodass die Netzwerke unterwegs kaum erkennen können, dass Sie ein VPN nutzen.
 
 Ein Zugangsschlüssel ist erforderlich. So ist er erhältlich:
 
@@ -25,7 +25,7 @@ Hauptmerkmale:
 
 ★ Erstes .NET-VPN: Höchste Innovation.
 
-★ Kompatibel: Android 6+, Android TV und Windows.
+★ Kompatibel: Android 7+, Android TV und Windows.
 
 ★ IPv4- & IPv6-Support: Maximale Leistung.
 
@@ -45,9 +45,9 @@ Anpassbare Optionen:
 
 Warum VpnHood!?
 
-▶ Unentdeckbar: Umgeht Zensur und sieht aus wie regulärer HTTPS-Traffic.
+▶ Unentdeckbar: Die meisten VPNs verbergen, was Sie tun, aber nicht, dass Sie ein VPN nutzen. VpnHood! sieht aus wie normales verschlüsseltes Surfen: Ihr Netzwerk erkennt es kaum, und DPI, Firewalls und Netzwerkbeschränkungen finden keine VPN-Signatur.
 
-▶ Ständig weiterentwickelt: Für freies Internet ohne Limits!
+▶ Ständig weiterentwickelt: VpnHood! wird laufend verbessert, damit Ihre Verbindung privat bleibt und in jedem Netzwerk funktioniert, auch in einem, das VPNs blockiert.
 
 Deine Privatsphäre:
 

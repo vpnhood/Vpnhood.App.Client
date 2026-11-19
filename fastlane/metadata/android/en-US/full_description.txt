@@ -2,7 +2,7 @@ NOTE: This app REQUIRES AN ACCESS KEY.
 
 VpnHood! CLIENT is a fast, secure, and reliable VPN solution powered by the ★★VpnHood! ENGINE★★, which is open-source and the first VPN developed fully with the .NET platform.
 
-It is a client application that establishes encrypted, secure tunnels to a VPN server using the VpnHood protocol to VpnHood servers. The VpnHood protocol has no fingerprint and cannot be detected by censorship filtering.
+It is a client application that establishes encrypted, secure tunnels to a VPN server using the VpnHood protocol to VpnHood servers. With Cloak Mode, its traffic looks like ordinary web browsing, so the networks it crosses can hardly tell you use a VPN.
 
 To use this app, an access key is required. You can acquire one through the following methods:
 
@@ -25,7 +25,7 @@ Key Features:
 
 ★ First VPN in .NET: VpnHood! is the first VPN app in the world to be developed with the .NET platform—showcasing innovation and technical excellence.
 
-★ Broad Compatibility: Supports Android 6 and above, including Android TV and Windows.
+★ Broad Compatibility: Supports Android 7 and above, including Android TV and Windows.
 
 ★ IPv4 & IPv6 Support: Ensures maximum compatibility and performance.
 
@@ -45,9 +45,9 @@ Customizable Options:
 
 Why Choose VpnHood!?
 
-▶ Undetectable: The VpnHood! protocol is designed to bypass censorship filters. It is a secure protocol without any fingerprint. Its traffic patterns look exactly like regular HTTPS websites, making it virtually indistinguishable.
+▶ Undetectable: Most VPNs hide what you do, but not that you use a VPN. VpnHood! looks like ordinary encrypted browsing, so your network can hardly tell, and DPI, firewalls and network restrictions have no VPN signature to catch.
 
-▶ Constantly Evolving: VpnHood! is committed to continuous improvement and innovation, ensuring you enjoy unrestricted and censorship-free internet access. Try VpnHood! today and experience the true freedom of the web!
+▶ Constantly Evolving: VpnHood! keeps improving, so your connection stays private and keeps working on any network, even one that blocks VPNs.
 
 Your Privacy:
 

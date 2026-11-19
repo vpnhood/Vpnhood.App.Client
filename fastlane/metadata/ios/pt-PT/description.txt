@@ -2,7 +2,7 @@ NOTA: Esta aplicação EXIGE UMA CHAVE DE ACESSO.
 
 VpnHood! CLIENT é uma solução VPN rápida, segura e fiável com o motor VpnHood! ENGINE, open-source e a primeira VPN desenvolvida em .NET.
 
-Estabelece túneis encriptados para um servidor VPN através do protocolo VpnHood. O protocolo VpnHood não tem pegada digital e é indetetável por filtros de censura.
+Estabelece túneis encriptados para um servidor VPN através do protocolo VpnHood. No Modo invisível, o tráfego parece navegação web normal, pelo que as redes pelo caminho dificilmente percebem que está a usar uma VPN.
 
 É necessária uma chave de acesso para usar a aplicação. Pode obtê-la de várias formas:
 
@@ -30,7 +30,7 @@ Principais Características:
 
 Opções Personalizáveis:
 
-• Modo invisível: Disfarça o tráfego VPN como tráfego web normal, resistindo a inspeção profunda.
+• Modo invisível: Disfarça o tráfego VPN como tráfego web normal, pelo que as redes dificilmente percebem que está a usar uma VPN. Isto torna-o resistente à inspeção profunda de pacotes (DPI) e permite-lhe ultrapassar bloqueios de VPN e restrições de rede.
 
 • Split Tunneling por País: Mantenha o tráfego do seu país fora do túnel para manter serviços locais rápidos.
 
@@ -49,9 +49,9 @@ Opções Personalizáveis:
 
 Porquê Escolher o VpnHood!?
 
-• Indetetável: O protocolo VpnHood! ignora filtros de censura sem deixar pegada digital, assemelhando-se a sites HTTPS.
+• Indetetável: O VpnHood! parece navegação encriptada normal, pelo que a sua rede dificilmente percebe que está a usar uma VPN, e o DPI, as firewalls e as restrições de rede não encontram qualquer assinatura de VPN.
 
-• Em Constante Evolução: O VpnHood! melhora continuamente para garantir acesso livre à internet. Experimente já!
+• Em Constante Evolução: O VpnHood! melhora continuamente, para que a sua ligação se mantenha privada e funcione em qualquer rede, mesmo nas que bloqueiam VPN.
 
 A sua Privacidade:
 

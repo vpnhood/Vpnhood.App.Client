@@ -2,7 +2,7 @@ HINWEIS: Diese App ERFORDERT EINEN ZUGANGSSCHLÜSSEL.
 
 VpnHood! CLIENT ist eine schnelle, sichere VPN-Lösung mit der VpnHood! ENGINE (.NET Open-Source-VPN).
 
-Erstellt verschlüsselte Tunnel zu VpnHood-Servern über das VpnHood-Protokoll ohne Fingerabdruck.
+Erstellt verschlüsselte Tunnel zu VpnHood-Servern über das VpnHood-Protokoll. Im Tarnmodus sieht der Datenverkehr wie normales Surfen aus, sodass Netzwerke kaum erkennen, dass Sie ein VPN nutzen.
 
 Ein Zugangsschlüssel ist erforderlich:
 
@@ -30,7 +30,7 @@ Hauptfunktionen:
 
 Optionen:
 
-• Tarnmodus: Tarnung als normaler Webverkehr gegen Deep Packet Inspection.
+• Tarnmodus: Tarnt Ihren VPN-Verkehr als normalen Webverkehr, sodass Netzwerke kaum erkennen, dass Sie ein VPN nutzen. Das macht ihn resistent gegen Deep Packet Inspection (DPI) und bringt Sie an VPN-Sperren und Netzwerkbeschränkungen vorbei.
 
 • Split Tunneling für Länder: Lokaler Datenverkehr bleibt draußen.
 
@@ -49,9 +49,9 @@ Optionen:
 
 Warum VpnHood!?
 
-• Unauffällig: Umgeht Zensur und gleicht HTTPS-Traffic.
+• Unauffällig: Sieht aus wie normales verschlüsseltes Surfen, sodass Ihr Netzwerk kaum erkennt, dass Sie ein VPN nutzen; DPI, Firewalls und Netzwerkbeschränkungen finden keine VPN-Signatur.
 
-• Ständige Weiterentwicklung für freies Internet.
+• Ständige Weiterentwicklung: Ihre Verbindung bleibt privat und funktioniert in jedem Netzwerk, auch in einem, das VPNs blockiert.
 
 
 Datenschutz:
