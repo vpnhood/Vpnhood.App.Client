@@ -1,4 +1,3 @@
-* Özellik: Uygulama Android TV'de çalışır; Uzaktan Erişim ile aynı ağdaki bir telefondan veya bilgisayardan ayarlayabilirsiniz
-* İyileştirme: Android uygulaması iki ila dört kat daha hızlı açılıyor, özellikle bütçe dostu telefonlarda
-* Düzeltme: Google Play yalnızca VPN üzerinden çalışırken güncellemeler bağlantı kurulduğunda gelir
-* Düzeltme: VPN hizmeti başlatılamadığında sistemin uygulamayı sonlandırma sorunu giderildi.
+* Düzeltme: VPN uygulamaya yanıt vermeyi bıraktığında uygulama saniyeler içinde durduğunu gösterir; önceden durum donuyor ve Bağlantıyı Kes işe yaramıyordu
+* Düzeltme: Alan Adlarını Ayır açıkken DNS sorguları artık takılmaz: yaklaşık yarısı bekletiliyor ve uygulamalar kendi yeniden denemelerini bekliyordu
+* Güncelleme: Uygulamanın yeni bir simgesi var; adı üstte bir şeridin üzerinde

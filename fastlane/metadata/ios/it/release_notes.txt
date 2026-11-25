@@ -1,19 +1,17 @@
-* Funzionalità: L'app funziona su Apple TV, e con Accesso remoto la configuri da un telefono o computer sulla stessa rete
-* Aggiornamento: Nuovo protocollo UDP; se il server non è aggiornato, l'app si connette senza UDP.
-* Miglioramento: L'app disegna le sue schermate in modo nativo e il testo è più leggibile e contrastato.
-* Funzionalità: Il report ha un pulsante Condividi su telefoni e tablet, Copia sul computer e Scarica nel browser con Accesso remoto, così è facile inviarlo all'assistenza
-* Funzionalità: I file di chiave di accesso (.cdy) e i link (vh:...) si aprono direttamente in VpnHood! CLIENT.
-* Aggiornamento: Le chiavi di accesso iniziano con vh: per una compatibilità ottimale anche con iPhone e Mac.
-* Aggiornamento: Sui piani con limite di velocità, i primi megabyte dopo una pausa sfruttano la massima velocità.
-* Funzionalità: In Modalità camuffamento, la pagina Protocolli ha Blocca UDP nelle altre app, che ferma tutto l'UDP tranne il DNS; chiamate vocali e video e giochi che usano UDP smettono di funzionare
-* Aggiornamento: La pagina Protocolli distingue due QUIC: l'interruttore ora è Blocca QUIC nelle altre app, e TCP, UDP e QUIC stanno sotto un titolo proprio, Protocollo del tunnel
-* Correzione: La home mostra Camuffamento ogni volta che la Modalità camuffamento è attiva, anche quando la attivano il server o le impostazioni di Gestione domini, e non lo mostra più quando il server la tiene spenta
-* Correzione: Risolto il funzionamento della funzione Rete Locale Sotto-rete per raggiungere i dispositivi locali.
-* Correzione: Le VPN avviate senza aprire l'app seguono ora correttamente le ultime impostazioni e i server scelti.
-* Correzione: La funzione "Cerca aggiornamenti" risponde sempre correttamente e mostra gli avvisi.
-* Correzione: La lingua dell'app si può impostare nelle impostazioni del dispositivo e nell'app, e ciascuna mostra la scelta dell'altra: la pagina dell'app in Impostazioni ha una riga Lingua quando il dispositivo ha più di una lingua
-* Correzione: Dopo un aggiornamento durante la connessione, ora l'app si apre su Disconnesso.
-* Correzione: impostazioni e server ora finiscono nel backup del telefono e tornano su un telefono nuovo, mentre l'accesso, i log dell'app e i suoi file decompressi restano sul telefono a cui appartengono
-* Correzione: I caricamenti pesanti su connessioni lente non bloccano più la normale navigazione.
-* Correzione: i giochi online con pacchetti grandi (es. CS2, Dota 2) ora funzionano perfettamente tramite VPN.
-* Miglioramento: Quando un server con nome DNS dinamico ottiene un nuovo indirizzo mentre sei connesso, l'app trova il nuovo indirizzo e si riconnette da sola, a meno che non sia impostata su UDP
+* Correzione: Se la VPN smette di rispondere all'app, l'app mostra in pochi secondi che si è fermata; prima lo stato si bloccava e Disconnetti non faceva nulla
+* Correzione: Cambiare server mentre la VPN si sta ancora connettendo non ferma né sostituisce più la nuova connessione; prima il tentativo precedente poteva interromperla, fallendo o finendo in ritardo
+* Aggiornamento: L'app accetta gli aggiornamenti di una chiave di accesso solo da un link sicuro (https); con un semplice link http chiunque lungo il percorso poteva inviare un aggiornamento e portarti sul proprio server
+* Correzione: Sui dispositivi in turco, le posizioni dei server il cui codice contiene una «i», come Iran o Italia, si vedono e si connettono correttamente
+* Correzione: Se una connessione fallisce prima che la VPN si apra, iPhone e Apple TV lo sanno subito; prima restavano in attesa
+* Correzione: Fermare la VPN mentre si avvia la ferma davvero; prima poteva avviarsi dopo o lasciare in attesa iPhone e Apple TV
+* Miglioramento: Con un elenco di proxy, l'app si connette appena uno raggiunge il tuo server e controlla gli altri in background; prima controllava tutto l'elenco
+* Correzione: Se nessuno dei tuoi proxy funziona, l'app lo dice; prima dava la colpa al server se un proxy era disattivato, mai provato o rifiutava nome utente e password. Se il tuo server è giù dietro proxy funzionanti, l'app dice che il server non è raggiungibile
+* Correzione: Con Gestione domini attiva, le richieste DNS non si bloccano più: circa metà venivano trattenute e le app aspettavano il proprio nuovo tentativo
+* Correzione: Con Gestione domini attiva, un'app il cui server parla per primo, come con SMTP, FTP o MySQL, si connette in un secondo; prima aspettava fino a rinunciare
+* Aggiornamento: Gestione domini non accetta più `*`: `example.com` copre il dominio e tutti i sottodomini, come faceva `*.example.com`, e un `*` altrove, come `*ads.example.com`, non corrispondeva a nulla. Un elenco con `*` viene rifiutato al salvataggio e l'app indica la voce. Gli elenchi salvati prima perdono il `*.` iniziale delle voci, senza alcun effetto
+* Aggiornamento: In Gestione domini vince il dominio più specifico, così puoi creare eccezioni: con `google.com` escluso e `mail.google.com` incluso, la posta passa dalla VPN e il resto di Google fuori; anche un sito sotto un dominio bloccato si può escludere o includere. Blocca > Escludi > Includi decide solo per lo stesso dominio
+* Miglioramento: Quando un elenco di split rifiuta una voce, l'app spiega il motivo nella tua lingua e indica la voce; un elenco di IP non rifiuta più le righe di commento che iniziano con spazi
+* Miglioramento: Se un annuncio non va o l'indirizzo del server non si trova, l'app lo dice nella tua lingua invece di un messaggio tecnico in inglese
+* Aggiornamento: L'app ha una nuova icona, con il nome su un nastro in alto
+* Miglioramento: In Accesso remoto puoi incollare in ogni campo, elenchi di IP e proxy compresi, un gestore di password può compilare l'accesso e ogni carattere digitato è visibile
+* Correzione: La VPN non resta più In attesa quando il dispositivo passa a una rete che non raggiunge l'indirizzo del server, come un Wi-Fi senza IPv6 dopo i dati mobili: si riconnette da sola in circa un minuto

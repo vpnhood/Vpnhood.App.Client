@@ -1,4 +1,3 @@
-* Feature: The app runs on Android TV, and Remote Access lets you set it up from a phone or computer on the same network
-* Improve: The Android app starts two to four times faster, most of all on budget phones
-* Fix: Where Google Play works only through the VPN, the app's update now comes once you connect
-* Fix: The system could kill the app ten seconds after a refused VPN service start instead of the service stopping cleanly
+* Fix: When the VPN stops answering the app, the app shows it stopped within seconds, where its status froze and Disconnect did nothing
+* Fix: With Split Domains on, DNS lookups no longer stall: about half of them were held back, and an app waited for its own retry
+* Update: The app has a new icon, its name on a ribbon across the top

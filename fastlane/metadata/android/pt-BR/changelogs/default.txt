@@ -1,4 +1,3 @@
-* Recurso: O app funciona na Android TV, e com o Acesso Remoto você o configura de um celular ou computador na mesma rede
-* Melhoria: O app Android inicia de 2 a 4 vezes mais rápido, especialmente em celulares básicos
-* Correção: Quando o Google Play funciona apenas via VPN, a atualização do app é recebida assim que você se conecta.
-* Correção: O sistema fechava o aplicativo incorretamente após falha ao iniciar o serviço VPN.
+* Correção: Quando a VPN para de responder ao app, o app mostra em segundos que ela parou; antes o status congelava e Desconectar não fazia nada
+* Correção: Com Dividir Domínios ativado, as consultas DNS não travam mais: cerca de metade ficava retida e os apps esperavam a própria nova tentativa
+* Atualização: O app tem um novo ícone, com o nome em uma faixa no topo
